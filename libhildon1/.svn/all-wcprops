@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/maemo/!svn/ver/16582/projects/haf/trunk/hildon-1
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/maemo/!svn/ver/16582/projects/haf/trunk/hildon-1/configure.ac
+END
+HACKING
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/HACKING
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/maemo/!svn/ver/11056/projects/haf/trunk/hildon-1/AUTHORS
+END
+ChangeLog.1
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/ChangeLog.1
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/INSTALL
+END
+ChangeLog.2
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/ChangeLog.2
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/maemo/!svn/ver/16582/projects/haf/trunk/hildon-1/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/Makefile.am
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/maemo/!svn/ver/11722/projects/haf/trunk/hildon-1/autogen.sh
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/maemo/!svn/ver/15051/projects/haf/trunk/hildon-1/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/maemo/!svn/ver/14373/projects/haf/trunk/hildon-1/README
+END

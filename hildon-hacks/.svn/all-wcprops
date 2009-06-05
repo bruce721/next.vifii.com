@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/maemo/!svn/ver/14571/projects/haf/trunk/hildon-hacks
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/maemo/!svn/ver/14570/projects/haf/trunk/hildon-hacks/Makefile.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/maemo/!svn/ver/14570/projects/haf/trunk/hildon-hacks/configure.ac
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/maemo/!svn/ver/14570/projects/haf/trunk/hildon-hacks/INSTALL
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/maemo/!svn/ver/14571/projects/haf/trunk/hildon-hacks/COPYING
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/maemo/!svn/ver/14570/projects/haf/trunk/hildon-hacks/missing
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/maemo/!svn/ver/14570/projects/haf/trunk/hildon-hacks/README
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/maemo/!svn/ver/14570/projects/haf/trunk/hildon-hacks/aclocal.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/maemo/!svn/ver/14570/projects/haf/trunk/hildon-hacks/install-sh
+END

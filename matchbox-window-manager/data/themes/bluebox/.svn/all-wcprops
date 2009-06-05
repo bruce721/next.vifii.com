@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/matchbox/!svn/ver/729/trunk/matchbox-window-manager/data/themes/bluebox
+END
+titleright.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/titleright.xpm
+END
+buttsmallminup.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/buttsmallminup.xpm
+END
+buttsmallmaxup.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/buttsmallmaxup.xpm
+END
+buttsmallclosedown.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/buttsmallclosedown.xpm
+END
+titlebg.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/titlebg.xpm
+END
+buttmenudown.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/buttmenudown.xpm
+END
+buttclosedown.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/buttclosedown.xpm
+END
+titleleft.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/titleleft.xpm
+END
+theme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/matchbox/!svn/ver/729/trunk/matchbox-window-manager/data/themes/bluebox/theme.xml
+END
+buttsmallcloseup.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/buttsmallcloseup.xpm
+END
+buttsmallmindown.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/buttsmallmindown.xpm
+END
+buttsmallmaxdown.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/buttsmallmaxdown.xpm
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/Makefile.am
+END
+theme.desktop
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/theme.desktop
+END
+buttmenuup.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/buttmenuup.xpm
+END
+buttcloseup.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/bluebox/buttcloseup.xpm
+END

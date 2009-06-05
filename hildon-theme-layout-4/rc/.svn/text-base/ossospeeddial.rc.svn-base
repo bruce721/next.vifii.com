@@ -1,0 +1,51 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-speeddial"
+{
+  HildonDesktopHomeItem::background-borders = { 36, 36, 36, 36 }
+  bg_pixmap[PRELIGHT] = "../images/qgn_plat_speedcontact_applet_bg_alpha.png"
+  xthickness = 0
+  ythickness = 0
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = SHADOW
+          file     = "../images/qgn_plat_speedcontact_applet_bg.png"
+          border   = { 36, 36, 36, 36 }
+          shaped   = TRUE
+        }
+    }
+}
+widget "*.osso-speeddial" style "osso-speeddial"
+
+style "osso-speeddial-applet" = "osso-listview" {
+  color["SecondaryTextColor"] = @SpeedContactSecondaryTextColor
+
+  fg[NORMAL] = @SpeedContactDefaultTextColor
+  bg[NORMAL] = @SpeedContactAppletBgColor
+
+  fg[PRELIGHT] = @SpeedContactDefaultTextColor
+  bg[PRELIGHT] = @SpeedContactAppletBgColor
+
+  fg[ACTIVE] = @SpeedContactDefaultTextColor
+  bg[ACTIVE] = @PaintedBackgrdColor
+
+  fg[SELECTED] = @SpeedContactDefaultTextColor
+  bg[SELECTED] = @PaintedBackgrdColor
+
+  fg[INSENSITIVE] = @DisabledTextColor
+  bg[INSENSITIVE] = @SpeedContactAppletBgColor
+
+  text[NORMAL] = @SpeedContactDefaultTextColor
+  base[NORMAL] = @SpeedContactAppletBgColor
+
+  text[PRELIGHT] = @SpeedContactDefaultTextColor
+  base[PRELIGHT] = @SpeedContactAppletBgColor
+
+  text[INSENSITIVE] = @DisabledTextColor
+  base[INSENSITIVE] = @SpeedContactAppletBgColor
+}
+widget "*osso-speeddial-treeview*" style "osso-speeddial-applet"

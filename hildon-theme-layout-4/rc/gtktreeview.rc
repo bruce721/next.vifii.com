@@ -1,0 +1,551 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+# Theming for both GtkTreeView and GtkListView.
+
+style "osso-listview" = "osso-logical-colors"
+{
+
+  text[ACTIVE] = @DefaultTextColor
+  text[SELECTED] = @DefaultTextColor
+
+  GtkTreeView::horizontal-separator = 6
+  GtkTreeView::tree-view-separator-area = 15
+  GtkTreeView::row-ending-details = 1
+  GtkTreeView::separator-height = 3
+  GtkWidget::focus-line-width = 1
+
+  engine "sapwood"
+  {
+    image
+      {
+        function        = CHECK
+        state           = INSENSITIVE
+        shadow          = IN
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_disabled.png"
+        
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = SELECTED
+        shadow          = IN
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_focused.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = ACTIVE
+        shadow          = IN
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_focused.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = PRELIGHT
+        shadow          = IN
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_normal.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = NORMAL
+        shadow          = IN
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_normal.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = INSENSITIVE
+        shadow          = OUT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_disabled.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = SELECTED
+        shadow          = OUT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_focused.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = ACTIVE
+        shadow          = OUT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_focused.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = PRELIGHT
+        shadow          = OUT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = NORMAL
+        shadow          = OUT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = NORMAL
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = PRELIGHT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = ACTIVE
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = SELECTED
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = INSENSITIVE
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }
+    # selected row passive focus ######################################
+    image
+    {
+      function = FLAT_BOX
+      state    = SELECTED
+      shadow   = OUT
+      detail   = "*_start"
+
+      file = "../images/qgn_plat_focus_left_selection.png"
+      border = { 2, 0, 2, 2 }
+
+      overlay_file = "../images/qgn_plat_focus_left_passive.png"
+      overlay_border = { 2, 0, 2, 2 }
+    }		
+    image
+    {
+      function = FLAT_BOX
+      state    = SELECTED
+      shadow   = OUT
+      detail   = "*_middle"
+
+      file = "../images/qgn_plat_focus_middle_selection.png"
+      border = { 0, 0, 2, 2 }
+
+      overlay_file = "../images/qgn_plat_focus_middle_passive.png"
+      overlay_border = { 0, 0, 2, 2 }
+    }		
+    image
+    {
+      function = FLAT_BOX
+      state    = SELECTED
+      shadow   = OUT
+      detail   = "*_end"
+
+      file = "../images/qgn_plat_focus_right_selection.png"
+      border = { 0, 2, 2, 2 }
+
+      overlay_file = "../images/qgn_plat_focus_right_passive.png"
+      overlay_border = { 0, 2, 2, 2 }
+    }		
+    image
+    {
+      function = FLAT_BOX
+      state    = SELECTED
+      shadow   = OUT
+
+      file = "../images/qgn_plat_focus_selection.png"
+      border = { 2, 2, 2, 2 }
+
+      overlay_file = "../images/qgn_plat_focus_passive.png"
+      overlay_border = { 2, 2, 2, 2 }
+    }		
+    # selection #######################################################
+    image
+    {
+      function = FLAT_BOX
+      state    = SELECTED
+      detail   = "*_start"
+      file = "../images/qgn_plat_focus_left_selection.png"
+      border = { 2, 0, 2, 2 }
+    }
+    image
+    {
+      function = FLAT_BOX
+      state    = SELECTED
+      detail   = "*_middle"
+      file = "../images/qgn_plat_focus_middle_selection.png"
+      border = { 0, 0, 2, 2 }
+    }
+    image
+    {
+      function = FLAT_BOX
+      state    = SELECTED
+      detail = "*_end"
+      file = "../images/qgn_plat_focus_right_selection.png"
+      border = { 0, 2, 2, 2 }
+    }
+    image
+    {
+      function = FLAT_BOX
+      state    = SELECTED
+      file = "../images/qgn_plat_focus_selection.png"
+      border = { 2, 2, 2, 2 }
+    }
+    # normal row passive focus ########################################
+    image
+    {
+      function = FLAT_BOX
+      shadow   = OUT
+      detail   = "*_start"
+
+      overlay_file = "../images/qgn_plat_focus_left_passive.png"
+      overlay_border = { 2, 0, 2, 2 }
+    }		
+    image
+    {
+      function = FLAT_BOX
+      shadow   = OUT
+      detail   = "*_middle"
+
+      overlay_file = "../images/qgn_plat_focus_middle_passive.png"
+      overlay_border = { 0, 0, 2, 2 }
+    }		
+    image
+    {
+      function = FLAT_BOX
+      shadow   = OUT
+      detail   = "*_end"
+
+      overlay_file = "../images/qgn_plat_focus_right_passive.png"
+      overlay_border = { 0, 2, 2, 2 }
+    }		
+    image
+    {
+      function = FLAT_BOX
+      shadow   = OUT
+
+      overlay_file = "../images/qgn_plat_focus_passive.png"
+      overlay_border = { 2, 2, 2, 2 }
+    }		
+    # drop indicator ##################################################
+    image
+    {
+      function = FOCUS
+      detail = "treeview-drop-indicator-left"
+      file = "../images/qgn_plat_focus_left_selection_cursor.png"
+      border = { 2, 0, 2, 2 }
+    }
+    image
+    {
+      function = FOCUS
+      detail = "treeview-drop-indicator-middle"
+      file = "../images/qgn_plat_focus_middle_selection_cursor.png"
+      border = { 0, 0, 2, 2 }
+    }
+    image
+    {
+      function = FOCUS
+      detail = "treeview-drop-indicator-right"
+      file = "../images/qgn_plat_focus_right_selection_cursor.png"
+      border = { 0, 2, 2, 2 }
+    }
+    image
+    {
+      function = FOCUS
+      detail = "treeview-drop-indicator"
+      file = "../images/qgn_plat_focus_selection_cursor.png"
+      border = { 2, 2, 2, 2 }
+    }
+    # cursor ##########################################################
+    image
+    {
+      function = FOCUS
+      detail   = "*_start"
+      file = "../images/qgn_plat_focus_left_active.png"
+      border = { 2, 0, 2, 2 }
+    }
+    image
+    {
+      function = FOCUS
+      detail   = "*_middle"
+      file = "../images/qgn_plat_focus_middle_active.png"
+      border = { 0, 0, 2, 2 }
+    }
+    image
+    {
+      function = FOCUS
+      detail   = "*_end"
+      file = "../images/qgn_plat_focus_right_active.png"
+      border = { 0, 2, 2, 2 }
+    }
+    image
+    {
+      function = FOCUS
+      file = "../images/qgn_plat_focus_selection_cursor.png"
+      border = { 2, 2, 2, 2 }
+    }
+    # Odd/even rules for non-sorted ###################################
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_even_ruled"
+
+      file = "../images/qgn_plat_tree_view_even.png"
+      border = { 2, 2, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_odd_ruled"
+
+      file = "../images/qgn_plat_tree_view_odd.png"
+      border = { 2, 2, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_even_ruled_start"
+
+      file = "../images/qgn_plat_tree_view_even_start.png"
+      border = { 2, 0, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_odd_ruled_start"
+
+      file = "../images/qgn_plat_tree_view_odd_start.png"
+      border = { 2, 0, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_even_ruled_middle"
+
+      file = "../images/qgn_plat_tree_view_even_middle.png"
+      border = { 0, 0, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_odd_ruled_middle"
+
+      file = "../images/qgn_plat_tree_view_odd_middle.png"
+      border = { 0, 0, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_even_ruled_end"
+
+      file = "../images/qgn_plat_tree_view_even_end.png"
+      border = { 0, 2, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_odd_ruled_end"
+
+      file = "../images/qgn_plat_tree_view_odd_end.png"
+      border = { 0, 2, 13, 13 }
+    }
+    # Odd/even for sorted #############################################
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_even_ruled_sorted"
+
+      file = "../images/qgn_plat_tree_view_even.png"
+      border = { 2, 2, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_odd_ruled_sorted"
+
+      file = "../images/qgn_plat_tree_view_odd.png"
+      border = { 2, 2, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_even_ruled_sorted_start"
+
+      file = "../images/qgn_plat_tree_view_even_start.png"
+      border = { 2, 0, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_odd_ruled_sorted_start"
+
+      file = "../images/qgn_plat_tree_view_odd_start.png"
+      border = { 2, 0, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_even_ruled_sorted_middle"
+
+      file = "../images/qgn_plat_tree_view_even_middle.png"
+      border = { 0, 0, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_odd_ruled_sorted_middle"
+
+      file = "../images/qgn_plat_tree_view_odd_middle.png"
+      border = { 0, 0, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_even_ruled_sorte_end"
+
+      file = "../images/qgn_plat_tree_view_even_end.png"
+      border = { 0, 2, 13, 13 }
+    }
+    image
+    { 
+      function = FLAT_BOX
+      state    = NORMAL
+      shadow   = NONE
+      detail   = "cell_odd_ruled_sorted_end"
+
+      file = "../images/qgn_plat_tree_view_odd_end.png"
+      border = { 0, 2, 13, 13 }
+    }
+  }
+}
+
+class "GtkTreeView" style "osso-listview"
+class "GtkListView" style "osso-listview"
+
+
+# listbox header text color
+style "osso-listboxheader-text-color" = "osso-color-themeing" {
+
+    fg[NORMAL] = @DefaultTextColor
+    fg[PRELIGHT] = @DefaultTextColor
+    fg[ACTIVE] = @DefaultTextColor
+    fg[SELECTED] = @DefaultTextColor
+    fg[INSENSITIVE] = @DisabledTextColor
+    text[NORMAL] = @DefaultTextColor
+    text[PRELIGHT] = @DefaultTextColor
+    text[ACTIVE] = @DefaultTextColor
+    text[SELECTED] = @DefaultTextColor
+    text[INSENSITIVE] = @DisabledTextColor
+
+}
+
+style "osso-listboxheader"
+{
+  GtkButton::separator-height = 15
+  engine "sapwood"
+    {
+      image
+        {
+	  function = BOX
+	  file = "../images/qgn_plat_column_listbox_header.png"
+	  border = { 2, 2, 2, 17 }
+	}
+      image
+        {
+	  function = FOCUS
+	  file = "../images/qgn_plat_column_listbox_header.png"
+	  border = { 2, 2, 2, 17 }
+	}
+    }
+}
+widget_class "*.GtkTreeView.GtkButton" style "osso-listboxheader"
+widget_class "*.GtkTreeView.GtkButton.*GtkLabel" style "osso-listboxheader-text-color"
+
+style "osso-treeviewcolumn-sortarrow" {
+	engine "sapwood" {
+		image {
+			function = ARROW
+			arrow_direction = DOWN
+			overlay_file = "../images/qgn_plat_arrow_listbox_header_down.png"
+		        overlay_stretch = FALSE
+		}
+		image {
+			function = ARROW
+			arrow_direction = UP
+			overlay_file = "../images/qgn_plat_arrow_listbox_header_up.png"
+		        overlay_stretch = FALSE
+		}
+	}
+}
+widget_class "*.GtkTreeView.GtkButton.GtkHBox.GtkArrow" style "osso-treeviewcolumn-sortarrow"

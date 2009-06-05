@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/maemo/!svn/ver/15858/projects/haf/trunk/hildon-theme-layout-4
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/15841/projects/haf/trunk/hildon-theme-layout-4/configure.ac
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/11845/projects/haf/trunk/hildon-theme-layout-4/AUTHORS
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/9413/projects/haf/trunk/hildon-theme-layout-4/INSTALL
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/15857/projects/haf/trunk/hildon-theme-layout-4/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/15841/projects/haf/trunk/hildon-theme-layout-4/COPYING
+END
+ChangeLog.3
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/9415/projects/haf/trunk/hildon-theme-layout-4/ChangeLog.3
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/9413/projects/haf/trunk/hildon-theme-layout-4/Makefile.am
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/9413/projects/haf/trunk/hildon-theme-layout-4/autogen.sh
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/15841/projects/haf/trunk/hildon-theme-layout-4/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/11845/projects/haf/trunk/hildon-theme-layout-4/README
+END

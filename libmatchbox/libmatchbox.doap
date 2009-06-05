@@ -1,0 +1,83 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	 xmlns="http://usefulinc.com/ns/doap#">
+
+	 <name>LibMatchbox</name>
+	 <shortname>libmatchbox</shortname>
+	 <created>2007-01-02</created>
+
+	 <shortdesc xml:lang="en">LibMatchbox is a utility library used by the various Matchbox applications.</shortdesc>
+
+	 <description xml:lang="en"> 
+	 LibMatchbox provides common shared functionality to the various Matchbox applications.
+
+	 It features a simple imaging library, system tray support and various utility functions. 
+
+	 Note: it is not actively developed anymore, only maintained. 
+	</description>
+
+	<homepage rdf:resource="http://matchbox-project.org/" />
+        <download-page rdf:resource="http://matchbox-project.org/sources/" />
+	<license rdf:resource="http://usefulinc.com/doap/licenses/lgpl" />
+
+        <bug-database rdf:resource="http://bugzilla.o-hand.com/enter_bug.cgi?product=matchbox-window-manager"/>
+
+        <os>linux</os>
+        <programming-language>C</programming-language>
+        <mailing-list rdf:resource="mailto:matchbox+subscribe@o-hand.com" />
+
+        <category rdf:resource="http://labs.o-hand.com/doap/category/embedded"/>
+        <category rdf:resource="http://labs.o-hand.com/doap/category/x11"/>
+        <category rdf:resource="http://labs.o-hand.com/doap/category/matchbox"/>
+        <category rdf:resource="http://labs.o-hand.com/doap/category/library"/>
+
+	<maintainer>
+		<foaf:Person>
+			<foaf:name>Matthew Allum</foaf:name>
+			<foaf:mbox rdf:resource="mailto:mallum@o-hand.com"/>
+		</foaf:Person>
+	</maintainer>
+
+	<author>
+		<foaf:Person>
+			<foaf:name>Matthew Allum</foaf:name>
+                        <foaf:mbox rdf:resource="mailto:mallum@o-hand.com"/>
+		</foaf:Person>
+	</author>
+
+        <repository>
+		<SVNRepository>
+			<browse rdf:resource="http://svn.o-hand.com/view/matchbox/trunk/libmatchbox"/>
+			<location rdf:resource="http://svn.o-hand.com/repos/matchbox/trunk/libmatchbox"/>
+		</SVNRepository>
+        </repository>
+
+	<release>
+		<Version>
+			<name>libmatchbox-1.9</name>
+			<created>2006-08-04</created>
+			<revision>1.9</revision>
+			<file-release rdf:resource="http://projects.o-hand.com/matchbox/sources/libmatchbox/1.9/libmatchbox-1.9.tar.gz" />
+		</Version>
+	</release>
+
+	<release>
+		<Version>
+			<name>libmatchbox-1.8</name>
+			<created>2006-03-07</created>
+			<revision>1.8</revision>
+			<file-release rdf:resource="http://projects.o-hand.com/matchbox/sources/libmatchbox/1.8/libmatchbox-1.8.tar.gz" />
+		</Version>
+	</release>
+
+	<release>
+		<Version>
+			<name>libmatchbox-1.7</name>
+			<created>2006-02-23</created>
+			<revision>1.7</revision>
+			<file-release rdf:resource="http://projects.o-hand.com/matchbox/sources/libmatchbox/1.7/libmatchbox-1.7.tar.gz" />
+		</Version>
+	</release>
+
+
+</Project>

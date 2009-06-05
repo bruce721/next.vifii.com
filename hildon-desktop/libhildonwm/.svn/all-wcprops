@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/15405/projects/haf/trunk/hildon-desktop/libhildonwm
+END
+hd-keys.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/14935/projects/haf/trunk/hildon-desktop/libhildonwm/hd-keys.c
+END
+hd-wm-entry-info.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/12454/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-entry-info.c
+END
+hd-wm-marshalers.list
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/maemo/!svn/ver/10717/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-marshalers.list
+END
+hd-keys.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/14113/projects/haf/trunk/hildon-desktop/libhildonwm/hd-keys.h
+END
+hd-wm-entry-info.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/12454/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-entry-info.h
+END
+hd-wm.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/15228/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm.c
+END
+hd-wm-application.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/15310/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-application.c
+END
+hd-wm.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/14336/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm.h
+END
+hd-wm-window.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/14426/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-window.c
+END
+hd-wm-application.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/12453/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-application.h
+END
+hd-wm-memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/12606/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-memory.c
+END
+hd-wm-desktop.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/13215/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-desktop.c
+END
+hd-wm-types.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/maemo/!svn/ver/12487/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-types.h
+END
+hd-wm-window.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/12457/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-window.h
+END
+hd-wm-memory.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/12453/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-memory.h
+END
+hd-wm-util.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/15405/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-util.c
+END
+hd-wm-desktop.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/12454/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-desktop.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/maemo/!svn/ver/12709/projects/haf/trunk/hildon-desktop/libhildonwm/Makefile.am
+END
+hd-wm-util.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/12487/projects/haf/trunk/hildon-desktop/libhildonwm/hd-wm-util.h
+END
+libhildonwm.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/10706/projects/haf/trunk/hildon-desktop/libhildonwm/libhildonwm.pc.in
+END

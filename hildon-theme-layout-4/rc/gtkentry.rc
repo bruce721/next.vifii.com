@@ -1,0 +1,40 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license 
+
+style "osso-entry" {
+
+    GtkEntry::inner-border = { 6, 6, 0, 0 }
+
+        engine "sapwood" {
+                image {
+                        function = SHADOW
+                        state = NORMAL
+                }
+        }
+
+        engine "sapwood" {
+                image {
+                        function = FOCUS
+                }
+        }
+
+        engine "sapwood" {
+                image {
+                        function = FLAT_BOX
+                        shadow = NONE
+                        state = INSENSITIVE
+                        file = "../images/qgn_plat_single_line_input_disabled.png"
+                        border = { 2, 2, 2, 2 }
+                }
+        }
+
+        engine "sapwood" {
+                image {
+                        function = FLAT_BOX
+                        shadow = NONE
+                        file = "../images/qgn_plat_single_line_input.png"
+                        border = { 2, 2, 2, 2 }
+                }
+        }
+}
+class "GtkEntry" style "osso-entry"

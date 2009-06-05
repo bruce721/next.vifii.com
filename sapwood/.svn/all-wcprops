@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/maemo/!svn/ver/17561/projects/haf/trunk/sapwood
+END
+Makefile.decl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/maemo/!svn/ver/16261/projects/haf/trunk/sapwood/Makefile.decl
+END
+HACKING
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/maemo/!svn/ver/13354/projects/haf/trunk/sapwood/HACKING
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/maemo/!svn/ver/10506/projects/haf/trunk/sapwood/AUTHORS
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/maemo/!svn/ver/16753/projects/haf/trunk/sapwood/configure.in
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/maemo/!svn/ver/17542/projects/haf/trunk/sapwood/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/maemo/!svn/ver/47/projects/haf/trunk/sapwood/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/maemo/!svn/ver/16258/projects/haf/trunk/sapwood/Makefile.am
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/maemo/!svn/ver/16259/projects/haf/trunk/sapwood/autogen.sh
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/maemo/!svn/ver/14090/projects/haf/trunk/sapwood/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/maemo/!svn/ver/12210/projects/haf/trunk/sapwood/README
+END

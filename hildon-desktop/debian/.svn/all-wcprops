@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/maemo/!svn/ver/15779/projects/haf/trunk/hildon-desktop/debian
+END
+libhildondesktop-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/debian/libhildondesktop-dev.install
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/15779/projects/haf/trunk/hildon-desktop/debian/control
+END
+libhildondesktop0.install
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/debian/libhildondesktop0.install
+END
+hildon-desktop-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/debian/hildon-desktop-dev.install
+END
+hildon-desktop.init
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/13908/projects/haf/trunk/hildon-desktop/debian/hildon-desktop.init
+END
+libhildondesktop0-doc.install
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/maemo/!svn/ver/14535/projects/haf/trunk/hildon-desktop/debian/libhildondesktop0-doc.install
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/15779/projects/haf/trunk/hildon-desktop/debian/changelog
+END
+conffiles
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/13657/projects/haf/trunk/hildon-desktop/debian/conffiles
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/13639/projects/haf/trunk/hildon-desktop/debian/copyright
+END
+hildon-desktop.install
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/13557/projects/haf/trunk/hildon-desktop/debian/hildon-desktop.install
+END
+libhildonwm-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/debian/libhildonwm-dev.install
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/maemo/!svn/ver/14991/projects/haf/trunk/hildon-desktop/debian/rules
+END
+libhildonwm0.install
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/debian/libhildonwm0.install
+END

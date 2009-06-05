@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/maemo/!svn/ver/9415/projects/haf/trunk/hildon-theme-layout-4/pkgconfig
+END
+hildon-theme-layout-4.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/maemo/!svn/ver/9415/projects/haf/trunk/hildon-theme-layout-4/pkgconfig/hildon-theme-layout-4.pc.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/9415/projects/haf/trunk/hildon-theme-layout-4/pkgconfig/Makefile.am
+END

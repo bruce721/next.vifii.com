@@ -1,0 +1,21 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+####################################################
+# Theming for GtkViewPort
+####################################################
+
+# Disable the shadow painting completely
+
+style "osso-viewport" {
+  xthickness = 0
+  ythickness = 0
+
+  engine "sapwood" {
+    image {
+      function = SHADOW
+    }
+  }
+}
+
+class "GtkViewport" style "osso-viewport"

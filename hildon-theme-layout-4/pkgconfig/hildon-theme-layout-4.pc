@@ -1,0 +1,8 @@
+prefix=/opt/hildon
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+pkgdatadir=${prefix}/share/hildon-theme-layout-4/
+
+Name: hildon-theme-layout-4
+Description: Hildon theme layout version 4
+Version: 0.14.9

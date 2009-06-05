@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/14210/projects/haf/trunk/hildon-theme-plankton/wallpaper
+END
+theme_bg.desktop.in
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/maemo/!svn/ver/10265/projects/haf/trunk/hildon-theme-plankton/wallpaper/theme_bg.desktop.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/11568/projects/haf/trunk/hildon-theme-plankton/wallpaper/Makefile.am
+END
+wallpaper.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/14210/projects/haf/trunk/hildon-theme-plankton/wallpaper/wallpaper.png
+END

@@ -1,0 +1,42 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopPanelExpandable
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopPanelExpandablePrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopPanelExpandable ##### -->
+<para>
+
+</para>
+
+@parent: 
+@priv: 
+
+<!-- ##### FUNCTION hildon_desktop_panel_expandable_get_extension ##### -->
+<para>
+
+</para>
+
+@panel: 
+@Returns: 
+
+

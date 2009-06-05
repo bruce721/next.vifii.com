@@ -1,0 +1,17 @@
+#!/bin/bash
+#export SAPWOOD_SERVER_DEBUG=1
+
+if test $# -eq 0; then
+        echo "Usage: $0 <command> [args]" >&2
+        return 1
+fi
+
+echo $DISPLAY
+sleep 1 # wait for xvfb to be ready
+../server/sapwood-server &
+
+export $(grep ^top_srcdir Makefile | sed 's/ = /=/')
+sleep 1 # wait for sapwood-server to be ready
+$@ || echo "$@: return value: $?"
+
+kill %- # %- : last job started : http://tldp.org/LDP/abs/html/x8885.html#JOBIDTABLE

@@ -1,0 +1,526 @@
+#
+# This file is part of maemo-af-desktop-l10n-public
+#
+# Copyright (C) 2006-2007 Nokia Corporation. All rights reserved.
+#
+# Contact: Mohammed Hassan <mohammed.2.hassan@nokia.com>
+#
+# Redistribution and use in source and binary forms, with or without modification,
+# are permitted provided that the following conditions are met:
+#
+#     Redistributions of source code must retain the above copyright notice,
+#     this list of conditions and the following disclaimer.
+#     Redistributions in binary form must reproduce the above copyright notice,
+#     this list of conditions and the following disclaimer in the documentation and/or
+#     other materials provided with the distribution.
+#     Neither the name of Nokia Corporation nor the names of its contributors may be used
+#     to endorse or promote products derived from this software without specific prior written
+#     permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR
+# IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY
+# AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+# OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+# SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+# THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+# OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+# POSSIBILITY OF SUCH DAMAGE.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: maemo-af-desktop 20070903144235\n"
+"Report-Msgid-Bugs-To: rami.abbad@nokia.com\n"
+"POT-Creation-Date: 2007.09.03 14:42+0300\n"
+"PO-Revision-Date: 2007.09.03 14:42+0300\n"
+"Last-Translator:\n"
+"Language-Team: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+# Name of Home shown as application title
+msgid "home_ap_home_view"
+msgstr "Home"
+
+# News applet name
+msgid "rss_ap_news_reader"
+msgstr "RSS feed reader"
+
+# Clock applet name
+msgid "uiframework_home_clockapplet"
+msgstr "时钟"
+
+# Web shortcut applet name
+msgid "ws_ap_web_shortcut"
+msgstr "Web shortcut"
+
+# Internet radio name
+msgid "iradio_ia_label"
+msgstr "Internet radio"
+
+# Speed contacts applet name
+msgid "addr_me_home_dial"
+msgstr "Speed contacts"
+
+# Internet search
+msgid "srch_ti_applet_internet_search"
+msgstr "Internet search"
+
+# Tutorial
+msgid "tutor_applet"
+msgstr "Internet Tablet tutorial"
+
+# Tableteer info
+msgid "tableteer_ap_tableteer_info"
+msgstr "Tableteer info"
+
+# Title of Home view
+msgid "home_title"
+msgstr "Home"
+
+# Home menu item
+msgid "home_me_select_applets"
+msgstr "选择插件…"
+
+# Home menu item
+msgid "home_me_applet_settings"
+msgstr "插件设置"
+
+# Home menu item
+msgid "home_me_set_background"
+msgstr "设置背景图片…"
+
+# Home menu item
+msgid "home_me_set_theme"
+msgstr "Set theme…"
+
+# Home menu item
+msgid "home_me_screen_calibration"
+msgstr "Calibrate screen"
+
+# Home menu item
+msgid "home_me_help"
+msgstr "Help"
+
+# Title of the Select applets –dialog
+msgid "home_ti_select_applets"
+msgstr "选择插件"
+
+# OK-button in Select applets –dialog
+msgid "home_bd_select_applets_ok"
+msgstr "确定"
+
+# OK-button in Select applets –dialog
+msgid "home_bd_select_applets_cancel"
+msgstr "取消"
+
+# Title of Set background image –dialog
+msgid "home_ti_set_backgr"
+msgstr "设置背景图片"
+
+# Field label (with Caption control) in Set background image –dialog
+msgid "home_fi_set_backgr_color"
+msgstr "背景颜色"
+
+# Field label (with Caption control) in Set background image –dialog
+msgid "home_fi_set_backgr_image"
+msgstr "图片"
+
+# Value in Set background image –dialog
+msgid "home_va_set_backgr_none"
+msgstr "(none)"
+
+# Field label (with Caption control) in Set background image –dialog
+msgid "home_fi_set_backgr_mode"
+msgstr "模式"
+
+# Value in Set background image –dialog
+msgid "home_va_set_backgr_centered"
+msgstr "居中"
+
+# Value in Set background image –dialog
+msgid "home_va_set_backgr_scaled"
+msgstr "比例"
+
+# Value in Set background image –dialog
+msgid "home_va_set_backgr_stretched"
+msgstr "拉伸"
+
+# Value in Set background image –dialog
+msgid "home_va_set_backgr_tiled"
+msgstr "标题"
+
+# Value in Set background image –dialog
+msgid "home_va_set_backgr_cropped"
+msgstr "Cropped"
+
+# Button in Set background image –dialog
+msgid "home_bd_set_backgr_ok"
+msgstr "确定"
+
+# Button in Set background image –dialog
+msgid "home_bd_set_backgr_preview"
+msgstr "预览"
+
+# Button in Set background image –dialog
+msgid "home_bd_set_backgr_image"
+msgstr "浏览"
+
+# Button in Set background image –dialog
+msgid "home_bd_set_backgr_cancel"
+msgstr "取消"
+
+# Title of Select image –dialog
+msgid "home_ti_select_image"
+msgstr "选择图片"
+
+# OK-button in Select image –dialog
+msgid "home_bd_select_image"
+msgstr "选择"
+
+# List item in Select image –dialog if the folder is empty
+msgid "home_li_no_images"
+msgstr "(无图片)"
+
+# Title of Web shortcut –dialog
+msgid "home_ti_set_websho"
+msgstr "Web shortcut"
+
+# Field label (with Caption control) in Web shortcut –dialog
+msgid "home_fi_set_websho_image"
+msgstr "Image"
+
+# Field label (with Caption control) in Web shortcut –dialog
+msgid "home_fi_set_websho_webaddress"
+msgstr "Web address"
+
+# Button in Web shortcut –dialog
+msgid "home_bd_set_websho_ok"
+msgstr "OK"
+
+# Button in Web shortcut –dialog
+msgid "home_bd_set_websho_browser"
+msgstr "Browse"
+
+# Button in Web shortcut –dialog
+msgid "home_bd_set_websho_cancel"
+msgstr "Cancel"
+
+# Cancel note shown to the user when the background image is loaded
+msgid "home_nw_loading_image"
+msgstr "加载图片"
+
+# Information banner shown to the user when the user tries to select dimmed ‘Applets settings’ command
+msgid "home_ib_not_available"
+msgstr "无设定可用"
+
+# Launching new application progress banner 
+msgid "ckct_ib_application_loading"
+msgstr "%s – 加载"
+
+# Resuming background killed application progress banner
+msgid "ckct_ib_application_resuming"
+msgstr "%s – resuming"
+
+# Error note displayed if the application startup fails
+msgid "ckct_ib_application_loading_failed"
+msgstr "不能被加载"
+
+# Authorization text field item
+msgid "tana_fi_authorize_contact"
+msgstr "Authorise"
+
+# Authorization text field item
+msgid "tana_fi_authorize_response"
+msgstr "Authorisation"
+
+# Authorization text field item
+msgid "tana_fi_authorize_positive_description"
+msgstr "Authorisation approved"
+
+# Authorization text field item
+msgid "tana_fi_authorize_negative_description"
+msgstr "Authorisation denied"
+
+# Authorization text field item, second row
+msgid "tana_fi_authorize_request_description"
+msgstr "Display presence status"
+
+# Invitation text field item
+msgid "tana_fi_invitation_to_chat"
+msgstr "Join"
+
+# Invitation text field item
+msgid "tana_fi_invitation_to_chat_description"
+msgstr "Invitation to join chat room"
+
+# Invitation text field item
+msgid "tana_fi_unknown_number"
+msgstr "Unknown number"
+
+# Dynamic email menu Item
+msgid "tana_fi_more_messages"
+msgstr "More new e-mails (%d)"
+
+# Dynamic email menu Item
+msgid "tana_fi_clear_received_events"
+msgstr "Clear messages"
+
+# Category
+msgid "tana_fi_my_selection"
+msgstr "首选栏"
+
+# Category
+msgid "tana_fi_internet"
+msgstr "网络"
+
+# Category
+msgid "tana_fi_communication"
+msgstr "交流"
+
+# Category
+msgid "tana_fi_utilities"
+msgstr "应用"
+
+# Category
+msgid "tana_fi_settings"
+msgstr "系统设置"
+#msgstr "System settings"
+
+# Category
+msgid "tana_fi_extras"
+msgstr "游戏"
+#msgstr "Games"
+
+# Application
+msgid "maps_ap_name"
+msgstr "Map"
+
+# Application
+msgid "skyp_ap_name"
+msgstr "Skype"
+
+# Application
+msgid "rhap_ap_name"
+msgstr "Rhapsody"
+
+# Application
+msgid "mcen_ap_name"
+msgstr "E-mail"
+
+# Application
+msgid "weba_ap_web_browser"
+msgstr "Web"
+
+# Application
+msgid "weba_ap_bookmarks_manager"
+msgstr "Bookmarks"
+
+# Application
+msgid "medi_ap_mediaplayer_name"
+msgstr "Media player"
+
+# Application
+msgid "imag_ap_image_viewer_name"
+msgstr "Images"
+
+# Application
+msgid "sfil_ap_file_manager"
+msgstr "File manager"
+
+# Application
+msgid "note_ap_notes_name"
+msgstr "Notes"
+
+# Application
+msgid "sket_ap_sketch_title"
+msgstr "Sketch"
+
+# Application
+msgid "calc_ap_calculator"
+msgstr "Calculator"
+
+# Application
+msgid "cloc_ap_application_title"
+msgstr "Clock"
+
+# Application
+msgid "game_ap_chess_name"
+msgstr "Chess"
+
+# Application 
+msgid "game_ap_blocks_name"
+msgstr "Blocks"
+
+# Application
+msgid "game_ap_lmarbles_name"
+msgstr "Marbles"
+
+# Application
+msgid "game_ap_mahjong_name"
+msgstr "Mahjong"
+
+# Application
+msgid "pdvi_ap_application_title"
+msgstr "PDF reader"
+
+# Application
+msgid "addr_ap_address_book"
+msgstr "Contacts"
+
+# Application
+msgid "chat_ap_chat"
+msgstr "Chat"
+
+# Application
+msgid "voip_ap_feature_name"
+msgstr "Internet call"
+
+# Application
+msgid "ai_ap_application_installer"
+msgstr "Application manager"
+
+# Application
+msgid "copa_ap_cp_name"
+msgstr "Control panel"
+
+# Application
+msgid "conn_ap_connmanager"
+msgstr "Connection manager"
+
+# Application
+msgid "inpu_ap_hwr_training_title"
+msgstr "Teach handwriting"
+
+# Application
+msgid "help_ap_help_application"
+msgstr "Help"
+
+# Application
+msgid "srch_ap_search"
+msgstr "Search"
+
+# Application
+msgid "back_ap_feature_name"
+msgstr "Backup/Restore"
+
+# Empty folder
+msgid "tana_li_of_noapps"
+msgstr "(no applications)"
+
+# First line
+msgid "tana_fi_home"
+msgstr "Home"
+
+# Second line
+msgid "tana_fi_home_thumb"
+msgstr "Return to Home"
+
+# Confirmation note text
+msgid "qgn_nc_apkil_notresponding"
+msgstr ""
+"%s is not responding.\n"
+"Close application?"
+
+# Confirmation note confirmation button
+msgid "qgn_bd_apkil_ok"
+msgstr "OK"
+
+# Confirmation note cancellation button
+msgid "qgn_bd_apkil_cancel"
+msgstr "Cancel"
+
+# Banner displayed if application that user tried to close, could not be closed (and the application killing dialog was opened), suddenly responds and is closed, and therefore the application killing dialog is closed. 
+# 
+# Banner is also displayed if application that user tried to switch to, could not be topped (and the application killing dialog was opened), suddenly responds and is topped, and therefore the application killing dialog is closed.
+msgid "qgn_ib_apkil_responded"
+msgstr "%s responded"
+
+# Title of Authorisation request dialog
+msgid "chat_ti_authorization_request"
+msgstr "Authorisation request"
+
+# Informative text in Authorisation request dialog, where %s is the contact name
+msgid "chat_ia_authorization_request_informative_text"
+msgstr ""
+"%s wants to add you to his contact list. Allow this and also add %s to your "
+"contact list?"
+
+# Informative text in Authorisation request dialog
+msgid "chat_ia_authorization_request_userid"
+msgstr "User ID:"
+
+# Informative text in Authorisation request dialog
+msgid "chat_ia_authorization_request_nickname"
+msgstr "Nickname:"
+
+# "Yes" button in Chat settings dialog
+msgid "chat_bd_authorization_request_allow"
+msgstr "Yes"
+
+# "No" button in Chat settings dialog
+msgid "chat_bd_authorization_request_deny"
+msgstr "No"
+
+# Informative text in Authorisation accepted information note, where %s is the contact name.
+msgid "chat_in_authorization_accepted"
+msgstr "%s accepted authorisation request"
+
+# "OK" button in Authorisation accepted information note
+msgid "chat_bd_authorization_accepted_ok"
+msgstr "OK"
+
+# Informative text in Authorisation rejected information note, where %s is the contact name.
+msgid "chat_in_authorization_rejected"
+msgstr "%s rejected authorisation request"
+
+# "OK" button in Authorisation rejected information note
+msgid "chat_bd_authorization_rejected_ok"
+msgstr "OK"
+
+# Informative text in Missed call confirmation note, where %s is the contact account name.
+msgid "tana_nc_clear_events"
+msgstr ""
+"Unread notifications in list.\n"
+"Clear anyway?"
+
+# OK button in Missed call confirmation note
+msgid "tana_bd_clear_events_ok"
+msgstr "Yes"
+
+# Cancel button in Missed call confirmation note
+msgid "tana_bd_clear_events_cancel"
+msgstr "No"
+
+# Informative text in Missed call confirmation note, where %s is the contact account name.
+msgid "tana_nc_missed_call"
+msgstr ""
+"Missed call from %s.\n"
+"Call back?"
+
+# OK button in Missed call confirmation note
+msgid "tana_bd_missed_call_ok"
+msgstr "OK"
+
+# Cancel button in Missed call confirmation note
+msgid "tana_bd_missed_call_cancel"
+msgstr "Cancel"
+
+# Informative text in Install application confirmation note, where %s is the name of the application.
+msgid "tana_nc_install_application"
+msgstr "Install %s?"
+
+# OK button in Install application confirmation note
+msgid "tana_bd_install_application_ok"
+msgstr "OK"
+
+# Cancel button in Install application confirmation note
+msgid "tana_bd_install_application_cancel"
+msgstr "Cancel"
+
+# Application name
+msgid "tana_ap_tasknav_name"
+msgstr "Task navigator"

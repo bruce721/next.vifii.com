@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/matchbox/!svn/ver/685/trunk/libmatchbox/doc
+END
+Doxyfile.in
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/matchbox/!svn/ver/651/trunk/libmatchbox/doc/Doxyfile.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/matchbox/!svn/ver/685/trunk/libmatchbox/doc/Makefile.am
+END

@@ -1,0 +1,64 @@
+<!-- ##### SECTION Title ##### -->
+libhildondesktop
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO HD_DEFINE_PLUGIN_EXTENDED ##### -->
+<para>
+
+</para>
+
+@TN: 
+@t_n: 
+@T_P: 
+@CODE_LOAD: 
+@CODE_UNLOAD: 
+
+
+<!-- ##### MACRO HD_DEFINE_PLUGIN ##### -->
+<para>
+
+</para>
+
+@TN: 
+@t_n: 
+@T_P: 
+
+
+<!-- ##### MACRO HD_DEFINE_PLUGIN_WITH_CODE ##### -->
+<para>
+
+</para>
+
+@TN: 
+@t_n: 
+@T_P: 
+@CODE: 
+
+
+<!-- ##### MACRO HD_DEFINE_TYPE_MODULE_EXTENDED ##### -->
+<para>
+
+</para>
+
+@TypeName: 
+@type_name: 
+@TYPE_PARENT: 
+@flags: 
+@CODE: 
+
+

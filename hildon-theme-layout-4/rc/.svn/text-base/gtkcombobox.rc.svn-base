@@ -1,0 +1,172 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license 
+
+style "osso-combobox-base" {
+
+  GtkWidget::focus-line-width = 0
+  GtkWidget::focus-padding = 0
+  GtkWidget::focus-line-pattern = "\0\0\0\0\0\0\0\0"
+  GtkComboBox::autodimmed_button = 1
+  GtkComboBox::appears-as-list = 1
+  GtkComboBox::arrow-size = 26
+
+}
+class "GtkComboBox" style "osso-combobox-base"
+
+###################################################
+#
+# Styles for non-entry ComboBox
+#
+###################################################
+
+style "osso-combobox-button" {
+    GtkButton::child-displacement-x = 0
+    GtkButton::child-displacement-y = 0
+
+    engine "sapwood" {
+
+        image {
+            function = FOCUS
+        }
+        image {
+            function = BOX
+            file = "../images/qgn_plat_combobox_frame_right_disabled.png"
+            state = INSENSITIVE
+	    border = { 0, 4, 4, 4 }
+        }
+        image {
+            function = BOX
+            file = "../images/qgn_plat_combobox_frame_right_normal.png"
+	    border = { 0, 4, 4, 4 }
+        }
+        image {
+            function = TAB
+        }
+    }
+}
+widget_class "*.<GtkComboBox>.GtkToggleButton" style "osso-combobox-button"
+
+
+style "osso-combobox-frame" {
+    ythickness = 1
+
+    engine "sapwood" {
+
+        image {
+            function = FOCUS
+        }
+        image {
+            function = SHADOW
+            file = "../images/qgn_plat_combobox_frame_left_disabled.png"
+            state = INSENSITIVE
+            border = { 4, 0, 4, 4 }
+        }
+        image {
+            function = SHADOW
+            file = "../images/qgn_plat_combobox_frame_left_normal.png"
+            border = { 4, 0, 4, 4 }
+        }
+    }
+}
+widget_class "*.<GtkComboBox>.GtkFrame" style "osso-combobox-frame"
+
+###################################################
+#
+# Styles for ComboBoxEntry
+#
+###################################################
+
+# We have a base style for combobox-entry too, because we
+# might have a different looking search combobox.
+
+style "osso-combobox-entry-base" {
+
+  GtkEntry::inner-border = { 4, 4, 0, 0 }
+}
+
+widget_class "*.<GtkComboBoxEntry>.GtkEntry" style "osso-combobox-entry-base"
+
+style "osso-combobox-entry-arrow"
+{
+  GtkArrow::maemo-min-size = 26
+
+  engine "sapwood"
+    {
+      image 
+        {
+          function = ARROW
+          state = ACTIVE
+          overlay_file = "../images/qgn_plat_combobox_button_pressed.png"
+          overlay_stretch = FALSE
+        }
+      image
+        {
+          function = ARROW
+          state = NORMAL
+          overlay_file = "../images/qgn_plat_combobox_button_normal.png"
+          overlay_stretch = FALSE
+        }
+      image
+        {
+          function = ARROW
+          state    = INSENSITIVE
+          overlay_file = "../images/qgn_plat_combobox_button_disabled.png"
+          overlay_stretch = FALSE
+        }
+    }
+}
+
+widget_class "*.<GtkComboBox>.GtkToggleButton.GtkArrow" style "osso-combobox-entry-arrow"
+widget_class "*.<GtkComboBoxEntry>.GtkToggleButton.GtkArrow" style "osso-combobox-entry-arrow"
+
+style "osso-combobox-entry-entry" {
+
+  engine "sapwood"
+    {
+      image
+        {
+	  function = SHADOW
+	  state    = INSENSITIVE
+  	  file = "../images/qgn_plat_combobox_entry_frame_left_disabled.png"
+	  border   = { 4, 0, 4, 4 }
+	}
+      image
+        {
+	  function = FLAT_BOX
+        }
+   image
+        {
+	  function = SHADOW
+  	  file = "../images/qgn_plat_combobox_entry_frame_left_normal.png"
+	  border   = { 4, 0, 4, 4 }
+	}
+    }
+}
+
+widget_class "*.<GtkComboBoxEntry>.GtkEntry" style  "osso-combobox-entry-entry"
+
+style "osso-combobox-entry-button-down" {
+
+	engine "sapwood" {
+		image {
+			function = FOCUS
+		}
+		image {
+			function = BOX
+			file = "../images/qgn_plat_combobox_entry_frame_right_disabled.png"
+			state = INSENSITIVE
+			border = { 0, 4, 4, 4 }
+		}
+		image {
+			function = BOX
+			file = "../images/qgn_plat_combobox_entry_frame_right_normal.png"
+			border = { 0, 4, 4, 4 }
+		}
+		image {
+			function = TAB
+		}
+	}
+}
+widget_class "*.<GtkComboBoxEntry>.GtkToggleButton" style "osso-combobox-entry-button-down"
+
+	

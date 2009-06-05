@@ -1,0 +1,74 @@
+<!-- ##### SECTION Title ##### -->
+HildonHomeTitlebar
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO HILDON_TYPE_HOME_TITLEBAR_MODE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT HildonHomeTitlebarPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonHomeTitlebar ##### -->
+<para>
+
+</para>
+
+@parent_instance: 
+@priv: 
+
+<!-- ##### FUNCTION hildon_home_titlebar_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_home_titlebar_toggle_menu ##### -->
+<para>
+
+</para>
+
+@titlebar: 
+
+
+<!-- ##### FUNCTION hildon_home_titlebar_set_menu ##### -->
+<para>
+
+</para>
+
+@titlebar: 
+@menu: 
+
+
+<!-- ##### FUNCTION hildon_home_titlebar_set_title ##### -->
+<para>
+
+</para>
+
+@titlebar: 
+@title: 
+
+

@@ -1,0 +1,18 @@
+[0.4.3 release]
+* Adding sorted gtkrc processing
+
+[0.4.1 release]
+* Sh hotfix (silly mistake)
+
+[0.4.0 release]
+* Fixing the broken interpreter location
+
+[0.3.0 release]
+* Fixing the theme trap (unable to change theme after installing new one)
+* Skip junk files during generation
+
+[0.2.0 release]
+* Working.
+
+[0.1.0 release]
+* First release.

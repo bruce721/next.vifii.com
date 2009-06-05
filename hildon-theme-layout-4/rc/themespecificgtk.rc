@@ -1,0 +1,187 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+# theme specific stuff here. Included by gtkrc.
+
+##############################
+#
+# Logical color definitions
+#
+##############################
+
+style "osso-logical-colors" {
+	color["DefaultTextColor"]        = "@DefaultTextColor@"
+	color["EmpTextColor"]            = "@EmpTextColor@"
+	color["PaintedDefaultTextColor"] = "@PaintedDefaultTextColor@"
+	color["DisabledTextColor"]       = "@DisabledTextColor@"
+	color["ProgressTextColor1"]      = "@ProgressTextColor1@"
+	color["ProgressTextColor2"]      = "@ProgressTextColor2@"
+	color["SecondaryTextColor"]      = "@SecondaryTextColor@"
+	color["TitleTextColor"]          = "@TitleTextColor@"
+	color["DialogTitleTextColor"]    = "@DialogTitleTextColor@"
+	
+	color["ClearButtonTextColor"]    = "@ClearButtonTextColor@"
+	color["MemButtonTextColor"]      = "@MemButtonTextColor@"
+	
+	color["HWRAlphaTextColor"]       = "@HWRAlphaTextColor@"
+	color["HWRNumberTextColor"]      = "@HWRNumberTextColor@"
+	color["HWRDimmedTextColor"]      = "@HWRDimmedTextColor@"
+	color["HWRIllegalTextColor"]     = "@HWRIllegalTextColor@"
+	
+	color["WebTextColor"]            = "@WebTextColor@"
+	color["DimWebTextColor"]         = "@DimWebTextColor@"
+	color["LinkTextColor"]           = "@LinkTextColor@"
+	color["VisitedLinkTextColor"]    = "@VisitedLinkTextColor@"
+	
+	color["DefaultBackgrdColor"]     = "@DefaultBackgrdColor@"
+	color["PaintedBackgrdColor"]     = "@PaintedBackgrdColor@"
+	color["ImageBackgrdColor"]       = "@ImageBackgrdColor@"
+	
+	color["InputBackgrdColor"]       = "@InputBackgrdColor@"
+	color["HWRAlphaBackgrdColor"]    = "@HWRAlphaBackgrdColor@"
+	color["HWRPunctBackgrdColor"]    = "@HWRPunctBackgrdColor@"
+	color["HWRContBackgrdColor"]     = "@HWRContBackgrdColor@"
+	color["HWRHyphBackgrdColor"]     = "@HWRHyphBackgrdColor@"
+	
+	color["WebBackgrdColor"]         = "@WebBackgrdColor@"
+	
+	color["ImageBorderColor"]        = "@ImageBorderColor@"
+	color["FocusColor"]              = "@FocusColor@"
+	color["SelectionColor"]          = "@SelectionColor@"
+	
+	color["MapTopLeftColor"]         = "@MapTopLeftColor@"
+	color["MapBottomRightColor"]     = "@MapBottomRightColor@"
+	color["ClockHandColor"]          = "@ClockHandColor@"
+	
+	color["HWRBaselineColor"]        = "@HWRBaselineColor@"
+	color["HWRRecogColor"]           = "@HWRRecogColor@"
+	color["HWRUserColor"]            = "@HWRUserColor@"
+	color["HWRUserBackgrdColor"]     = "@HWRUserBackgrdColor@"
+	color["HWRHintColor"]            = "@HWRHintColor@"
+
+	color["ChatUserNameColor"]       = "@ChatUserNameColor@"
+	color["ChatParticipantNameColor"]= "@ChatParticipantNameColor@"
+	color["ChatEventColor"]          = "@ChatEventColor@"
+	
+	color["MenuInfoTextColor"]       = "@MenuInfoTextColor@"
+	color["VKBButtonTextColor"]      = "@VKBButtonTextColor@"
+	color["WCFrameColor"]            = "@WCFrameColor@"
+	color["WCIndicatorColor"]        = "@WCIndicatorColor@"
+	color["WCIndicatorFNColor"]      = "@WCIndicatorFNColor@"
+        color["WCPrefixColor"] 		 = "@WCPrefixColor@"
+	
+	# new ones!
+        color["ClockAppletDateColor"]			= "@ClockAppletDateColor@"
+        color["ChatTextBgColor"]			= "@ChatTextBgColor@"
+        color["ChatTextBgColor2"]			= "@ChatTextBgColor2@"
+        color["ChatTextColor"]				= "@ChatTextColor@"
+        color["TreeViewOddRowColor"]			= "@TreeViewOddRowColor@"
+        color["TreeViewEvenRowColor"]			= "@TreeViewEvenRowColor@"
+        color["CropFrameColor"]				= "@CropFrameColor@"
+        color["MediaPlayerToolbarFontColor"]		= "@MediaPlayerToolbarFontColor@"
+        color["RssAppletFeedTextColor"]			= "@RssAppletFeedTextColor@"
+        color["RssAppletBgColor"]			= "@RssAppletBgColor@"
+        color["PaneMenuColor1"]				= "@PaneMenuColor1@"
+        color["PaneMenuColor2"]				= "@PaneMenuColor2@"
+        color["PaneMenu1TextColor"]			= "@PaneMenu1TextColor@"
+        color["PaneMenu2TextColor"]			= "@PaneMenu2TextColor@"
+        color["SpeedContactDefaultTextColor"]		= "@SpeedContactDefaultTextColor@"
+        color["SpeedContactSecondaryTextColor"]		= "@SpeedContactSecondaryTextColor@"
+        color["SpeedContactAppletBgColor"]		= "@SpeedContactAppletBgColor@"
+        color["TaskSwitcherFontColor"]			= "@TaskSwitcherFontColor@"
+        color["TaskSwitcherSecondaryFontColor"]		= "@TaskSwitcherSecondaryFontColor@"
+        color["TaskSwitcherNotificationMenuFontColor"]	= "@TaskSwitcherNotificationMenuFontColor@"
+        color["TaskSwitcherBgColor"]		= "@TaskSwitcherBgColor@"
+        color["TaskSwitcherNotificationBgColor"]	= "@TaskSwitcherNotificationBgColor@"
+
+        color["PluginMenuTextColor"]			= "@PluginMenuTextColor@"
+        color["PluginMenuSecondaryTextColor"]		= "@PluginMenuSecondaryTextColor@"
+        color["PluginMenuBgColor"]  = "@PluginMenuBgColor@"
+        color["HomeTitleTextColor"]			= "@HomeTitleTextColor@"
+
+        color["DialogButtonTextColor"]			= "@DialogButtonTextColor@"
+        color["DialogButtonTextPressedColor"]		= "@DialogButtonTextPressedColor@"
+        color["DialogButtonTextDisabledColor"]		= "@DialogButtonTextDisabledColor@"
+
+        color["ButtonTextColor"]		= "@ButtonTextColor@"
+        color["ButtonTextPressedColor"]		= "@ButtonTextPressedColor@"
+        color["ButtonTextDisabledColor"]	= "@ButtonTextDisabledColor@"
+
+        color["VkbBgColor"]	= "@VkbBgColor@"
+
+	# this is hardcoded, since it doesnt really need to be in the template itself.
+        color["MediaPlayerPrerollColor"]	= "#ffffff"
+}
+
+##############################
+#
+# Font definitions
+#
+##############################
+
+style "osso-SystemFont" {
+	font_name = "Nokia Sans 16.75"
+}
+
+style "osso-EmpSystemFont" {
+	font_name = "Nokia Sans Bold 16.75"
+}
+
+style "osso-TitleFont" {
+	font_name = "Nokia Sans 16.75"
+}
+
+style "osso-ButtonFont" {
+	font_name = "Nokia Sans 16.75"
+}
+
+style "osso-SmallFont" {
+	font_name = "Nokia Sans 11.625"
+}
+
+style "osso-LargeFont" {
+	font_name = "Nokia Sans 29.5"
+}
+
+style "osso-HWRFont1"
+{
+  font_name = "Nokia Sans 52"
+}
+
+style "osso-HWRFont2"
+{
+  font_name = "Nokia Sans 38"
+}
+
+######################################
+#
+# Application menu popup position
+#
+# The position of application menu relative to application upper-left 
+# position (horizontal = 80, vertical = 60) so adjust below
+# horizontal-offset and vertical-offset to change it from the application
+# upper-left position. The values can be negative too.
+#
+######################################
+
+style "osso-application-menu-popup-position"
+{
+  GtkMenu::horizontal-offset = 10
+  GtkMenu::vertical-offset = -13
+}
+
+##############################
+#
+# WARNING : DEPRECATED
+#
+# Zoomed font sizes
+#
+# All of these now use the exactly same font & size
+#
+# WARNING : DEPRECATED
+#
+##############################
+
+widget "hildon-zoom-small" style "osso-SystemFont"
+widget "hildon-zoom-medium" style "osso-SystemFont"
+widget "hildon-zoom-large" style "osso-SystemFont"

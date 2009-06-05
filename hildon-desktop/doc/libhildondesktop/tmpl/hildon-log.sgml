@@ -1,0 +1,79 @@
+<!-- ##### SECTION Title ##### -->
+HildonLog
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO HILDON_LOG_TYPE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT HildonLog ##### -->
+<para>
+
+</para>
+
+@parent: 
+
+<!-- ##### FUNCTION hildon_log_new ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_log_remove_file ##### -->
+<para>
+
+</para>
+
+@log: 
+
+
+<!-- ##### FUNCTION hildon_log_add_group ##### -->
+<para>
+
+</para>
+
+@log: 
+@group: 
+
+
+<!-- ##### FUNCTION hildon_log_add_message ##### -->
+<para>
+
+</para>
+
+@log: 
+@key: 
+@message: 
+
+
+<!-- ##### FUNCTION hildon_log_get_incomplete_groups ##### -->
+<para>
+
+</para>
+
+@log: 
+@Varargs: 
+@Returns: 
+
+

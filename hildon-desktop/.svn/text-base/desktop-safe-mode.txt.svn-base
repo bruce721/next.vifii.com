@@ -1,0 +1,80 @@
+SPECIFICATION: Safe mode for Hildon Desktop to recover from ill-behaving plugin that crashes the desktop
+--------------------------------------------------------------------------------------------------------
+
+Karoliina Salminen <karoliina.t.salminen@nokia.com>
+
+1. Problem definition
+
+Hildon Desktop runs by default plugins inside the same process than the Hildon Desktop itself in the resource
+limited devices to save memory & other system resources. Because of this, a ill-behaving crashing plugin
+can crash Hildon Desktop process which causes it to restart. Hildon Desktop can recover from a crash,
+but if the crashed plugin is still enabled, it will crash again. A system preventing this continous crashing
+which renders the desktop unusable is needed.
+
+2. Alternatives
+
+2.1 Stamp file based simple safe mode
+
+In Maemo 3.x Hildon Desktop has a simple stamp file based safe mode. It checks if a stamp file exists on /tmp
+and creates a stamp file if it doesn't exist when it launches. If the Hildon Desktop crashes or quits without reboot
+for any reason, the stamp file remains on place until next reboot and only factory plugins are enabled. It is
+assumed that the factory plugins are not ill-behaving to cause this crash-loop. Also it is assumed
+that /tmp is cleared on every reboot (otherwise this alternative wouldn't work properly, one could never
+get out of safe mode then).
+
+The same stamp file system could be used also in the Maemo 4.0 version (and any later version) of Hildon Desktop as well.
+However, it is not solving the whole problem because it makes developing Hildon Desktop and
+testing it during the development a bit harder because the stamp file remains if the Hildon Desktop is killed for
+any reason. And even on the device, if Hildon Desktop is restarted for any reason (without rebooting), the
+stamp file remains (because the /tmp is not necessarily cleared), 
+and only factory plugins are displayed, even if there would be no ill-behaving plugins
+installed on the system. The killing of the process can not be handled because kill is with parameter -9 and
+the process itself has no means of removing the stamp file.
+
+This alternative works most of the cases but it can fail in a case the desktop is killed in some other
+situation than in reboot (when the /tmp/ is cleaned). One example is when battery charger is plugged in
+and the device is then switched off. The device in that case doesn't turn off and hence doesn't clean up
+the /tmp. When the device is started again from this battery charging mode, it will not do a reboot, but
+just restart the Hildon Desktop while keeping /tmp and thus the stamp file intact. This causes a situation
+that only factory plugins are shown until next real reboot.
+
+2.2 Blacklist -file based safe mode
+
+This alternative maintains a blacklist. The blacklist has the following properties:
+- it is cleared on every reboot (located to /tmp) as the stamp file on the other alternative.
+- start attempt of a plugin causes entry to the stamp file and successful continuation removes the stamp from
+the black list. 
+
+The requirements:
+- the plugin can be ill-behaving in a timed manner as well, it does not necessarily crash on the startup, but
+it can crash e.g. one second afterwards, which has as serious implications for the crash-loop situation than
+the crashes on startup situation
+- black list must be always sane, corruption shall not happen
+
+2.3 RAM database keeping up safe mode stamp or blacklist
+
+This alternative has another process running which keeps Hildon Desktop's runtime parameters and in the case
+of Desktop crashing, it would not crash and the parameters (such as safe mode flag) would still be there
+and obviously in case of reboot, this would get cleaned up too (because it would not be backed up on disk (flash)).
+
+Downside is that this would cause more overhead than single process. Starting up a small process with no 
+gtk, GUI etc. dependencies, which would simply use e.g. sockets for inter process communication (wouldn't hence
+drag even the dbus along) would be fast to start and could be made pretty efficient. However, two processes
+has larger RAM footprint anyway than single process.
+
+3. Chosen alternative
+
+The blacklist altenative was chosen because it consumes the least resources and is still quite simple in design.
+
+3.1 Architecture of black list
+
+hildon desktop                        black list         plugin container      stamp-file
+ON STARTUP
+     ---------if not exists, create -------->
+     ---------if crash stamp not existing, create --------------------------------->
+FOR EACH PLUGIN
+     ------------- check if on black list -->
+     IF NOT ON BLACK LIST
+        --------------------------------- invoke & add plugin ------>
+        ---------- if ok, remove from list -->
+

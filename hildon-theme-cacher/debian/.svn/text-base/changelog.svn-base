@@ -1,0 +1,37 @@
+hildon-theme-cacher (0.4.3-1) unstable; urgency=low
+
+  * Adding sorted gtkrc processing
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 28 Sep 2007 16:12:39 +0300
+
+hildon-theme-cacher (0.4.2-1) unstable; urgency=low
+
+  * Use HILDON_SCANNER_CACHE_CREATE env variable for creating the cache.
+
+ -- Fernando Herrera <fernando.herrera-de-las-heras@nokia.com>  Mon,  17 Sep 2007 17:40:48 +0200
+
+hildon-theme-cacher (0.4.0-1) unstable; urgency=low
+
+  * Fixing the broken interpreter location
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 05 Mar 2007 10:13:11 +0200
+
+hildon-theme-cacher (0.3.0-1) unstable; urgency=low
+
+  * Unset the GTK2_RC_FILES to avoid the 'theme trap'
+  * Do not generate the cache files for junk files. Fixes: MB#1026.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 15 Jan 2007 10:30:06 +0300
+
+hildon-theme-cacher (0.2.0-1) unstable; urgency=low
+
+  * Second release. Now works as expected.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 04 Dec 2006 14:30:06 +0300
+
+hildon-theme-cacher (0.1.0-1) unstable; urgency=low
+
+  * First official release.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 20 Nov 2006 14:55:06 +0300
+

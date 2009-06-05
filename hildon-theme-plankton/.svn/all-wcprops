@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/maemo/!svn/ver/15856/projects/haf/trunk/hildon-theme-plankton
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/15856/projects/haf/trunk/hildon-theme-plankton/configure.ac
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/9450/projects/haf/trunk/hildon-theme-plankton/AUTHORS
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/9450/projects/haf/trunk/hildon-theme-plankton/INSTALL
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/15856/projects/haf/trunk/hildon-theme-plankton/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/15856/projects/haf/trunk/hildon-theme-plankton/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/10244/projects/haf/trunk/hildon-theme-plankton/Makefile.am
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/9450/projects/haf/trunk/hildon-theme-plankton/autogen.sh
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/15856/projects/haf/trunk/hildon-theme-plankton/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/maemo/!svn/ver/9450/projects/haf/trunk/hildon-theme-plankton/README
+END

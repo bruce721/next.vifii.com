@@ -1,0 +1,277 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+--mode	Makefile	/^	if $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libstatusbarpolicy_la_CFLAGS) $(CFLAGS) -MT libstatusbarpolicy_la-statusbar-policy.lo -MD -MP -MF "$(DEPDIR)\/libstatusbarpolicy_la-statusbar-policy.Tpo" \\$/;"	m
+--mode	Makefile	/^	if $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(libtasknavigatorpolicy_la_CFLAGS) $(CFLAGS) -MT libtasknavigatorpolicy_la-tasknavigator-policy.lo -MD -MP -MF "$(DEPDIR)\/libtasknavigatorpolicy_la-tasknavigator-policy.Tpo" \\$/;"	m
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/bruce\/code\/hildon\/hildon-desktop\/missing --run aclocal-1.7$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ALL_LINGUAS	Makefile	/^ALL_LINGUAS = en_GB$/;"	m
+AMDEP_FALSE	Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_TRUE	Makefile	/^AMDEP_TRUE = $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/bruce\/code\/hildon\/hildon-desktop\/missing --run tar$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/bruce\/code\/hildon\/hildon-desktop\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/bruce\/code\/hildon\/hildon-desktop\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/bruce\/code\/hildon\/hildon-desktop\/missing --run automake-1.7$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+CATALOGS	Makefile	/^CATALOGS =  en_GB.gmo$/;"	m
+CATOBJEXT	Makefile	/^CATOBJEXT = .gmo$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2 -Wall -Wmissing-prototypes -Wmissing-declarations -Werror -Wno-format-extra-args$/;"	m
+CLEANFILES	Makefile	/^CLEANFILES = *~$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGSFLAGS	Makefile	/^CTAGSFLAGS =$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DATADIRNAME	Makefile	/^DATADIRNAME = share$/;"	m
+DBUS_BINDING_TOOL	Makefile	/^DBUS_BINDING_TOOL = \/usr\/bin\/dbus-binding-tool$/;"	m
+DBUS_GLIB_CFLAGS	Makefile	/^DBUS_GLIB_CFLAGS = -I\/usr\/include\/dbus-1.0 -I\/usr\/lib\/dbus-1.0\/include -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include  $/;"	m
+DBUS_GLIB_LIBS	Makefile	/^DBUS_GLIB_LIBS = -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0  $/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES =  -I. -I$(srcdir) -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEP_FILES	Makefile	/^DEP_FILES = \\$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.in Makefile.am$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(libstatusbarpolicy_la_SOURCES) \\$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+ECHO	Makefile	/^ECHO = echo$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENABLE_GTK_DOC_FALSE	Makefile	/^ENABLE_GTK_DOC_FALSE = $/;"	m
+ENABLE_GTK_DOC_TRUE	Makefile	/^ENABLE_GTK_DOC_TRUE = #$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGSFLAGS	Makefile	/^ETAGSFLAGS =$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+F77	Makefile	/^F77 = $/;"	m
+FFLAGS	Makefile	/^FFLAGS = $/;"	m
+GCONF_CFLAGS	Makefile	/^GCONF_CFLAGS = -DORBIT2=1 -pthread -I\/usr\/include\/gconf\/2 -I\/usr\/include\/orbit-2.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include  $/;"	m
+GCONF_LIBS	Makefile	/^GCONF_LIBS = -lgconf-2 -lglib-2.0  $/;"	m
+GDK_CFLAGS	Makefile	/^GDK_CFLAGS = -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/pango-1.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/cairo -I\/usr\/include\/freetype2 -I\/usr\/include\/libpng12 -I\/usr\/include\/pixman-1  $/;"	m
+GDK_LIBS	Makefile	/^GDK_LIBS = -lgdk-x11-2.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -ldl -lglib-2.0  $/;"	m
+GLIB_GENMARSHAL	Makefile	/^GLIB_GENMARSHAL = \/usr\/bin\/glib-genmarshal$/;"	m
+GMOFILES	Makefile	/^GMOFILES =  en_GB.gmo$/;"	m
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GNOME_VFS_CFLAGS	Makefile	/^GNOME_VFS_CFLAGS = -pthread -DORBIT2=1 -I\/usr\/include\/gnome-vfs-2.0 -I\/usr\/lib\/gnome-vfs-2.0\/include -I\/usr\/include\/gconf\/2 -I\/usr\/include\/orbit-2.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include  $/;"	m
+GNOME_VFS_LIBS	Makefile	/^GNOME_VFS_LIBS = -pthread -lgnomevfs-2 -lgconf-2 -lgthread-2.0 -lrt -lgmodule-2.0 -ldl -lgobject-2.0 -lglib-2.0  $/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GTKDOC_CHECK	Makefile	/^GTKDOC_CHECK = \/usr\/bin\/gtkdoc-check$/;"	m
+GTK_CFLAGS	Makefile	/^GTK_CFLAGS = -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/freetype2 -I\/usr\/include\/libpng12 -I\/usr\/include\/pixman-1  $/;"	m
+GTK_DOC_USE_LIBTOOL_FALSE	Makefile	/^GTK_DOC_USE_LIBTOOL_FALSE = #$/;"	m
+GTK_DOC_USE_LIBTOOL_TRUE	Makefile	/^GTK_DOC_USE_LIBTOOL_TRUE = $/;"	m
+GTK_LIBS	Makefile	/^GTK_LIBS = -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -ldl -lglib-2.0  $/;"	m
+HD_SB_ALARM_PLUGIN	statusbar-policy.c	44;"	d	file:
+HD_SB_BATTERY_PLUGIN	statusbar-policy.c	36;"	d	file:
+HD_SB_BLUETOOTH_PLUGIN	statusbar-policy.c	42;"	d	file:
+HD_SB_CONTACT_PLUGIN	statusbar-policy.c	41;"	d	file:
+HD_SB_DISPLAY_PLUGIN	statusbar-policy.c	39;"	d	file:
+HD_SB_INTERNET_PLUGIN	statusbar-policy.c	37;"	d	file:
+HD_SB_LOCATION_PLUGIN	statusbar-policy.c	43;"	d	file:
+HD_SB_PRESENCE_PLUGIN	statusbar-policy.c	40;"	d	file:
+HD_SB_SOUND_PLUGIN	statusbar-policy.c	38;"	d	file:
+HD_SB_USB_PLUGIN	statusbar-policy.c	45;"	d	file:
+HD_TN_APPS_MENU_PLUGIN	tasknavigator-policy.c	38;"	d	file:
+HD_TN_APP_SWITCHER_PLUGIN	tasknavigator-policy.c	39;"	d	file:
+HD_TN_BROWSER_PLUGIN	tasknavigator-policy.c	36;"	d	file:
+HD_TN_CONTACT_PLUGIN	tasknavigator-policy.c	37;"	d	file:
+HD_TN_SWITCHER_MENU_PLUGIN	tasknavigator-policy.c	40;"	d	file:
+HILDON_BACKGROUND_MANAGER_INTERFACE	Makefile	/^HILDON_BACKGROUND_MANAGER_INTERFACE = org.maemo.hildon.background_manager$/;"	m
+HILDON_BACKGROUND_MANAGER_OBJECT_PATH	Makefile	/^HILDON_BACKGROUND_MANAGER_OBJECT_PATH = \/org\/maemo\/hildon\/background_manager$/;"	m
+HILDON_BACKGROUND_MANAGER_SERVICE	Makefile	/^HILDON_BACKGROUND_MANAGER_SERVICE = org.maemo.hildon.background_manager$/;"	m
+HILDON_CFLAGS	Makefile	/^HILDON_CFLAGS = -I\/opt\/hildon\/include\/hildon-1 -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/freetype2 -I\/usr\/include\/libpng12 -I\/usr\/include\/pixman-1  $/;"	m
+HILDON_FM_CFLAGS	Makefile	/^HILDON_FM_CFLAGS = $/;"	m
+HILDON_FM_LIBS	Makefile	/^HILDON_FM_LIBS = $/;"	m
+HILDON_HELP_CFLAGS	Makefile	/^HILDON_HELP_CFLAGS = $/;"	m
+HILDON_HELP_LIBS	Makefile	/^HILDON_HELP_LIBS = $/;"	m
+HILDON_LIBS	Makefile	/^HILDON_LIBS = -L\/opt\/hildon\/lib -lhildon-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -ldl -lglib-2.0  $/;"	m
+HTML_DIR	Makefile	/^HTML_DIR = ${datadir}\/gtk-doc\/html$/;"	m
+INSTALL	Makefile	/^INSTALL = \/home\/bruce\/bin\/install-check$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+INSTOBJEXT	Makefile	/^INSTOBJEXT = .mo$/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -L\/opt\/hildon\/lib $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBXML_CFLAGS	Makefile	/^LIBXML_CFLAGS = -I\/usr\/include\/libxml2  $/;"	m
+LIBXML_LIBS	Makefile	/^LIBXML_LIBS = -lxml2  $/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \\$/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	Makefile	/^LTLIBRARIES = $(hildonuipolicylib_LTLIBRARIES)$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/bruce\/code\/hildon\/hildon-desktop\/missing --run makeinfo$/;"	m
+MCE_CFLAGS	Makefile	/^MCE_CFLAGS = $/;"	m
+MCE_LIBS	Makefile	/^MCE_LIBS = $/;"	m
+MKINSTALLDIRS	Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT_OPTS	Makefile	/^MSGFMT_OPTS = -c$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OSSOSETTINGS_CFLAGS	Makefile	/^OSSOSETTINGS_CFLAGS = $/;"	m
+OSSOSETTINGS_LIBS	Makefile	/^OSSOSETTINGS_LIBS = $/;"	m
+OSSO_CFLAGS	Makefile	/^OSSO_CFLAGS = $/;"	m
+OSSO_LIBS	Makefile	/^OSSO_LIBS = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = hildon-desktop$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = $/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = $/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = $/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+POFILES	Makefile	/^POFILES =  en_GB.po$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+PO_IN_DATADIR_FALSE	Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_TRUE	Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(libstatusbarpolicy_la_SOURCES) $(libtasknavigatorpolicy_la_SOURCES)$/;"	m
+SQLITE_CFLAGS	Makefile	/^SQLITE_CFLAGS = $/;"	m
+SQLITE_LIBS	Makefile	/^SQLITE_LIBS = $/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+VERSION	Makefile	/^VERSION = 2.0.19$/;"	m
+XCOMPOSITE_CFLAGS	Makefile	/^XCOMPOSITE_CFLAGS =  $/;"	m
+XCOMPOSITE_LIBS	Makefile	/^XCOMPOSITE_LIBS = -lXcomposite -lXfixes  $/;"	m
+XDAMAGE_CFLAGS	Makefile	/^XDAMAGE_CFLAGS =  $/;"	m
+XDAMAGE_LIBS	Makefile	/^XDAMAGE_LIBS = -lXdamage -lXfixes  $/;"	m
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+XLIBS_CFLAGS	Makefile	/^XLIBS_CFLAGS =  $/;"	m
+XLIBS_ERROR_LIBS	Makefile	/^XLIBS_ERROR_LIBS = $/;"	m
+XLIBS_LIBS	Makefile	/^XLIBS_LIBS = -lX11  $/;"	m
+XMKMF	Makefile	/^XMKMF = $/;"	m
+XTEST_CFLAGS	Makefile	/^XTEST_CFLAGS =  $/;"	m
+XTEST_LIBS	Makefile	/^XTEST_LIBS = -lXtst  $/;"	m
+X_CFLAGS	Makefile	/^X_CFLAGS = $/;"	m
+X_EXTRA_LIBS	Makefile	/^X_EXTRA_LIBS = $/;"	m
+X_LIBS	Makefile	/^X_LIBS = $/;"	m
+X_PRE_LIBS	Makefile	/^X_PRE_LIBS =  -lSM -lICE$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_F77	Makefile	/^ac_ct_F77 = $/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__fastdepCC_FALSE	Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_TRUE	Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__fastdepCXX_FALSE	Makefile	/^am__fastdepCXX_FALSE = #$/;"	m
+am__fastdepCXX_TRUE	Makefile	/^am__fastdepCXX_TRUE = $/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am_libstatusbarpolicy_la_OBJECTS	Makefile	/^am_libstatusbarpolicy_la_OBJECTS = \\$/;"	m
+am_libtasknavigatorpolicy_la_OBJECTS	Makefile	/^am_libtasknavigatorpolicy_la_OBJECTS = \\$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+distdir	Makefile	/^distdir = $(top_distdir)\/$(PACKAGE)-$(VERSION)$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+hd_ui_policy_module_filter_plugin_list	statusbar-policy.c	/^hd_ui_policy_module_filter_plugin_list (GList *plugin_list)$/;"	f
+hd_ui_policy_module_filter_plugin_list	tasknavigator-policy.c	/^hd_ui_policy_module_filter_plugin_list (GList *plugin_list)$/;"	f
+hd_ui_policy_module_get_default_item	statusbar-policy.c	/^hd_ui_policy_module_get_default_item (gint position)$/;"	f
+hd_ui_policy_module_get_default_item	tasknavigator-policy.c	/^hd_ui_policy_module_get_default_item (gint position)$/;"	f
+hd_ui_policy_module_get_failure_item	statusbar-policy.c	/^hd_ui_policy_module_get_failure_item (gint position)$/;"	f
+hd_ui_policy_module_get_failure_item	tasknavigator-policy.c	/^hd_ui_policy_module_get_failure_item (gint position)$/;"	f
+hildoncpdesktopentrydir	Makefile	/^hildoncpdesktopentrydir = ${datarootdir}\/applications\/hildon-control-panel$/;"	m
+hildondesktopbackgroundsdir	Makefile	/^hildondesktopbackgroundsdir = ${datarootdir}\/backgrounds$/;"	m
+hildondesktopconfdir	Makefile	/^hildondesktopconfdir = ${prefix}\/etc\/hildon-desktop$/;"	m
+hildondesktopentrydir	Makefile	/^hildondesktopentrydir = ${datarootdir}\/applications$/;"	m
+hildondesktoplibdir	Makefile	/^hildondesktoplibdir = ${exec_prefix}\/lib\/hildon-desktop$/;"	m
+hildondesktopmenudir	Makefile	/^hildondesktopmenudir = ${prefix}\/etc\/xdg\/menus$/;"	m
+hildondesktopstartupdir	Makefile	/^hildondesktopstartupdir = ${prefix}\/etc\/osso-af-init$/;"	m
+hildonhomedesktopentrydir	Makefile	/^hildonhomedesktopentrydir = \/opt\/hildon\/share\/applications\/hildon-home$/;"	m
+hildonhomelibdir	Makefile	/^hildonhomelibdir = ${exec_prefix}\/lib\/hildon-home$/;"	m
+hildonnavigatordesktopentrydir	Makefile	/^hildonnavigatordesktopentrydir = \/opt\/hildon\/share\/applications\/hildon-navigator$/;"	m
+hildonnavigatorlibdir	Makefile	/^hildonnavigatorlibdir = ${exec_prefix}\/lib\/hildon-navigator$/;"	m
+hildonpluginloaderlibdir	Makefile	/^hildonpluginloaderlibdir = ${exec_prefix}\/lib\/hildon-desktop\/loaders$/;"	m
+hildonstatusbardesktopentrydir	Makefile	/^hildonstatusbardesktopentrydir = \/opt\/hildon\/share\/applications\/hildon-status-bar$/;"	m
+hildonstatusbarlibdir	Makefile	/^hildonstatusbarlibdir = ${exec_prefix}\/lib\/hildon-status-bar$/;"	m
+hildonuipolicylibLTLIBRARIES_INSTALL	Makefile	/^hildonuipolicylibLTLIBRARIES_INSTALL = $(INSTALL)$/;"	m
+hildonuipolicylib_LTLIBRARIES	Makefile	/^hildonuipolicylib_LTLIBRARIES = libtasknavigatorpolicy.la libstatusbarpolicy.la$/;"	m
+hildonuipolicylibdir	Makefile	/^hildonuipolicylibdir = ${exec_prefix}\/lib\/hildon-desktop\/policies$/;"	m
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = \/home\/bruce\/code\/hildon\/hildon-desktop\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+is_gap_plugin	tasknavigator-policy.c	/^is_gap_plugin (const gchar *plugin_id)$/;"	f	file:
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libstatusbarpolicy_la_CFLAGS	Makefile	/^libstatusbarpolicy_la_CFLAGS = \\$/;"	m
+libstatusbarpolicy_la_DEPENDENCIES	Makefile	/^libstatusbarpolicy_la_DEPENDENCIES =$/;"	m
+libstatusbarpolicy_la_LDFLAGS	Makefile	/^libstatusbarpolicy_la_LDFLAGS = -module -avoid-version$/;"	m
+libstatusbarpolicy_la_LIBADD	Makefile	/^libstatusbarpolicy_la_LIBADD = \\$/;"	m
+libstatusbarpolicy_la_OBJECTS	Makefile	/^libstatusbarpolicy_la_OBJECTS = $(am_libstatusbarpolicy_la_OBJECTS)$/;"	m
+libstatusbarpolicy_la_SOURCES	Makefile	/^libstatusbarpolicy_la_SOURCES = \\$/;"	m
+libtasknavigatorpolicy_la_CFLAGS	Makefile	/^libtasknavigatorpolicy_la_CFLAGS = \\$/;"	m
+libtasknavigatorpolicy_la_DEPENDENCIES	Makefile	/^libtasknavigatorpolicy_la_DEPENDENCIES =$/;"	m
+libtasknavigatorpolicy_la_LDFLAGS	Makefile	/^libtasknavigatorpolicy_la_LDFLAGS = -module -avoid-version$/;"	m
+libtasknavigatorpolicy_la_LIBADD	Makefile	/^libtasknavigatorpolicy_la_LIBADD = \\$/;"	m
+libtasknavigatorpolicy_la_OBJECTS	Makefile	/^libtasknavigatorpolicy_la_OBJECTS = \\$/;"	m
+libtasknavigatorpolicy_la_SOURCES	Makefile	/^libtasknavigatorpolicy_la_SOURCES = \\$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/hildon-desktop$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/hildon-desktop$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/hildon-desktop$/;"	m
+pluginlibdir	Makefile	/^pluginlibdir = ${exec_prefix}\/lib\/hildon-desktop$/;"	m
+prefix	Makefile	/^prefix = \/opt\/hildon$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = policies$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_distdir	Makefile	/^top_distdir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/maemo/!svn/ver/16582/projects/haf/trunk/hildon-1/debian
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/maemo/!svn/ver/14429/projects/haf/trunk/hildon-1/debian/control
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/maemo/!svn/ver/15830/projects/haf/trunk/hildon-1/debian/compat
+END
+libhildon1-dbg.install
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/debian/libhildon1-dbg.install
+END
+libhildon1-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/debian/libhildon1-dev.install
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/maemo/!svn/ver/16582/projects/haf/trunk/hildon-1/debian/changelog
+END
+changelog1
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/debian/changelog1
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/debian/copyright
+END
+changelog2
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/debian/changelog2
+END
+libhildon1.install
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/debian/libhildon1.install
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/maemo/!svn/ver/13823/projects/haf/trunk/hildon-1/debian/rules
+END

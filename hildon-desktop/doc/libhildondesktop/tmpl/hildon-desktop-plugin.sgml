@@ -1,0 +1,79 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopPlugin
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopPluginPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopPlugin ##### -->
+<para>
+
+</para>
+
+@parent: 
+@gtypes: 
+@priv: 
+
+<!-- ##### FUNCTION hildon_desktop_plugin_new ##### -->
+<para>
+
+</para>
+
+@path: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_plugin_get_objects ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_plugin_add_type ##### -->
+<para>
+
+</para>
+
+@plugin: 
+@type: 
+
+
+<!-- ##### MACRO HILDON_DESKTOP_PLUGIN_SYMBOLS ##### -->
+<para>
+
+</para>
+
+@t_n: 
+
+
+<!-- ##### MACRO HILDON_DESKTOP_PLUGIN_SYMBOLS_CODE ##### -->
+<para>
+
+</para>
+
+@t_n: 
+@CODE_LOAD: 
+@CODE_UNLOAD: 
+
+

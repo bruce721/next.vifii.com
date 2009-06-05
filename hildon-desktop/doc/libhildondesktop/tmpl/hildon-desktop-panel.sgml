@@ -1,0 +1,73 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopPanel
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopPanel ##### -->
+<para>
+
+</para>
+
+@parent: 
+@orient: 
+@item_width: 
+@item_height: 
+@pack_start: 
+
+<!-- ##### FUNCTION hildon_desktop_panel_add_button ##### -->
+<para>
+
+</para>
+
+@panel: 
+@widget: 
+
+
+<!-- ##### FUNCTION hildon_desktop_panel_set_orientation ##### -->
+<para>
+
+</para>
+
+@panel: 
+@orientation: 
+
+
+<!-- ##### FUNCTION hildon_desktop_panel_get_orientation ##### -->
+<para>
+
+</para>
+
+@panel: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_panel_flip ##### -->
+<para>
+
+</para>
+
+@panel: 
+
+
+<!-- ##### FUNCTION hildon_desktop_panel_refresh_items_status ##### -->
+<para>
+
+</para>
+
+@panel: 
+
+

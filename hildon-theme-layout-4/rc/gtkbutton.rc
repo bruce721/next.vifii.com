@@ -1,0 +1,324 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+# Normal Button text color
+style "osso-button-text-color" = "osso-color-themeing" {
+
+    fg[NORMAL] = @ButtonTextColor
+    fg[PRELIGHT] = @ButtonTextColor
+    fg[ACTIVE] = @ButtonTextPressedColor
+    fg[SELECTED] = @ButtonTextPressedColor
+    fg[INSENSITIVE] = @ButtonTextDisabledColor
+    text[NORMAL] = @ButtonTextColor
+    text[PRELIGHT] = @ButtonTextColor
+    text[ACTIVE] = @ButtonTextPressedColor
+    text[SELECTED] = @ButtonTextPressedColor
+    text[INSENSITIVE] = @ButtonTextDisabledColor
+
+}
+
+# Normal Button styles:
+style "osso-button" {
+
+  GtkWidget::focus-line-pattern = "\0\0\0\0\0\0\0\0"
+  GtkWidget::focus-width = 0
+  GtkButton::default_border = { 0, 0, 0, 0 }
+  GtkButton::child-displacement-x = 0
+  GtkButton::child-displacement-y = 0
+  GtkButton::interior_focus = 0
+  GtkButton::child_spacing = 1
+  xthickness = 7
+  ythickness = 0
+
+  engine "sapwood" {
+
+    # Default button
+    image {
+        function = FOCUS
+	state    = ACTIVE
+	detail   = "buttondefault"
+	file     = "../images/qgn_plat_view_button_nesw_pressed_focused.png"
+	border   = { 14, 14, 14, 14 }
+    }
+    image {
+        function = FOCUS
+	detail   = "buttondefault"
+	file     = "../images/qgn_plat_view_button_nesw_focused.png"
+	border   = { 14, 14, 14, 14 }
+    }
+    image {
+        function = BOX
+	shadow   = IN
+	detail   = "buttondefault"
+	file     = "../images/qgn_plat_view_button_nesw_pressed.png"
+	border   = { 14, 14, 14, 14 }
+    }
+    image {
+        function = BOX
+	state    = SELECTED
+	detail   = "buttondefault"
+	file     = "../images/qgn_plat_view_button_nesw_pressed.png"
+	border   = { 14, 14, 14, 14 }
+    }
+    image {
+        function = BOX
+	state    = INSENSITIVE
+	detail   = "buttondefault"
+	file     = "../images/qgn_plat_view_button_nesw_disabled.png"
+	border   = { 14, 14, 14, 14 }
+    }
+    image {
+	function = BOX
+	detail   = "buttondefault"
+	file     = "../images/qgn_plat_view_button_nesw.png"
+	border   = { 14, 14, 14, 14 }
+    }
+
+    image {
+        function = FOCUS
+	state    = ACTIVE
+	file     = "../images/qgn_plat_view_button_pressed_focused.png"
+	border   = { 14, 14, 14, 14 }
+    }
+    image {
+        function = FOCUS
+	file     = "../images/qgn_plat_view_button_focused.png"
+	border   = { 14, 14, 14, 14 }
+    }
+    image {
+	function = BOX
+	shadow   = IN
+	file     = "../images/qgn_plat_view_button_pressed.png"
+  	border   = { 14, 14, 14, 14 }
+    }
+    image {
+	function = BOX
+	state    = SELECTED
+	file     = "../images/qgn_plat_view_button_pressed.png"
+  	border   = { 14, 14, 14, 14 }
+    }
+    image {
+	function = BOX
+	state    = INSENSITIVE
+	file     = "../images/qgn_plat_view_button_disabled.png"
+  	border   = { 14, 14, 14, 14 }
+    }
+    image {
+	function = BOX
+	file     = "../images/qgn_plat_view_button.png"
+  	border   = { 14, 14, 14, 14 }
+    }
+  }
+}
+class "GtkButton" style "osso-button"
+
+widget_class "*.GtkButton.*GtkLabel" style "osso-ButtonFont"
+widget_class "*.GtkToggleButton.*GtkLabel" style "osso-ButtonFont"
+
+widget_class "*.GtkButton.*GtkLabel" style "osso-button-text-color"
+widget_class "*.GtkToggleButton.*GtkLabel" style "osso-button-text-color"
+
+# Dialog Button text color
+style "osso-dialogbutton-text-color" = "osso-color-themeing" {
+
+    fg[NORMAL] = @DialogButtonTextColor
+    fg[PRELIGHT] = @DialogButtonTextColor
+    fg[ACTIVE] = @DialogButtonTextPressedColor
+    fg[SELECTED] = @DialogButtonTextPressedColor
+    fg[INSENSITIVE] = @DialogButtonTextDisabledColor
+    text[NORMAL] = @DialogButtonTextColor
+    text[PRELIGHT] = @DialogButtonTextColor
+    text[ACTIVE] = @DialogButtonTextPressedColor
+    text[SELECTED] = @DialogButtonTextPressedColor
+    text[INSENSITIVE] = @DialogButtonTextDisabledColor
+
+}
+
+#Style for Dialog buttons
+style "osso-dialogbutton" {
+
+  # The spec specifies the padding for the button and label. Button
+  # padding is specified in sapwoods. The following are for labels.
+  GtkButton::padding  = { 12, 12, 0, 0 }
+ 
+  # Minimum width of the label is 60 pixels, thus the miminum width of
+  # the button is 100 pixels. Use value 90 here since additional 10
+  # pixels is added automagically somewhere in code
+  GtkButton::minimum_width  = 90
+
+  engine "sapwood" {
+
+    #######################
+    # Dialog buttons
+    #######################
+
+    image {
+	function = BOX
+	state    = ACTIVE
+	position = TOP, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_middle_pressed.png"
+ 	border   = { 20, 20, 0, 0 }
+    }
+    image {
+	function = BOX
+	state    = INSENSITIVE
+	position = TOP, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_middle_disabled.png"
+ 	border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = BOX
+        state    = SELECTED
+	position = TOP, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_middle_focused.png"
+        border   = { 20, 20, 0, 0 }
+    }
+    image {
+	function = BOX
+	position = TOP, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_middle_normal.png"
+  	border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = FOCUS
+        state    = ACTIVE
+	position = TOP, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_middle_focused_pressed.png"
+        border   = { 20, 20, 0, 0}
+    }
+    image {
+        function = FOCUS
+	position = TOP, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_middle_focused.png"
+        border   = { 20, 20, 0, 0 }
+    }
+  
+    image {
+        function = BOX
+        state    = ACTIVE
+	position = TOP, LEFT, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_left_pressed.png"
+  	border   = { 20, 20, 0, 0 }
+    }
+    image {
+	function = BOX
+	state    = INSENSITIVE
+	position = TOP, LEFT, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_left_disabled.png"
+  	border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = BOX
+        state    = SELECTED
+	position = TOP, LEFT, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_left_focused.png"
+        border   = { 20, 20, 0, 0 }
+    }
+    image {
+	function = BOX
+	position = TOP, LEFT, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_left_normal.png"
+  	border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = FOCUS
+        state    = ACTIVE
+	position = TOP, LEFT, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_left_focused_pressed.png"
+        border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = FOCUS
+	position = TOP, LEFT, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_left_focused.png"
+        border   = { 20, 20, 0, 0 }
+    }
+
+
+    image {
+	function = BOX
+	state    = ACTIVE
+	position = TOP, RIGHT, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_right_pressed.png"
+  	border   = { 20, 20, 0, 0 }
+    }
+    image {
+	function = BOX
+	state    = INSENSITIVE
+	position = TOP, RIGHT, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_right_disabled.png"
+  	border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = BOX
+        state    = SELECTED
+	position = TOP, RIGHT, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_right_focused.png"
+        border   = { 20, 20, 0, 0 }
+    }
+    image {
+	function = BOX
+	position = TOP, RIGHT, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_right_normal.png"
+  	border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = FOCUS
+        state    = ACTIVE
+	position = TOP, RIGHT, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_right_focused_pressed.png"
+        border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = FOCUS
+	position = TOP, RIGHT, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_right_focused.png"
+        border   = { 20, 20, 0, 0 }
+    }
+    
+    image {
+	function = BOX
+	state    = ACTIVE
+	position = LEFT, TOP, RIGHT, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_alone_pressed.png"
+  	border   = { 20, 20, 0, 0 }
+    }
+    image {
+	function = BOX
+	state    = INSENSITIVE
+	position = LEFT, TOP, RIGHT, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_alone_disabled.png"
+  	border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = BOX
+        state    = SELECTED
+	position = LEFT, TOP, RIGHT, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_alone_focused.png"
+        border   = { 20, 20, 0, 0 }
+    }
+    image {
+	function = BOX
+	position = LEFT, TOP, RIGHT, BOTTOM
+	file     = "../images/qgn_plat_dialog_button_alone_normal.png"
+  	border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = FOCUS
+        state    = ACTIVE
+	position = LEFT, TOP, RIGHT, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_alone_focused_pressed.png"
+        border   = { 20, 20, 0, 0 }
+    }
+    image {
+        function = FOCUS
+	position = LEFT, TOP, RIGHT, BOTTOM
+        file     = "../images/qgn_plat_dialog_button_alone_focused.png"
+        border   = { 20, 20, 0, 0 }
+    }
+  }
+}
+widget_class "*.GtkHButtonBox.GtkButton" style "osso-dialogbutton"
+
+widget_class "*.GtkHButtonBox.GtkButton.*GtkLabel" style "osso-dialogbutton-text-color"
+widget_class "*.GtkHButtonBox.GtkToggleButton.*GtkLabel" style "osso-dialogbutton-text-color"

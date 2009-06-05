@@ -1,0 +1,143 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+# Theming for GtkCellView
+
+style "osso-cellview"
+{
+  engine "sapwood"
+  {
+    image
+      {
+        function        = CHECK
+        state           = INSENSITIVE
+        shadow          = IN
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_disabled.png"
+        
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = SELECTED
+        shadow          = IN
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_focused.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = ACTIVE
+        shadow          = IN
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_focused.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = PRELIGHT
+        shadow          = IN
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_normal.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = NORMAL
+        shadow          = IN
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_normal.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = INSENSITIVE
+        shadow          = OUT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_disabled.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = SELECTED
+        shadow          = OUT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_focused.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = ACTIVE
+        shadow          = OUT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_focused.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = PRELIGHT
+        shadow          = OUT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = NORMAL
+        shadow          = OUT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }  
+    image
+      {
+        function        = CHECK
+        state           = NORMAL
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = PRELIGHT
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = ACTIVE
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = SELECTED
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        state           = INSENSITIVE
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }
+  }
+}
+class "GtkCellView" style "osso-cellview"

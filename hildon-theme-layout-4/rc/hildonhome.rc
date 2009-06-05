@@ -1,0 +1,12 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+#################################################### 
+# HILDON home
+#################################################### 
+
+style "osso-home-titlebar-background" {
+	bg_pixmap[NORMAL] = "../images/qgn_plat_home_status_bar_background.png"
+}
+class "HildonHomeTitlebar" style "osso-home-titlebar-background"
+

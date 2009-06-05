@@ -1,0 +1,41 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopToggleButton
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopToggleButtonPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopToggleButton ##### -->
+<para>
+
+</para>
+
+@parent: 
+@priv: 
+
+<!-- ##### FUNCTION hildon_desktop_toggle_button_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+

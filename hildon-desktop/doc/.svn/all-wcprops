@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/maemo/!svn/ver/15780/projects/haf/trunk/hildon-desktop/doc
+END
+gtk-doc.make
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/13081/projects/haf/trunk/hildon-desktop/doc/gtk-doc.make
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/maemo/!svn/ver/14569/projects/haf/trunk/hildon-desktop/doc/Makefile.am
+END

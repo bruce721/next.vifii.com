@@ -1,0 +1,643 @@
+2008-08-05  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	[4.14.5-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+	* COPYING: Licensing update. 
+	Creative Commons Attribution-ShareAlike 2.5 -> 3.0
+	
+2007-10-10  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.14.4-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-10-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.14.3-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-10-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.14.2-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-09-26  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.14.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Updating.
+
+2007-09-25  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* debian/control: updated the layout dependency.
+	* template/template.svg: Updated to latest layout, lots of small
+	fixes here and there, to accommodate the stuff. Hopefully this now
+	unbreaks Sardine graphically.
+
+2007-08-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.11.0-2 release]
+
+	* debian/changelog:
+	* debian/control: Forgot to update the control file deps.
+
+2007-08-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.11.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-08-15  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: 
+
+	Colour changes:
+
+	removed: PaneSeparatorColor1, PaneSeparatorColor2,
+	TaskSwitcherSeparatorColor, TaskSwitcherNotificationSeparatorColor
+
+	added: TaskSwitcherColor (task switcher menu background color)
+	added: TaskSwitcherNotificationColor (notification menu bg color)
+
+	New graphics: Special menu separators are now bitmaps as it wasnt
+	feasible to implement them by drawing them with a logical color.
+
+2007-08-08  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: Fixed disabled active checkbox to look 
+	more "disabled" - Fixes: NB#63596.
+
+2007-08-07  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: moved the vkbd space "glyph" around a
+	bit, and made it lighter in appearance.  Fixes: NB#59978.
+
+	* template/template.svg: changed WCIndicatorFNColor match the
+	style of the rest of the theme. Fixes: NB#64373
+	
+2007-08-06  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* wallpaper/wallpaper.png: updated the wallpaper to a nicer one
+	for a chance..
+
+2007-08-06  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.10.2-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-07-25  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.10.1-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-06-29  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.10.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Updating.
+
+2007-06-20  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: some window border fixes, bugfix on
+	mediaplayer toolbar color (oops! :)) etc.	
+
+2007-06-19  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.*: updated to latest layout (3 new colors
+	for gtkbutton text, 2 new input method bitmaps)
+
+2007-06-19  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.9.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Updating.
+
+2007-06-13  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: Fixed some toolbar corners and gradient
+	glitches. Man, the stuff is getting complex and needs a bigger
+	overall revamp soon.. Made breadcrumb art a bit more pretty.
+
+	Added new logical colors too (for dialog buttons)
+	
+2007-06-12  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: added 3 new colors, fixed the alpha stuff
+	a bit still.
+
+2007-06-01  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.8.2-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-06-01  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: Updated some glitch in statusbar
+	background gradient, should work now!
+
+	* wallpaper/wallpaper.png: new one, 800x480 pixels size (yay!)
+
+2007-05-25  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.8.1-1 release]
+
+	* COPYING:
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/copyright: Updating.
+
+2007-05-23  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: Removed
+	qgn_plat_separator_columnlist_header - its not used anywhere. 
+
+	* Added visually different states for the pressed and disabled
+	scroll arrows of task navigator menus.
+
+2007-05-21  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: New graphics for task navigator. Man, the
+	svg is getting complex.. Need to look into cleaning it up again
+	soon.
+
+2007-05-15  Michael Dominic K.  <mdk@mdk.am> 
+
+	[4.8.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Updating.
+
+2007-05-15  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: Updated to layout, new colours, some old
+	colors removed, and added scroll indicator bitmaps for rss applet.
+
+2007-05-11  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: Added new applet graphics, will break
+	everything on current code of course. :-P Generic applet bitmap is
+	still around to keep backwards compatibility, just moved around a
+	bit.
+	
+2007-05-10  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: Updated to new layout changes - applets
+	are still totally borken. To be fixed asap.
+
+2007-05-10  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* wallpaper/Makefile.am: Do not install the second qgn_plat_crap
+	background wallpaper into /usr/share/themes/plankton/images/. That was
+	needed to support the default wallpaper being hardfixed in the hildon
+	desktop. Now it'll nicely pick it up from
+	/usr/share/backgrounds/default.desktop which we symlink in another
+	place.
+
+2007-05-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.7.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Updating.
+
+2007-04-29  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg: updated the color swatches layout to a
+	more sensible set - hopefully everything works as before, changed
+	the layout and testskin as well to match this.
+
+2007-04-25  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.6.1-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control:
+
+	* wallpaper/Makefile.am: Install wallpaper in two places to make the
+	home pick it up on first boot. Totally TEMPORARY.
+
+2007-04-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.6.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control:
+	* template/Makefile.am: Updating.
+
+2007-04-13  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.*: added custom buttons for voip app.
+
+	* template/template.*: added custom tabs for mediaplayer.. must
+	split these things away from the template at some point, they dont
+	really belong in the toolkit itself..
+
+2007-04-11  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.*: moved voip buttons closer together.
+
+2007-04-10  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.*: Added some alpha to applet backgrounds..
+	we really need to split these out of the toolkit widget theme.. :)
+
+2007-04-03  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.*: 
+
+	Added combobox artwork, removed old cruft. Some cleanups too.
+	Added some new logical colours.
+	
+2007-04-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.5.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Updating.
+
+2007-03-30  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.[svg,png], template/coordinates.txt: Updated
+	to layout, many small changes, see layout changelog.
+
+2007-03-30  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* wallpaper/Makefile.am: Fixing the wallpaper installation prefixes.
+	For good now.
+
+2007-03-28  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.*: added a new icon for bcrumb separator
+	clicked state and made them use no alpha, also changed the
+	gradients so that the theme can be stretched without it looking
+	bad. The gradient is now 15 pixels from top and bottom, the center
+	is flat colour as far as I know.
+
+2007-03-23  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/coordinates.png: Added the coordinates file for
+	convenience.  ** THIS WILL NOT BE GUARANTEED TO BE UP TO DATE **
+
+	To get the latest one yourself, you can use hildon-theme-outliner
+	to generate it. However, I try to remember to commit this every
+	time there are layout changes. This file can be useful when placed
+	over the template in a new layer on a graphics program, so you can
+	see where the theme tool is going to cut the bitmaps.
+	
+2007-03-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.4.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Updating.
+
+2007-03-22  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.[svg,png]: Added graphics for the breadcrumb path
+	widget styling.
+
+2007-03-21  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.[svg,png]: moved dialog buttons around 30px
+	down, 160px right to make space for other things to come. Also moved
+	the tooltip and stuff to reflect the layout changes.
+
+2007-03-20  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* wallpaper/Makefile.am: Do not use hardcoded /usr/share paths. Use
+	the datadir instead.
+
+2007-03-20  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.3.1-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-03-19  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg,png: fixed the mess by previous commit,
+	somehow I managed to mess it up.. duh. :-P
+
+2007-03-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.3.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Updating.
+
+2007-03-16  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.svg,png: moved the close / minimize buttons
+	around in the template. Removed the unused area from the right
+	side of task navigator menu hilight state. Made right and left
+	side margins 12 pixels on application area (yay! :)
+
+2007-03-01  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* template/Makefile.am: Remove stamp from distfiles.
+
+	* configure.ac:
+	* wallpaper/Makefile.am:
+	* wallpaper/theme_bg.desktop.in: Install the desktop file so that the
+	wallpaper is visible as a possible selection in the background
+	selection.
+
+2007-02-28  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* wallpaper/wallpaper.png: added a wallpaper that isnt just a photo
+	I took on the way to work :)
+
+2007-02-28  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.2.2-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-02-28  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* Makefile.am:
+	* configure.ac:
+	* wallpaper:
+	* wallpaper/Makefile.am:
+	* wallpaper/wallpaper.png: Adding wallpaper.
+
+2007-02-28  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* data/Makefile.am: Embed the layout version in the generated gtkrc
+	file.
+
+2007-02-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* debian/control: Adding dependency to proper sapwood version and
+	hildon-theme-cacher (breaks with old theme-cacher due to theme trap).
+
+2007-02-22  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.2.1-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-02-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.2.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Updating.
+
+2007-02-16  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.png, template/template.svg: updated to the
+	latest plankton version.
+
+2007-02-09  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.1.2-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-02-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.1.1-1bi release]
+
+	* debian/changelog: Updating.
+
+2007-02-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.1.1-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-01-31  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[4.0.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control:
+	* template/Makefile.am: Branching out for 4.
+
+2007-01-31  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[3.1.0-1 release]
+
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-01-30  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* template/template.png: the new shiny hopefully-it-works template!
+
+	* template/template.svg: Added. SVG template makes much more
+	sense.  Use latest Inkscape (www.inkscape.org) to edit,
+	Illustrator does not grok gradient strokes and the blur filter
+	used.
+
+	* template/template.xcf.gz: removed, bitmap template was not a
+	good idea.
+
+2007-01-30  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[3.0.0-1 release]
+
+	* NEWS: 
+	* configure.ac:
+	* debian/changelog:
+	* debian/control:
+	* debian/copyright:
+	* debian/rules: Changing the package name to hildon-theme-plankton,
+	removing the API hardcoded number. It's not needed.
+
+2006-12-12  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.3.0-2 release]
+
+	* NEWS:
+	* debian/changelog:
+	* debian/control: Removing the ui-fonts and osso-icons from
+	dependencies for a little while.
+
+2006-12-08  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* template/Makefile.am: Adding the xcf file to EXTRA_DIST.
+
+2006-12-08  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.3.0-1 release]
+
+	* AUTHORS: Making it more explicit that tigert is the author of the
+	artwork.
+
+	* NEWS: 
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Bumping release.
+
+	* data/Makefile.am: Adding @_@ subsitutions for matchbox etc. 
+
+2006-12-04  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.2.0-1 release]
+
+	* configure.ac:
+	* debian/changelog:
+	* debian/control:
+	* debian/postinst:
+	* debian/rules: hildon-theme-default => hildon-theme-plankton-3.
+
+2006-12-04  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* configure.ac:
+	* debian/changelog:
+	* debian/control: Updating to 0.2.0.
+
+2006-11-30  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* Makefile.am:
+	* configure.ac:
+	* data: 
+	* data/Makefile.am: Do substitutions locally.
+
+	* template/Makefile.am: Build images locally.
+
+2006-11-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* template/template.png: Updating to the latest template image.
+
+2006-11-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* Makefile.am:
+	* configure.ac: Fixes.
+
+	* debian/control: Adding cacher as a dependency.
+
+	* debian/postinst: Adding a postinst script to run the cacher.
+
+2006-11-21  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* configure.ac: Check the existance of the layout using pkgconfig,
+	instead of the directory check.
+
+2006-11-21  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* Makefile.am:
+	* NEWS:
+	* template/Makefile.am: Minor cosmetics.
+
+2006-11-06  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* autogen.sh:
+	* configure.ac:
+	* debian/control:
+	* m4:
+	* m4/as-ac-expand.m4: Adding proper layout checks. Making the output a
+	bit more pretty. 
+
+2006-11-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* Makefile.am:
+	* configure.ac: Tiny corrections, all works now.
+
+2006-11-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* Makefile.am:
+	* NEWS:
+	* README:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control:
+	* debian/rules: maemo-theme-default -> hildon-theme-default.
+
+2006-11-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* ./: House keeping, changing directory structure. Abstracting the
+	theme directory and theme name variables into configure.ac
+
+2006-10-24  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* debian/control: Changing user/Themes to user/themes not to duplicate
+	entries in the application manager.
+
+2006-10-20  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.1.0 release]
+
+	* AUTHORS:
+	* debian/changelog: Fixes for 0.1.0 release.
+
+	* debian/compat: Changing category to allow the user to install from
+	application installer.
+
+2006-10-03  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* theme-images-template.png: added the logical colours to the 
+	template image. The coordinates will be in the coord list on the
+	layout-3 module.
+
+2006-09-28  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* theme-images-template.png: oops, I accidentally saved without 
+	alpha channel. Duh. Should be fixed now.
+
+2006-09-20  Marius Vollmer  <marius.vollmer@nokia.com>
+
+	* Forked from osso-theme-demo-config 2.1.0.

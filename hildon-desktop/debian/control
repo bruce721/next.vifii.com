@@ -1,0 +1,84 @@
+Source: hildon-desktop
+Section: x11
+Priority: optional
+Maintainer: Johan Bilien <johan.bilien@nokia.com>
+Build-Depends: debhelper (>= 4.0.0), libhildon1-dev | hildon-libs-dev, pkg-config, libosso-dev (>= 0.9.19), libosso-gnomevfs2-dev, osso-af-settings, libhildonfm2-dev | hildon-fm-dev, libhildonhelp-dev | libosso-help-dev, libxtst-dev, libxml2-dev, libxdamage-dev, libxcomposite-dev, libsqlite3-dev, mce-dev, gtk-doc-tools, maemo-launcher-dev (>= 0.23-1)
+Build-Depends-Indep: gtk-doc-tools
+Standards-Version: 3.6.0
+
+Package: hildon-desktop
+Section: x11
+Architecture: any
+Depends:  ${shlibs:Depends}, ${misc:Depends}, ${launcher:Depends}, maemo-af-desktop-l10n-mr | maemo-af-desktop-l10n-mr0
+Conflicts: maemo-af-desktop (<< 3.0.0), maemo-af-desktop-config
+Description: Desktop environment for embedded devices
+  Hildon Desktop is a desktop environment for embedded devices. It
+  is based on the GNOME platform
+
+Package: hildon-desktop-dev
+Section: x11
+Architecture: all
+Depends:  ${shlibs:Depends}, ${misc:Depends}, libhildondesktop-dev, libhildonwm-dev
+Description: Development files for the Hildon Desktop
+  Hildon Desktop is a desktop environment for embedded devices. It
+  is based on the GNOME platform. This package contains the
+  development headers required to create new plugin loaders.
+
+Package: hildon-desktop-dbg
+Section: devel
+Architecture: any
+Depends: hildon-desktop (=${Source-Version})
+Description: Debug symbols for hildon-desktop
+  Debug symbols for hildon-desktop
+
+Package: libhildondesktop0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: libhildondesktop shared library
+  Set of widgets to build desktop elements in the Hildon Desktop
+  environment
+
+Package: libhildondesktop-dev
+Section: devel
+Architecture: all
+Suggests: libhildondesktop0-doc
+Depends: ${shlibs:Depends}, ${misc:Depends}, libhildondesktop0 (=${Source-Version}), libhildon1-dev | hildon-libs-dev, libxml2-dev
+Description: libhildondesktop development files
+  Development headers and static libraries for the libhildondesktop
+
+Package: libhildondesktop0-dbg
+Section: devel
+Architecture: any
+Depends: libhildondesktop0 (=${Source-Version})
+Description: libhildondesktop debug symbols
+  Debugging symbols for libhildondesktop0
+
+Package: libhildondesktop0-doc
+Section: doc
+Architecture: all
+Depends: lynx | www-browser
+Suggests: libgtk2.0-doc
+Description: documentation for libhildondesktop
+  Documentation for libhildondesktop, aimed at plugin writers.
+
+Package: libhildonwm0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: libhildonwm shared library
+  Set of tools for window managing from desktop environments
+
+Package: libhildonwm-dev
+Section: devel
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, libhildondesktop0 (=${Source-Version}), libxtst-dev, libx11-dev, libhildon1-dev | hildon-libs-dev, libgconf2-dev
+Description: libhildonwm development files
+  Development headers and static libraries for the libhildonwm
+
+Package: libhildonwm0-dbg
+Section: devel
+Architecture: any
+Depends: libhildonwm0 (=${Source-Version})
+Description: libhildonwm debug symbols
+  Debugging symbols for libhildonwm0

@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/maemo/!svn/ver/15779/projects/haf/trunk/hildon-desktop/src
+END
+hd-home-l10n.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/14738/projects/haf/trunk/hildon-desktop/src/hd-home-l10n.h
+END
+hd-home-background.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/14582/projects/haf/trunk/hildon-desktop/src/hd-home-background.c
+END
+hd-plugin-loader-builtin.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/11754/projects/haf/trunk/hildon-desktop/src/hd-plugin-loader-builtin.c
+END
+hd-panel-window-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/12707/projects/haf/trunk/hildon-desktop/src/hd-panel-window-dialog.h
+END
+hd-home-background-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/12814/projects/haf/trunk/hildon-desktop/src/hd-home-background-dialog.h
+END
+hd-plugin-loader.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/src/hd-plugin-loader.h
+END
+hd-desktop.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/15452/projects/haf/trunk/hildon-desktop/src/hd-desktop.c
+END
+hd-config.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/maemo/!svn/ver/15293/projects/haf/trunk/hildon-desktop/src/hd-config.h
+END
+hd-home-background.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/12814/projects/haf/trunk/hildon-desktop/src/hd-home-background.h
+END
+hd-ui-policy.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/11907/projects/haf/trunk/hildon-desktop/src/hd-ui-policy.c
+END
+hd-plugin-loader-builtin.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/src/hd-plugin-loader-builtin.h
+END
+hd-desktop.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/14170/projects/haf/trunk/hildon-desktop/src/hd-desktop.h
+END
+hd-app-menu-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/13944/projects/haf/trunk/hildon-desktop/src/hd-app-menu-dialog.c
+END
+hd-ui-policy.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/11907/projects/haf/trunk/hildon-desktop/src/hd-ui-policy.h
+END
+hildon-desktop.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/src/hildon-desktop.pc.in
+END
+hn-app-sound.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/15779/projects/haf/trunk/hildon-desktop/src/hn-app-sound.c
+END
+hn-app-switcher.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/15779/projects/haf/trunk/hildon-desktop/src/hn-app-switcher.c
+END
+hn-app-tooltip.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/12606/projects/haf/trunk/hildon-desktop/src/hn-app-tooltip.c
+END
+hd-app-menu-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/12638/projects/haf/trunk/hildon-desktop/src/hd-app-menu-dialog.h
+END
+hn-app-switcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/10451/projects/haf/trunk/hildon-desktop/src/hn-app-switcher.h
+END
+hn-app-sound.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/15779/projects/haf/trunk/hildon-desktop/src/hn-app-sound.h
+END
+hd-switcher-menu-item.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/14319/projects/haf/trunk/hildon-desktop/src/hd-switcher-menu-item.c
+END
+hd-applications-menu-settings.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/12638/projects/haf/trunk/hildon-desktop/src/hd-applications-menu-settings.c
+END
+hn-app-tooltip.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/src/hn-app-tooltip.h
+END
+hd-applications-menu.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/15633/projects/haf/trunk/hildon-desktop/src/hd-applications-menu.c
+END
+hn-app-pixbuf-anim-blinker.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/maemo/!svn/ver/14143/projects/haf/trunk/hildon-desktop/src/hn-app-pixbuf-anim-blinker.c
+END
+hd-switcher-menu-item.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/13499/projects/haf/trunk/hildon-desktop/src/hd-switcher-menu-item.h
+END
+hd-select-plugins-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/15309/projects/haf/trunk/hildon-desktop/src/hd-select-plugins-dialog.c
+END
+hd-applications-menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/11754/projects/haf/trunk/hildon-desktop/src/hd-applications-menu.h
+END
+hd-home-window.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/15228/projects/haf/trunk/hildon-desktop/src/hd-home-window.c
+END
+hn-app-pixbuf-anim-blinker.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/src/hn-app-pixbuf-anim-blinker.h
+END
+hd-select-plugins-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/14997/projects/haf/trunk/hildon-desktop/src/hd-select-plugins-dialog.h
+END
+hd-home-window.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/12234/projects/haf/trunk/hildon-desktop/src/hd-home-window.h
+END
+hn-app-button.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/14319/projects/haf/trunk/hildon-desktop/src/hn-app-button.c
+END
+hd-plugin-loader-legacy.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/12895/projects/haf/trunk/hildon-desktop/src/hd-plugin-loader-legacy.c
+END
+hd-panel-window.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/14151/projects/haf/trunk/hildon-desktop/src/hd-panel-window.c
+END
+hd-plugin-manager.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/maemo/!svn/ver/15293/projects/haf/trunk/hildon-desktop/src/hd-plugin-manager.c
+END
+hd-plugin-loader-factory.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/14664/projects/haf/trunk/hildon-desktop/src/hd-plugin-loader-factory.c
+END
+hn-app-button.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/12453/projects/haf/trunk/hildon-desktop/src/hn-app-button.h
+END
+hd-panel-window.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/12736/projects/haf/trunk/hildon-desktop/src/hd-panel-window.h
+END
+hd-plugin-loader-legacy.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/src/hd-plugin-loader-legacy.h
+END
+hd-plugin-manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/maemo/!svn/ver/11954/projects/haf/trunk/hildon-desktop/src/hd-plugin-manager.h
+END
+hd-plugin-loader-factory.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/src/hd-plugin-loader-factory.h
+END
+hd-app-menu-tree.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/14079/projects/haf/trunk/hildon-desktop/src/hd-app-menu-tree.c
+END
+hd-plugin-loader-default.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/15293/projects/haf/trunk/hildon-desktop/src/hd-plugin-loader-default.c
+END
+hd-app-menu-tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/12680/projects/haf/trunk/hildon-desktop/src/hd-app-menu-tree.h
+END
+hn-others-button.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/12987/projects/haf/trunk/hildon-desktop/src/hn-others-button.c
+END
+hd-plugin-loader-default.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/src/hd-plugin-loader-default.h
+END
+hd-marshalers.list
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/12719/projects/haf/trunk/hildon-desktop/src/hd-marshalers.list
+END
+hd-hung-app-handler.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/maemo/!svn/ver/11658/projects/haf/trunk/hildon-desktop/src/hd-hung-app-handler.c
+END
+hd-switcher-menu.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/15779/projects/haf/trunk/hildon-desktop/src/hd-switcher-menu.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/maemo/!svn/ver/14170/projects/haf/trunk/hildon-desktop/src/main.c
+END
+hn-others-button.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/src/hn-others-button.h
+END
+statusbar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/12719/projects/haf/trunk/hildon-desktop/src/statusbar.xml
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/maemo/!svn/ver/13456/projects/haf/trunk/hildon-desktop/src/Makefile.am
+END
+hd-switcher-menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/11441/projects/haf/trunk/hildon-desktop/src/hd-switcher-menu.h
+END
+hd-panel-window-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/14156/projects/haf/trunk/hildon-desktop/src/hd-panel-window-dialog.c
+END
+hd-home-background-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/13457/projects/haf/trunk/hildon-desktop/src/hd-home-background-dialog.c
+END
+hd-plugin-loader.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/src/hd-plugin-loader.c
+END
+hd-applications-menu-settings-l10n.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/maemo/!svn/ver/14738/projects/haf/trunk/hildon-desktop/src/hd-applications-menu-settings-l10n.h
+END

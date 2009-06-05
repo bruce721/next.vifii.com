@@ -1,0 +1,41 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopPanelWindowDialog
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopPanelWindowDialogPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopPanelWindowDialog ##### -->
+<para>
+
+</para>
+
+@parent: 
+@priv: 
+
+<!-- ##### FUNCTION hildon_desktop_panel_window_dialog_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+

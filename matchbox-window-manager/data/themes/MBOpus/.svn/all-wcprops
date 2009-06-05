@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/matchbox/!svn/ver/1152/trunk/matchbox-window-manager/data/themes/MBOpus
+END
+theme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/matchbox/!svn/ver/1152/trunk/matchbox-window-manager/data/themes/MBOpus/theme.xml
+END
+closebutton.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/matchbox/!svn/ver/1027/trunk/matchbox-window-manager/data/themes/MBOpus/closebutton.png
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/matchbox/!svn/ver/1045/trunk/matchbox-window-manager/data/themes/MBOpus/Makefile.am
+END
+theme.desktop
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/matchbox/!svn/ver/1033/trunk/matchbox-window-manager/data/themes/MBOpus/theme.desktop
+END
+panelbg.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/matchbox/!svn/ver/1033/trunk/matchbox-window-manager/data/themes/MBOpus/panelbg.png
+END

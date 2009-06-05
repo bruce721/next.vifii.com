@@ -1,0 +1,33 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-hitentry" = "osso-logical-colors" 
+{ 
+  text[SELECTED] = @DefaultTextColor
+  text[PRELIGHT] = @DefaultTextColor
+    
+  engine "sapwood" 
+  {
+    image 
+    { 
+      function = FLAT_BOX 
+      state = SELECTED 
+      detail = "eventbox" 
+      file = "../images/qgn_plat_focus_selection.png" 
+      border = { 2, 2, 2, 2 } 
+    } 
+
+    image
+    {
+      function = FOCUS
+      detail = "eventbox"
+      file = "../images/qgn_plat_focus_active.png"
+      border = { 2, 2, 2, 2 }
+    }
+  } 
+} 
+
+widget_class "*.OgsHitEntry" style "osso-hitentry" 
+widget_class "*.OgsFileEntry" style "osso-hitentry" 
+widget_class "*.OgsBookmarkEntry" style "osso-hitentry" 
+widget_class "*.OgsContactEntry" style "osso-hitentry" 

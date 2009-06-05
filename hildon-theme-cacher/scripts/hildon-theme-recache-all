@@ -1,0 +1,4 @@
+#! /bin/sh
+
+hildon-theme-cacher /opt/hildon/share/themes
+

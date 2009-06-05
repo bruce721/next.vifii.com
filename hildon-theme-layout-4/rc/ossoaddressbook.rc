@@ -1,0 +1,19 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "abook-live-frame"
+{
+    xthickness = 3
+    ythickness = 3
+    
+    engine "sapwood" {
+        image { 
+            function = SHADOW
+            file     = "../images/qgn_plat_live_search_frame.png"
+            border   = { 12, 72, 19, 19 }
+        }
+    }
+}
+
+widget "*.OssoABookSearchEntry" style "abook-live-frame"
+

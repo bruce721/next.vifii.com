@@ -1,0 +1,5 @@
+[E-mail]
+Icon=qgn_list_gene_mail
+Category=email.arrive
+Label=tana_fi_more_messages
+DBus-Call=com.nokia.osso_email /com/nokia/osso_email com.nokia.osso_email open_inbox

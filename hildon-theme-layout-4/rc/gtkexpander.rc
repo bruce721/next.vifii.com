@@ -1,0 +1,65 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license 
+
+style "osso-expander" {
+
+  GtkExpander::expander-spacing = 6
+  GtkExpander::expander-size = 26
+
+  ythickness = 0
+  xthickness = 0
+
+  engine "sapwood" {	
+    image {
+    	function = ARROW
+    	state = PRELIGHT
+        detail = "expander"
+	arrow_direction = RIGHT
+	overlay_file    = "../images/qgn_plat_arrow_expander_focused.png"
+	overlay_stretch = FALSE
+    }
+    image {
+    	function = ARROW
+    	state = PRELIGHT
+        detail = "expander"
+	arrow_direction = DOWN
+	overlay_file    = "../images/qgn_plat_arrow_expander_down_focused.png"
+	overlay_stretch = FALSE
+    }
+    image {
+    	function = ARROW
+    	state = NORMAL
+        detail = "expander"
+	arrow_direction = RIGHT
+	overlay_file    = "../images/qgn_plat_arrow_expander_normal.png"
+	overlay_stretch = FALSE
+    }
+    image {
+    	function = ARROW
+    	state = NORMAL
+        detail = "expander"
+	arrow_direction = DOWN
+	overlay_file    = "../images/qgn_plat_arrow_expander_down_normal.png"
+	overlay_stretch = FALSE
+    }
+    image {
+    	function = ARROW
+    	state = INSENSITIVE
+        detail = "expander"
+	arrow_direction = RIGHT
+	overlay_file    = "../images/qgn_plat_arrow_expander_disabled.png"
+	overlay_stretch = FALSE
+    }
+    image {
+    	function = ARROW
+    	state = INSENSITIVE
+        detail = "expander"
+	arrow_direction = DOWN
+	overlay_file    = "../images/qgn_plat_arrow_expander_down_disabled.png"
+	overlay_stretch = FALSE
+    }
+  }
+
+}
+
+class "GtkExpander" style "osso-expander"

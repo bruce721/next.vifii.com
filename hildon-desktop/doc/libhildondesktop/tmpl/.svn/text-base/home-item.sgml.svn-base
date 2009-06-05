@@ -1,0 +1,35 @@
+<!-- ##### SECTION Title ##### -->
+HomeItem
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HomeItem ##### -->
+<para>
+
+</para>
+
+@parent: 
+
+<!-- ##### FUNCTION home_item_set_resize_type ##### -->
+<para>
+
+</para>
+
+@item: 
+@resize_type: 
+
+

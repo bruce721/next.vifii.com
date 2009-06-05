@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/matchbox/!svn/ver/1152/trunk/matchbox-window-manager/data/themes/Default
+END
+theme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/matchbox/!svn/ver/1152/trunk/matchbox-window-manager/data/themes/Default/theme.xml
+END
+menubutton.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/matchbox/!svn/ver/1027/trunk/matchbox-window-manager/data/themes/Default/menubutton.xpm
+END
+closebutton.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/matchbox/!svn/ver/1027/trunk/matchbox-window-manager/data/themes/Default/closebutton.xpm
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/matchbox/!svn/ver/1027/trunk/matchbox-window-manager/data/themes/Default/Makefile.am
+END
+theme.desktop
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/matchbox/!svn/ver/1027/trunk/matchbox-window-manager/data/themes/Default/theme.desktop
+END
+acceptbutton.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/matchbox/!svn/ver/1027/trunk/matchbox-window-manager/data/themes/Default/acceptbutton.xpm
+END

@@ -1,0 +1,90 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopPanelWindow
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopPanelWindowPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO HILDON_DESKTOP_TYPE_PANEL_WINDOW_ORIENTATION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### ENUM HildonDesktopPanelWindowOrientation ##### -->
+<para>
+
+</para>
+
+@HILDON_DESKTOP_PANEL_WINDOW_ORIENTATION_TOP: 
+@HILDON_DESKTOP_PANEL_WINDOW_ORIENTATION_LEFT: 
+@HILDON_DESKTOP_PANEL_WINDOW_ORIENTATION_RIGHT: 
+@HILDON_DESKTOP_PANEL_WINDOW_ORIENTATION_BOTTOM: 
+
+<!-- ##### MACRO HILDON_DESKTOP_PANEL_WINDOW_ORIENTATION_HORIZONTAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HILDON_DESKTOP_PANEL_WINDOW_ORIENTATION_VERTICAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT HildonDesktopPanelWindow ##### -->
+<para>
+
+</para>
+
+@parent: 
+@panel: 
+@priv: 
+
+<!-- ##### FUNCTION hildon_desktop_panel_window_orientation_get_type ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_panel_window_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_panel_window_set_multiscreen_handler ##### -->
+<para>
+
+</para>
+
+@window: 
+@ms: 
+
+

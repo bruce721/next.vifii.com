@@ -1,0 +1,264 @@
+hildon-theme-plankton (4.14.5-1) unstable; urgency=low
+
+	  * Bumping the release.        
+	  * COPYING: Licensing update. 
+	    Creative Commons Attribution-ShareAlike 2.5 -> 3.0
+
+-- Tuomas Kuosmanen <tuomas.kuosmanen@nokia.com>  Tue, 5 Aug 2008 15:20:33 +0300
+
+hildon-theme-plankton (4.14.4-1) unstable; urgency=low
+
+  * Bumping.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 10 Oct 2007 10:38:45 +0300
+
+hildon-theme-plankton (4.14.3-1) unstable; urgency=low
+
+  * Bumping.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 03 Oct 2007 11:16:30 +0300
+
+hildon-theme-plankton (4.14.2-1) unstable; urgency=low
+
+  * Bumping.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 02 Oct 2007 14:09:23 +0300
+
+hildon-theme-plankton (4.14.0-1) unstable; urgency=low
+
+  * Updated for all the recent changes in the layout
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 26 Sep 2007 10:46:58 +0300
+
+hildon-theme-plankton (4.11.1-1) unstable; urgency=low
+
+  * Version bump.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 28 Aug 2007 11:21:32 +0300
+
+hildon-theme-plankton (4.11.0-2) unstable; urgency=low
+
+  * Adapting for new layout
+  * Removed separator colors
+  * New graphics: separators 
+  * Disabled checkbox looks more disabled now
+  * Updated wallpaper
+  * Offset to glyph graphics in vkb to look better
+
+  * Fixes: NB#63596 Un-removable plug-ins are not identified in the list of status bar tab
+  * Fixes: NB#64373 Fn color should match print
+  * Fixes: NB#59978 Space bar should have some padding between the glyph and the border
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 16 Aug 2007 14:22:13 +0300
+
+hildon-theme-plankton (4.10.2-1) unstable; urgency=low
+
+  * Layout bump
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 06 Aug 2007 10:05:43 +0300
+
+hildon-theme-plankton (4.10.1-1) unstable; urgency=low
+
+  * Layout bump
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 25 Jul 2007 10:26:58 +0300
+
+hildon-theme-plankton (4.10.0-1) unstable; urgency=low
+
+  * Fixes on window borders
+  * Updated to latest layout (new colors, etc)
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 29 Jun 2007 17:05:49 +0300
+
+hildon-theme-plankton (4.9.0-1) unstable; urgency=low
+
+  * New colors
+  * Modified alpha
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 19 Jun 2007 11:44:44 +0300
+
+hildon-theme-plankton (4.8.2-1) unstable; urgency=low
+
+  * New wallpaper.
+  * Updated glitch in statusbar
+
+  * Fixes: NB#57955 Hildon theme Plankton-4.7.0-1: license issues
+  * Fixes: NB#59038 Plankton theme has wrong background image size (too small)
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 01 Jun 2007 17:56:56 +0300
+
+hildon-theme-plankton (4.8.1-1) unstable; urgency=low
+
+  * New graphics for task navigator.
+
+  * Fixes: NB#54573 The "Next" button in Accounts setup : service applet remains dimmed always
+  * Fixes: NB#54844 The next and previous button is not dimmed in the...
+  * Fixes: NB#58035 Input panel is not visible clearly when the background image is...
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 15 May 2007 16:25:50 +0300
+
+hildon-theme-plankton (4.8.0-1) unstable; urgency=low
+  
+  * Applet graphics
+  * Updates to support new layout
+  * Removing the temporary 2nd wallpaper installation 
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 15 May 2007 16:25:50 +0300
+
+hildon-theme-plankton (4.7.0-1) unstable; urgency=low
+
+  * Layout bump.
+  * NB#55138 - Scroll arrows missing in TN thumb menus 
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 03 May 2007 17:20:01 +0300
+
+hildon-theme-plankton (4.6.1-1) unstable; urgency=low
+
+  * Layout bump.
+  * Temporarily installing wallpaper in two places to make the home pick it up
+    on first boot.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 25 Apr 2007 11:04:23 +0300
+
+hildon-theme-plankton (4.6.0-1) unstable; urgency=low
+
+  * Added combobox artwork, removed old cruft. Some cleanups too.
+  * Added some new logical colours.
+  * Added some alpha to applet backgrounds.
+  * Moved voip buttons closer together.
+  * Added custom tabs for mediaplayer. 
+  * Added custom buttons for voip app.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 16 Apr 2007 11:44:09 +0300
+
+hildon-theme-plankton (4.5.0-1) unstable; urgency=low
+
+  * debian/control: Fix Build-Depends syntax
+  * Fixing the wallpaper installation prefixes for good now
+  * Added a new icon for bcrumb separator clicked state and made them use no alpha
+  * Changed the gradients so that the theme can be stretched without it looking bad
+  * Added the coordinates file for convenience
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 03 Apr 2007 11:38:20 +0300
+
+hildon-theme-plankton (4.4.0-1) unstable; urgency=low
+
+  * Added graphics for the breadcrumb path widget styling
+  * Do not use hardcoded /usr/share paths 
+  * Changes to match the layout
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 27 Mar 2007 13:11:55 +0300
+
+hildon-theme-plankton (4.3.1-1) unstable; urgency=low
+
+  * Bumping version for layout
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 20 Mar 2007 09:57:34 +0200
+
+hildon-theme-plankton (4.3.0-1) unstable; urgency=low
+
+  * Removed extra line in debian/copyright (copy/paste?)
+  * Updating to new layout
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 16 Mar 2007 17:00:07 +0200
+
+hildon-theme-plankton (4.2.2-1) unstable; urgency=low
+
+  * Adding wallpaper.
+  * Adding proper dependancies.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 28 Feb 2007 13:07:13 +0200
+
+hildon-theme-plankton (4.2.1-1) unstable; urgency=low
+
+  * Bumping version for layout.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 22 Feb 2007 11:39:29 +0200
+
+hildon-theme-plankton (4.2.0-1) unstable; urgency=low
+
+  * Updating the graphics
+  * GtkEntry style fixes
+  * Horizontal offset for Menu
+  * GtkComboBox fixes 
+  * GtkDialog thickness fixes
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 16 Feb 2007 17:00:00 +0300
+
+hildon-theme-plankton (4.1.2-1) unstable; urgency=low
+
+  * Bumping version for layout.
+  * Enable touchscreen mode
+  * FALSE --> 0
+  * Removed osso_button detail 
+  * Removed shadow from GtkViewPort
+  * Removed scroll arrow background painting
+  * Changed GtkEntry drawing to SHADOW 
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 09 Feb 2007 17:00:00 +0300
+
+hildon-theme-plankton (4.1.1-1bi) unstable; urgency=low
+
+  * Binary rebuild.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 02 Feb 2007 18:00:00 +0300
+
+hildon-theme-plankton (4.1.1-1) unstable; urgency=low
+
+  * Bumping version for layout.
+  * Version naming will now match layout version + 4.0.0. 
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 02 Feb 2007 12:00:00 +0300
+
+hildon-theme-plankton (4.0.0-1) unstable; urgency=low
+
+  * Branching our for 4'th release.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 30 January 2007 12:00:00 +0300
+
+hildon-theme-plankton (3.1.0-1) unstable; urgency=low
+
+  * 'Final' art by tigert.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 30 January 2007 11:00:00 +0300
+
+hildon-theme-plankton (3.0.0-1) unstable; urgency=low
+
+  * Changing the package name. 
+  * Changing the version scheme to better reflect the layout dependency.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 30 January 2007 11:00:00 +0300
+
+hildon-theme-plankton (0.3.0-2) unstable; urgency=low
+
+  * Removing the ui-fonts and osso-icons dependencies for a little while.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 12 December 2006 19:00:00 +0300
+
+hildon-theme-plankton (0.3.0-1) unstable; urgency=low
+
+  * Adding hardfixed dependency to layout.
+  * Adjusting to new substing (@_@).
+  * Adding actual plankton theme images.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 08 December 2006 14:00:00 +0300
+
+hildon-theme-plankton (0.2.0-1) unstable; urgency=low
+
+  * Second official release.
+  * Lots of fixes. 
+  * Works now.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 04 December 2006 14:00:00 +0300
+
+hildon-theme-plankton (0.1.0-1) unstable; urgency=low
+
+  * First official release.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 20 October 2006 14:55:06 +0300
+
+hildon-theme-plankton (0.0-unreleased1) unstable; urgency=low
+
+  * Copied from osso-theme-demo-config 2.1.0-1 and modified a bit.
+
+ -- Marius Vollmer <marius.vollmer@nokia.com>  Wed, 20 Sep 2006 14:55:06 +0300

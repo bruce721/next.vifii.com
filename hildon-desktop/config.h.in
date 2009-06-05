@@ -1,0 +1,121 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* always defined to indicate that i18n is enabled */
+#undef ENABLE_NLS
+
+/* Package name for gettext */
+#undef GETTEXT_PACKAGE
+
+/* Define to 1 if you have the `bind_textdomain_codeset' function. */
+#undef HAVE_BIND_TEXTDOMAIN_CODESET
+
+/* Define to 1 if you have the `dcgettext' function. */
+#undef HAVE_DCGETTEXT
+
+/* Define to 1 if you have the declaration of
+   `gdk_close_all_temporary_windows', and to 0 if you don't. */
+#undef HAVE_DECL_GDK_CLOSE_ALL_TEMPORARY_WINDOWS
+
+/* Define to 1 if you have the declaration of
+   `gtk_window_close_other_temporaries', and to 0 if you don't. */
+#undef HAVE_DECL_GTK_WINDOW_CLOSE_OTHER_TEMPORARIES
+
+/* Define to 1 if you have the declaration of `gtk_window_set_is_temporary',
+   and to 0 if you don't. */
+#undef HAVE_DECL_GTK_WINDOW_SET_IS_TEMPORARY
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define if the GNU gettext() function is already present or preinstalled. */
+#undef HAVE_GETTEXT
+
+/* Whether hildon-fm is present on the system */
+#undef HAVE_HILDON_FM
+
+/* Whether hildon-fm is present on the system */
+#undef HAVE_HILDON_FM2
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define if your <locale.h> file defines LC_MESSAGES. */
+#undef HAVE_LC_MESSAGES
+
+/* Whether libhildon-1 is present on the system */
+#undef HAVE_LIBHILDON
+
+/* Whether hildon-help is present on the system */
+#undef HAVE_LIBHILDONHELP
+
+/* Whether libosso is present on the system */
+#undef HAVE_LIBOSSO
+
+/* Define to 1 if you have the <locale.h> header file. */
+#undef HAVE_LOCALE_H
+
+/* Whether mce is present on the system */
+#undef HAVE_MCE
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Whether safe mode support is present */
+#undef HAVE_SAFE_MODE
+
+/* Whether sqlite is present on the system */
+#undef HAVE_SQLITE
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Whether XTest is present */
+#undef HAVE_XTEST
+
+/* Whether libxcomposite is present on the system */
+#undef HAVE_X_COMPOSITE
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Version number of package */
+#undef VERSION
+
+/* Define to 1 if the X Window System is missing or not being used. */
+#undef X_DISPLAY_MISSING

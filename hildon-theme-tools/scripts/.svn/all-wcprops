@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/16624/projects/haf/trunk/hildon-theme-tools/scripts
+END
+hildon-theme-bootstrap
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/maemo/!svn/ver/16624/projects/haf/trunk/hildon-theme-tools/scripts/hildon-theme-bootstrap
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/maemo/!svn/ver/10146/projects/haf/trunk/hildon-theme-tools/scripts/Makefile.am
+END
+hildon-theme-mk-bundle
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/maemo/!svn/ver/8578/projects/haf/trunk/hildon-theme-tools/scripts/hildon-theme-mk-bundle
+END
+hildon-theme-rc-parser
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/maemo/!svn/ver/8578/projects/haf/trunk/hildon-theme-tools/scripts/hildon-theme-rc-parser
+END
+hildon-theme-subst
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/8578/projects/haf/trunk/hildon-theme-tools/scripts/hildon-theme-subst
+END

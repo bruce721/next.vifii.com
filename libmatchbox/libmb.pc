@@ -1,0 +1,12 @@
+prefix=/opt/hildon
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libmb
+Description: Utility Library used by Matchbox utilities.
+Version: 1.9
+
+Requires: x11 xext  libpng12
+Libs: -L${libdir} -lmb 
+Cflags: -I${includedir}  -I/usr/include/freetype2  

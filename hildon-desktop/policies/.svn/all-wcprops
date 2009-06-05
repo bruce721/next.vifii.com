@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/maemo/!svn/ver/14170/projects/haf/trunk/hildon-desktop/policies
+END
+statusbar-policy.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/14170/projects/haf/trunk/hildon-desktop/policies/statusbar-policy.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/14170/projects/haf/trunk/hildon-desktop/policies/Makefile.am
+END
+tasknavigator-policy.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/13851/projects/haf/trunk/hildon-desktop/policies/tasknavigator-policy.c
+END

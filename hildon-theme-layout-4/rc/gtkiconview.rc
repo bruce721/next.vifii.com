@@ -1,0 +1,23 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "hildon-icon-view-style" = "osso-color-themeing"
+{
+  text[NORMAL] = @DefaultTextColor
+  text[PRELIGHT] = @DefaultTextColor
+  text[ACTIVE] = @DefaultTextColor
+  text[SELECTED] = @DefaultTextColor
+  text[INSENSITIVE] = @DefaultTextColor
+
+  engine "sapwood"
+  {
+          image { 
+                  function = FLAT_BOX
+                  file = "../images/qgn_plat_focus_active.png"
+                  border = { 2, 2, 2, 2 }
+          }
+  }
+}
+
+class "GtkIconView" style "hildon-icon-view-style"
+

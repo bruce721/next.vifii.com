@@ -1,0 +1,237 @@
+<!-- ##### SECTION Title ##### -->
+libhildonmenu
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO DESKTOP_ENTRY_TYPE_FIELD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO DESKTOP_ENTRY_ICON_FIELD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO DESKTOP_ENTRY_NAME_FIELD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO DESKTOP_ENTRY_CATEGORIES_FIELD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO DESKTOP_ENTRY_COMMENT_FIELD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO DESKTOP_ENTRY_EXEC_FIELD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO DESKTOP_ENTRY_SERVICE_FIELD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO DESKTOP_ENTRY_TEXT_DOMAIN_FIELD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO DESKTOP_ENTRY_NO_DISPLAY_FIELD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO SEPARATOR_STRING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO EXTRAS_MENU_STRING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO DEFAULT_APPS_DIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO ICON_FAVOURITES ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO ICON_FOLDER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO ICON_DEFAULT_APP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO ICON_SIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO ICON_THUMB_SIZE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO EMBLEM_EXPANDER_OPEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO EMBLEM_EXPANDER_CLOSED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO FAVOURITES_LOGICAL_STRING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO FAVOURITES_NAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO USER_MENU_DIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO MENU_FILE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION get_icon ##### -->
+<para>
+
+</para>
+
+@icon_name: 
+@icon_size: 
+@Returns: 
+
+
+<!-- ##### FUNCTION get_icon_with_fallback ##### -->
+<para>
+
+</para>
+
+@icon_name: 
+@icon_size: 
+@fallback: 
+@Returns: 
+
+
+<!-- ##### FUNCTION get_menu_contents ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION find_first_and_last_root_level_folders ##### -->
+<para>
+
+</para>
+
+@model: 
+@first_folder: 
+@last_folder: 
+
+
+<!-- ##### FUNCTION set_separators ##### -->
+<para>
+
+</para>
+
+@model: 
+@Returns: 
+
+
+<!-- ##### FUNCTION set_menu_contents ##### -->
+<para>
+
+</para>
+
+@model: 
+@Returns: 
+
+

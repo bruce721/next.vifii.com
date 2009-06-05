@@ -1,0 +1,635 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/maemo/!svn/ver/15863/projects/haf/trunk/hildon-1/src
+END
+hildon-window-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-window-private.h
+END
+hildon-code-dialog-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/13597/projects/haf/trunk/hildon-1/src/hildon-code-dialog-private.h
+END
+hildon-find-toolbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/13818/projects/haf/trunk/hildon-1/src/hildon-find-toolbar.h
+END
+hildon-seekbar-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-seekbar-private.h
+END
+hildon-marshalers.list
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/11290/projects/haf/trunk/hildon-1/src/hildon-marshalers.list
+END
+hildon-volumebar.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/15314/projects/haf/trunk/hildon-1/src/hildon-volumebar.c
+END
+hildon-time-editor-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-time-editor-private.h
+END
+hildon-volumebar.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/13599/projects/haf/trunk/hildon-1/src/hildon-volumebar.h
+END
+hildon-sort-dialog-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-sort-dialog-private.h
+END
+hildon-font-selection-dialog-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-font-selection-dialog-private.h
+END
+hildon-weekday-picker.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/15230/projects/haf/trunk/hildon-1/src/hildon-weekday-picker.c
+END
+hildon-color-button-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-color-button-private.h
+END
+hildon-note.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/11808/projects/haf/trunk/hildon-1/src/hildon-note.c
+END
+hildon-weekday-picker.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-weekday-picker.h
+END
+hildon-time-picker.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/13376/projects/haf/trunk/hildon-1/src/hildon-time-picker.c
+END
+hildon-note.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-note.h
+END
+hildon-calendar-popup.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/13310/projects/haf/trunk/hildon-1/src/hildon-calendar-popup.c
+END
+hildon-time-picker.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-time-picker.h
+END
+hildon-calendar-popup.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-calendar-popup.h
+END
+hildon-range-editor.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/10892/projects/haf/trunk/hildon-1/src/hildon-range-editor.c
+END
+hildon-controlbar-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-controlbar-private.h
+END
+hildon-vvolumebar.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/15314/projects/haf/trunk/hildon-1/src/hildon-vvolumebar.c
+END
+hildon-bread-crumb.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/11290/projects/haf/trunk/hildon-1/src/hildon-bread-crumb.c
+END
+hildon-range-editor.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-range-editor.h
+END
+hildon-calendar-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-calendar-private.h
+END
+hildon-volumebar-range.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-volumebar-range.c
+END
+hildon-vvolumebar.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-vvolumebar.h
+END
+hildon-bread-crumb.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/14373/projects/haf/trunk/hildon-1/src/hildon-bread-crumb.h
+END
+hildon-get-password-dialog-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-get-password-dialog-private.h
+END
+hildon-color-chooser-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-color-chooser-private.h
+END
+hildon-volumebar-range.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-volumebar-range.h
+END
+hildon-bread-crumb-trail.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/15317/projects/haf/trunk/hildon-1/src/hildon-bread-crumb-trail.c
+END
+hildon-version.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/12828/projects/haf/trunk/hildon-1/src/hildon-version.h.in
+END
+hildon-bread-crumb-trail.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/14373/projects/haf/trunk/hildon-1/src/hildon-bread-crumb-trail.h
+END
+hildon-bread-crumb-widget.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/maemo/!svn/ver/14078/projects/haf/trunk/hildon-1/src/hildon-bread-crumb-widget.c
+END
+hildon-set-password-dialog-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-set-password-dialog-private.h
+END
+hildon-banner.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/15409/projects/haf/trunk/hildon-1/src/hildon-banner.c
+END
+hildon.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/maemo/!svn/ver/12828/projects/haf/trunk/hildon-1/src/hildon.h
+END
+hildon-window.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/15863/projects/haf/trunk/hildon-1/src/hildon-window.c
+END
+hildon-code-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/15805/projects/haf/trunk/hildon-1/src/hildon-code-dialog.c
+END
+hildon-bread-crumb-widget.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/maemo/!svn/ver/11290/projects/haf/trunk/hildon-1/src/hildon-bread-crumb-widget.h
+END
+hildon-wizard-dialog-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-wizard-dialog-private.h
+END
+hildon-caption-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-caption-private.h
+END
+hildon-banner.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-banner.h
+END
+hildon-window.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/15225/projects/haf/trunk/hildon-1/src/hildon-window.h
+END
+hildon-seekbar.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/14285/projects/haf/trunk/hildon-1/src/hildon-seekbar.c
+END
+hildon-code-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-code-dialog.h
+END
+hildon-date-editor-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-date-editor-private.h
+END
+hildon-helper.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/14399/projects/haf/trunk/hildon-1/src/hildon-helper.c
+END
+hildon-seekbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-seekbar.h
+END
+hildon-time-editor.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/15642/projects/haf/trunk/hildon-1/src/hildon-time-editor.c
+END
+hildon-login-dialog-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-login-dialog-private.h
+END
+hildon-sort-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-sort-dialog.c
+END
+hildon-program-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-program-private.h
+END
+hildon-helper.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/11338/projects/haf/trunk/hildon-1/src/hildon-helper.h
+END
+hildon-font-selection-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/13971/projects/haf/trunk/hildon-1/src/hildon-font-selection-dialog.c
+END
+hildon-time-editor.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-time-editor.h
+END
+hildon-color-button.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/15323/projects/haf/trunk/hildon-1/src/hildon-color-button.c
+END
+hildon-sound.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-sound.c
+END
+hildon-color-chooser-dialog-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-color-chooser-dialog-private.h
+END
+hildon-sort-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-sort-dialog.h
+END
+hildon-number-editor-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-number-editor-private.h
+END
+hildon-font-selection-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-font-selection-dialog.h
+END
+hildon-color-button.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-color-button.h
+END
+hildon-find-toolbar-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-find-toolbar-private.h
+END
+hildon-sound.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-sound.h
+END
+hildon-hvolumebar.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/15314/projects/haf/trunk/hildon-1/src/hildon-hvolumebar.c
+END
+hildon-controlbar.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-controlbar.c
+END
+hildon-hvolumebar.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-hvolumebar.h
+END
+hildon-calendar.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/maemo/!svn/ver/13376/projects/haf/trunk/hildon-1/src/hildon-calendar.c
+END
+hildon-volumebar-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-volumebar-private.h
+END
+hildon-controlbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-controlbar.h
+END
+hildon-get-password-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/14960/projects/haf/trunk/hildon-1/src/hildon-get-password-dialog.c
+END
+hildon-calendar.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-calendar.h
+END
+hildon-color-chooser.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/15019/projects/haf/trunk/hildon-1/src/hildon-color-chooser.c
+END
+hildon-get-password-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-get-password-dialog.h
+END
+hildon-weekday-picker-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-weekday-picker-private.h
+END
+hildon-note-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-note-private.h
+END
+hildon-color-chooser.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/15772/projects/haf/trunk/hildon-1/src/hildon-color-chooser.h
+END
+hildon-time-picker-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-time-picker-private.h
+END
+hildon-calendar-popup-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-calendar-popup-private.h
+END
+hildon-set-password-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/14960/projects/haf/trunk/hildon-1/src/hildon-set-password-dialog.c
+END
+hildon-caption.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/15317/projects/haf/trunk/hildon-1/src/hildon-caption.c
+END
+hildon-range-editor-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-range-editor-private.h
+END
+hildon-set-password-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-set-password-dialog.h
+END
+hildon-wizard-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/12829/projects/haf/trunk/hildon-1/src/hildon-wizard-dialog.c
+END
+hildon-date-editor.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/15354/projects/haf/trunk/hildon-1/src/hildon-date-editor.c
+END
+hildon-caption.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-caption.h
+END
+hildon-wizard-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-wizard-dialog.h
+END
+hildon-login-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/10892/projects/haf/trunk/hildon-1/src/hildon-login-dialog.c
+END
+hildon-date-editor.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-date-editor.h
+END
+hildon-program.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-program.c
+END
+hildon-private.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/13403/projects/haf/trunk/hildon-1/src/hildon-private.c
+END
+hildon-login-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-login-dialog.h
+END
+hildon-color-chooser-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/13971/projects/haf/trunk/hildon-1/src/hildon-color-chooser-dialog.c
+END
+hildon-number-editor.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/15230/projects/haf/trunk/hildon-1/src/hildon-number-editor.c
+END
+hildon-program.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-program.h
+END
+hildon-defines.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-defines.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/maemo/!svn/ver/15050/projects/haf/trunk/hildon-1/src/Makefile.am
+END
+hildon-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/13403/projects/haf/trunk/hildon-1/src/hildon-private.h
+END
+hildon-find-toolbar.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/13985/projects/haf/trunk/hildon-1/src/hildon-find-toolbar.c
+END
+hildon-color-chooser-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/15772/projects/haf/trunk/hildon-1/src/hildon-color-chooser-dialog.h
+END
+hildon-number-editor.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-number-editor.h
+END
+hildon-defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/src/hildon-defines.h
+END
+hildon-banner-private.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/15391/projects/haf/trunk/hildon-1/src/hildon-banner-private.h
+END

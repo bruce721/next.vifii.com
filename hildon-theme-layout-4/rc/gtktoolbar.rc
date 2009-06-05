@@ -1,0 +1,46 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+#################################################### 
+# GTK TOOLBAR
+#
+#################################################### 
+
+style "osso-toolbar"
+{
+  GtkToolbar::button-relief = GTK_RELIEF_NORMAL
+  GtkToolbar::shadow-type = GTK_SHADOW_NONE
+  GtkToolbar::max-child-expand = 800
+  GtkToolbar::space-size = 15
+  engine "sapwood"
+  {
+    image
+    {
+      function = BOX
+    }
+  }
+}
+class "GtkToolbar" style "osso-toolbar"
+
+style "osso-toolbar-separator"
+{
+	GtkWidget::separator-width = 15
+	GtkWidget::wide-separators = 1
+	engine "sapwood"
+	{	
+
+		image{
+			function = BOX
+			shadow = ETCHED_OUT
+			detail = "vseparator"
+			file = "../images/qgn_plat_toolbar_separator.png"
+		}
+		image{
+			function = BOX
+			shadow = ETCHED_OUT
+			detail = "hseparator"
+			file = "../images/qgn_plat_toolbar_separator.png"
+		}
+	}
+}
+class "GtkSeparatorToolItem" style "osso-toolbar-separator"

@@ -1,0 +1,158 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopHomeItem
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO HILDON_DESKTOP_TYPE_HOME_ITEM_RESIZE_TYPE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### ENUM HildonDesktopHomeItemResizeType ##### -->
+<para>
+
+</para>
+
+@HILDON_DESKTOP_HOME_ITEM_RESIZE_NONE: 
+@HILDON_DESKTOP_HOME_ITEM_RESIZE_VERTICAL: 
+@HILDON_DESKTOP_HOME_ITEM_RESIZE_HORIZONTAL: 
+@HILDON_DESKTOP_HOME_ITEM_RESIZE_BOTH: 
+
+<!-- ##### STRUCT HildonDesktopHomeItem ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL HildonDesktopHomeItem::background ##### -->
+<para>
+
+</para>
+
+@hildondesktophomeitem: the object which received the signal.
+
+<!-- ##### SIGNAL HildonDesktopHomeItem::foreground ##### -->
+<para>
+
+</para>
+
+@hildondesktophomeitem: the object which received the signal.
+
+<!-- ##### SIGNAL HildonDesktopHomeItem::settings ##### -->
+<para>
+
+</para>
+
+@hildondesktophomeitem: the object which received the signal.
+@widget: 
+@Returns: 
+
+<!-- ##### ARG HildonDesktopHomeItem:minimum-height ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopHomeItem:minimum-width ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopHomeItem:resize-type ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopHomeItem:state ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopHomeItem:background-borders ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION hildon_desktop_home_item_get_type ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_home_item_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_home_item_set_resize_type ##### -->
+<para>
+
+</para>
+
+@item: 
+@resize_type: 
+
+
+<!-- ##### FUNCTION hildon_desktop_home_item_get_resize_type ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_home_item_get_settings_menu_item ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_home_item_set_is_background ##### -->
+<para>
+
+</para>
+
+@item: 
+@is_background: 
+
+
+<!-- ##### FUNCTION hildon_desktop_home_item_raise ##### -->
+<para>
+
+</para>
+
+@item: 
+
+
+<!-- ##### FUNCTION hildon_desktop_home_item_lower ##### -->
+<para>
+
+</para>
+
+@item: 
+
+

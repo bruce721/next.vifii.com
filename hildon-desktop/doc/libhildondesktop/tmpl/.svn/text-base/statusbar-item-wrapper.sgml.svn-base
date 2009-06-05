@@ -1,0 +1,123 @@
+<!-- ##### SECTION Title ##### -->
+StatusbarItemWrapper
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT StatusbarItemWrapperAPI_st ##### -->
+<para>
+
+</para>
+
+@initialize: 
+@destroy: 
+@update: 
+@get_priority: 
+@set_conditional: 
+
+<!-- ##### STRUCT StatusbarItemWrapper ##### -->
+<para>
+
+</para>
+
+@parent: 
+
+<!-- ##### USER_FUNCTION StatusbarItemWrapperEntryFn ##### -->
+<para>
+
+</para>
+
+@fn: 
+
+
+<!-- ##### USER_FUNCTION StatusbarItemWrapperInitializeFn ##### -->
+<para>
+
+</para>
+
+@item: 
+@button: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION StatusbarItemWrapperDestroyFn ##### -->
+<para>
+
+</para>
+
+@data: 
+
+
+<!-- ##### USER_FUNCTION StatusbarItemWrapperUpdateFn ##### -->
+<para>
+
+</para>
+
+@data: 
+@value1: 
+@value2: 
+@str: 
+
+
+<!-- ##### USER_FUNCTION StatusbarItemWrapperGetPriorityFn ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION StatusbarItemWrapperSetConditionalFn ##### -->
+<para>
+
+</para>
+
+@data: 
+@cond: 
+
+
+<!-- ##### FUNCTION statusbar_item_wrapper_new ##### -->
+<para>
+
+</para>
+
+@name: 
+@library: 
+@mandatory: 
+@Returns: 
+
+
+<!-- ##### FUNCTION statusbar_item_wrapper_update ##### -->
+<para>
+
+</para>
+
+@item: 
+@value1: 
+@value2: 
+@str: 
+
+
+<!-- ##### FUNCTION statusbar_item_wrapper_update_conditional_cb ##### -->
+<para>
+
+</para>
+
+@sbitem: 
+@user_data: 
+
+

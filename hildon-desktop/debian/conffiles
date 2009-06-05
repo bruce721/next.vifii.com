@@ -1,0 +1,8 @@
+/etc/hildon-desktop/desktop.conf
+/etc/hildon-desktop/tasknavigator.conf
+/etc/hildon-desktop/home.conf
+/etc/hildon-desktop/home-layout.conf
+/etc/osso-af-init/hildon-desktop.sh
+/etc/xdg/menus/applications.menu
+/etc/init.d/hildon-desktop
+/etc/osso-backup/restore.d/always/restore-menu.sh

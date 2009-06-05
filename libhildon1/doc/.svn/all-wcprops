@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/maemo/!svn/ver/15225/projects/haf/trunk/hildon-1/doc
+END
+hildon.types
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/doc/hildon.types
+END
+gtk-doc.make
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/doc/gtk-doc.make
+END
+hildon-docs.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/13824/projects/haf/trunk/hildon-1/doc/hildon-docs.sgml
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/maemo/!svn/ver/15225/projects/haf/trunk/hildon-1/doc/Makefile.am
+END
+visual_index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/13824/projects/haf/trunk/hildon-1/doc/visual_index.xml
+END
+hildon-overrides.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/doc/hildon-overrides.txt
+END

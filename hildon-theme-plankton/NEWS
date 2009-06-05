@@ -1,0 +1,141 @@
+[4.14.5-1 release]
+* License is now CC 3.0 instead of 2.5
+
+[4.14.4-1 release]
+* Layout bump
+
+[4.14.3-1 release]
+* Layout bump
+
+[4.14.2-1 release]
+* Layout bump
+
+[4.14.0-1 release]
+* Updated for all the recent changes in the layout
+
+[4.11.1-1 release]
+* Version bump.
+
+[4.11.0-1 release]
+* Adapting for new layout
+* Removed separator colors
+* New graphics: separators 
+* Disabled checkbox looks more disabled now
+* Updated wallpaper
+* Offset to glyph graphics in vkb to look better
+
+[4.10.2-1 release]
+* Layout bump
+
+[4.10.1-1 release]
+* Layout bump
+
+[4.10.0-1 release]
+* Fixes on window borders
+* Updated to latest layout (new colors, etc)
+
+[4.9.0-1 release]
+* New colors
+* Modified alpha
+
+[4.8.2-1 release]
+* New wallpaper.
+* Updated glitch in statusbar
+
+[4.8.1-1 release]
+* New graphics for task navigator
+
+[4.8.0-1 release]
+* Applet graphics
+* Updates to support new layout
+* Removing the temporary 2nd wallpaper installation 
+
+[4.7.0-1 release]
+* Bumping version for layout
+* NB#55138 - Scroll arrows missing in TN thumb menus
+
+[4.6.1-1 release]
+* Bumping version for layout.
+* Temporarily installing wallpaper in two places to make the home pick it up on first boot.
+
+[4.6.0-1 release]
+* Added combobox artwork, removed old cruft. Some cleanups too.
+* Added some new logical colours.
+* Added some alpha to applet backgrounds.
+* Moved voip buttons closer together.
+* Added custom tabs for mediaplayer. 
+* Added custom buttons for voip app.
+
+[4.5.0-1 release]
+* Fixing the wallpaper installation prefixes for good now
+* Added a new icon for bcrumb separator clicked state and made them use no alpha
+* Changed the gradients so that the theme can be stretched without it looking bad
+* Added the coordinates file for convenience
+* Fixed Build-Depends syntax
+
+[4.4.0-1 release]
+* Added graphics for the breadcrumb path widget styling
+* Do not use hardcoded /usr/share paths 
+* Changes to match the layout
+
+[4.3.1-1 release]
+* Bumping version for layout
+
+[4.3.0-1 release]
+* Updating to new layout
+
+[4.2.2-1 release]
+* Adding wallpaper
+* Fixing some dependancy problems.
+
+[4.2.1-1 release]
+* Bumping version for layout
+
+[4.2.0-1 release]
+* Updating the graphics
+* GtkEntry style fixes
+* Horizontal offset for Menu
+* GtkComboBox fixes 
+* GtkDialog thickness fixes
+
+[4.1.2-1 release]
+* Bumping version for layout
+* Enable touchscreen mode
+* FALSE --> 0
+* Removed osso_button detail 
+* Removed shadow from GtkViewPort
+* Removed scroll arrow background painting
+* Changed GtkEntry drawing to SHADOW 
+
+[4.1.1-1 release]
+* Bumping version for layout.
+* Version naming will now match layout version + 4.0.0. 
+* Adding the proper GtkSettings and some HIG definitions.
+* Fixing the CheckButton drawing.
+* Active/passive focus. 
+* Dialog button fixes.
+
+[4.0.0-1 release]
+* Branched out for the four from three. 
+* No changes.
+
+[3.0.0-1 release]
+* Changing the package name (removing API version part)
+* Changing the versioning scheme to better reflect the layout dependency
+
+[0.3.0-2 release]
+* Removing the ui-fonts and osso-icons dependencies for the time being
+
+[0.3.0-1 release]
+* Adding hardfixed dependency to layout.
+* Adjusting to new substing (@_@).
+* Adding actual plankton theme images.
+
+[0.2.0-1 release]
+* Second official release.
+
+[0.1.0-1 release]
+* First official release.
+
+[0.0.0]
+* Shiny shiny!

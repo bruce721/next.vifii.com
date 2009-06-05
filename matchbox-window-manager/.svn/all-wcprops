@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/matchbox/!svn/ver/1819/trunk/matchbox-window-manager
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/matchbox/!svn/ver/1819/trunk/matchbox-window-manager/configure.ac
+END
+matchbox-window-manager.doap
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/matchbox/!svn/ver/1451/trunk/matchbox-window-manager/matchbox-window-manager.doap
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/matchbox/!svn/ver/753/trunk/matchbox-window-manager/AUTHORS
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/1819/trunk/matchbox-window-manager/ChangeLog
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/Makefile.am
+END
+COMPLIANCE
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/879/trunk/matchbox-window-manager/COMPLIANCE
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/autogen.sh
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/matchbox/!svn/ver/1371/trunk/matchbox-window-manager/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/matchbox/!svn/ver/1194/trunk/matchbox-window-manager/README
+END

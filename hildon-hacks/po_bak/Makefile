@@ -1,0 +1,19 @@
+msgfmt = msgfmt
+prefix=/opt/hildon
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+localedir=$(datadir)/locale/en_GB/LC_MESSAGES
+
+all: maemo-af-desktop.en_GB.mo hildon-libs.en_GB.mo
+
+%.mo: %.po
+	msgfmt -v -a --statistics $< -o $@
+
+install: maemo-af-desktop.en_GB.mo hildon-libs.en_GB.mo
+	install -d -m755 $(DESTDIR)$(localedir)
+	install -m644 maemo-af-desktop.en_GB.mo $(DESTDIR)$(localedir)/maemo-af-desktop.mo
+	install -m644 hildon-libs.en_GB.mo $(DESTDIR)$(localedir)/hildon-libs.mo
+
+clean:
+	-rm *.mo
+

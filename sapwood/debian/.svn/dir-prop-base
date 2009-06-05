@@ -1,0 +1,15 @@
+K 17
+mergeWithUpstream
+V 3
+yes
+K 10
+svn:ignore
+V 98
+.*.swp
+files
+gtk2-engines-sapwood
+gtk2-engines-sapwood.install
+gtk2-engines-sapwood.substvars
+tmp
+
+END

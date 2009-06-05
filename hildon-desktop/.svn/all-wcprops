@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/maemo/!svn/ver/15780/projects/haf/trunk/hildon-desktop
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/maemo/!svn/ver/15779/projects/haf/trunk/hildon-desktop/configure.ac
+END
+desktop-safe-mode.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/13316/projects/haf/trunk/hildon-desktop/desktop-safe-mode.txt
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/AUTHORS
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/maemo/!svn/ver/15633/projects/haf/trunk/hildon-desktop/ChangeLog
+END
+plugin_manager
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/plugin_manager
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/13081/projects/haf/trunk/hildon-desktop/Makefile.am
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/maemo/!svn/ver/10784/projects/haf/trunk/hildon-desktop/autogen.sh
+END

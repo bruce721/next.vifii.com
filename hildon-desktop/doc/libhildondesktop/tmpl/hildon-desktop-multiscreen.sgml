@@ -1,0 +1,136 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopMultiscreen
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopMultiscreen ##### -->
+<para>
+
+</para>
+
+@parent: 
+@screens: 
+@monitors: 
+@geometries: 
+@initialized: 
+
+<!-- ##### FUNCTION hildon_desktop_ms_reinit ##### -->
+<para>
+
+</para>
+
+@ms: 
+
+
+<!-- ##### FUNCTION hildon_desktop_ms_get_screens ##### -->
+<para>
+
+</para>
+
+@ms: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_ms_get_monitors ##### -->
+<para>
+
+</para>
+
+@ms: 
+@screen: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_ms_get_x ##### -->
+<para>
+
+</para>
+
+@ms: 
+@screen: 
+@monitor: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_ms_get_y ##### -->
+<para>
+
+</para>
+
+@ms: 
+@screen: 
+@monitor: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_ms_get_width ##### -->
+<para>
+
+</para>
+
+@ms: 
+@screen: 
+@monitor: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_ms_get_height ##### -->
+<para>
+
+</para>
+
+@ms: 
+@screen: 
+@monitor: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_ms_locate_widget_monitor ##### -->
+<para>
+
+</para>
+
+@ms: 
+@widget: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_ms_is_at_visible_extreme ##### -->
+<para>
+
+</para>
+
+@ms: 
+@screen: 
+@monitor: 
+@leftmost: 
+@rightmost: 
+@topmost: 
+@bottommost: 
+
+
+<!-- ##### FUNCTION hildon_desktop_ms_make_environment_for_screen ##### -->
+<para>
+
+</para>
+
+@ms: 
+@screen: 
+@envp: 
+@Returns: 
+
+

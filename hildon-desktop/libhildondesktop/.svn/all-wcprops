@@ -1,0 +1,443 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/15578/projects/haf/trunk/hildon-desktop/libhildondesktop
+END
+hildon-status-bar-item.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/10890/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-status-bar-item.h
+END
+hildon-desktop-picture.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/13648/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-picture.h
+END
+libhildondesktop.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/14494/projects/haf/trunk/hildon-desktop/libhildondesktop/libhildondesktop.h
+END
+hildon-desktop-container.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/maemo/!svn/ver/12554/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-container.c
+END
+hildon-desktop-container.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/maemo/!svn/ver/12554/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-container.h
+END
+hildon-desktop-panel-item.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/maemo/!svn/ver/14491/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel-item.c
+END
+hildon-desktop-item.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/maemo/!svn/ver/15308/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-item.c
+END
+statusbar-item-wrapper.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/14488/projects/haf/trunk/hildon-desktop/libhildondesktop/statusbar-item-wrapper.c
+END
+hildon-desktop-panel-item.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/maemo/!svn/ver/14491/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel-item.h
+END
+home-item.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/14449/projects/haf/trunk/hildon-desktop/libhildondesktop/home-item.c
+END
+hildon-desktop-item.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/maemo/!svn/ver/15308/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-item.h
+END
+hildon-desktop-panel-window-composite.c
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/maemo/!svn/ver/14662/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel-window-composite.c
+END
+statusbar-item-wrapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/14488/projects/haf/trunk/hildon-desktop/libhildondesktop/statusbar-item-wrapper.h
+END
+home-item.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/14449/projects/haf/trunk/hildon-desktop/libhildondesktop/home-item.h
+END
+statusbar-item-socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/maemo/!svn/ver/14488/projects/haf/trunk/hildon-desktop/libhildondesktop/statusbar-item-socket.c
+END
+hildon-desktop-panel-window-composite.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/maemo/!svn/ver/13447/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel-window-composite.h
+END
+hildon-log.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/14488/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-log.c
+END
+statusbar-item-socket.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/maemo/!svn/ver/14738/projects/haf/trunk/hildon-desktop/libhildondesktop/statusbar-item-socket.h
+END
+hildon-log.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/14488/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-log.h
+END
+hildon-desktop-home-item.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/maemo/!svn/ver/15156/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-home-item.c
+END
+tasknavigator-item.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/maemo/!svn/ver/14493/projects/haf/trunk/hildon-desktop/libhildondesktop/tasknavigator-item.c
+END
+hildon-desktop-home-item.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/maemo/!svn/ver/13124/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-home-item.h
+END
+hildon-desktop-marshalers.list
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/maemo/!svn/ver/13199/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-marshalers.list
+END
+tasknavigator-item.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/maemo/!svn/ver/14492/projects/haf/trunk/hildon-desktop/libhildondesktop/tasknavigator-item.h
+END
+hildon-desktop-plugin.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/maemo/!svn/ver/10802/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-plugin.c
+END
+libhildondesktop.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/maemo/!svn/ver/10390/projects/haf/trunk/hildon-desktop/libhildondesktop/libhildondesktop.pc.in
+END
+hildon-desktop-plugin.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/maemo/!svn/ver/12204/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-plugin.h
+END
+hildon-desktop-window.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/maemo/!svn/ver/11563/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-window.c
+END
+hildon-desktop-window.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-window.h
+END
+tasknavigator-item-socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/maemo/!svn/ver/14488/projects/haf/trunk/hildon-desktop/libhildondesktop/tasknavigator-item-socket.c
+END
+tasknavigator-item-socket.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/maemo/!svn/ver/14738/projects/haf/trunk/hildon-desktop/libhildondesktop/tasknavigator-item-socket.h
+END
+hildon-desktop-item-socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/maemo/!svn/ver/14488/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-item-socket.c
+END
+hildon-desktop-item-socket.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-item-socket.h
+END
+hildon-desktop-popup-menu.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/maemo/!svn/ver/14732/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-popup-menu.c
+END
+hildon-thumb-menu-item.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/14322/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-thumb-menu-item.c
+END
+libhildonmenu.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/maemo/!svn/ver/14154/projects/haf/trunk/hildon-desktop/libhildondesktop/libhildonmenu.c
+END
+hildon-desktop-popup-window.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/maemo/!svn/ver/15578/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-popup-window.c
+END
+hildon-desktop-popup-menu.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/maemo/!svn/ver/14258/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-popup-menu.h
+END
+hildon-thumb-menu-item.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-thumb-menu-item.h
+END
+libhildonmenu.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/maemo/!svn/ver/13850/projects/haf/trunk/hildon-desktop/libhildondesktop/libhildonmenu.h
+END
+hildon-desktop-popup-window.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/maemo/!svn/ver/11905/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-popup-window.h
+END
+hildon-desktop-background.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/maemo/!svn/ver/12850/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-background.c
+END
+statusbar-item.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/maemo/!svn/ver/14489/projects/haf/trunk/hildon-desktop/libhildondesktop/statusbar-item.c
+END
+hildon-desktop-background.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/maemo/!svn/ver/12850/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-background.h
+END
+hildon-home-titlebar.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/maemo/!svn/ver/14813/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-home-titlebar.c
+END
+hildon-home-window.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/maemo/!svn/ver/12387/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-home-window.c
+END
+statusbar-item.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/maemo/!svn/ver/14489/projects/haf/trunk/hildon-desktop/libhildondesktop/statusbar-item.h
+END
+hildon-home-area.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/15228/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-home-area.c
+END
+hildon-desktop-multiscreen.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/maemo/!svn/ver/13591/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-multiscreen.c
+END
+hildon-desktop-toggle-button.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/maemo/!svn/ver/14235/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-toggle-button.c
+END
+hildon-home-titlebar.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/maemo/!svn/ver/11520/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-home-titlebar.h
+END
+notification-manager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/12660/projects/haf/trunk/hildon-desktop/libhildondesktop/notification-manager.xml
+END
+statusbar-item-binding.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/14488/projects/haf/trunk/hildon-desktop/libhildondesktop/statusbar-item-binding.c
+END
+hildon-home-window.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/maemo/!svn/ver/11520/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-home-window.h
+END
+hildon-home-area.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/13614/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-home-area.h
+END
+hildon-desktop-notification-manager.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/maemo/!svn/ver/15434/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-notification-manager.c
+END
+hildon-desktop-panel.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/maemo/!svn/ver/14132/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel.c
+END
+hildon-desktop-multiscreen.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-multiscreen.h
+END
+hildon-desktop-toggle-button.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/maemo/!svn/ver/11642/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-toggle-button.h
+END
+statusbar-item-binding.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/14488/projects/haf/trunk/hildon-desktop/libhildondesktop/statusbar-item-binding.h
+END
+hildon-desktop-panel-expandable.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/maemo/!svn/ver/15108/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel-expandable.c
+END
+hildon-desktop-panel-window-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/maemo/!svn/ver/14016/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel-window-dialog.c
+END
+hildon-desktop-notification-manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/maemo/!svn/ver/12660/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-notification-manager.h
+END
+hildon-desktop-item-plug.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-item-plug.c
+END
+hildon-desktop-panel-window.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/maemo/!svn/ver/13359/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel-window.c
+END
+hildon-desktop-panel.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/maemo/!svn/ver/12117/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel.h
+END
+hildon-desktop-panel-expandable.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/maemo/!svn/ver/11159/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel-expandable.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/14071/projects/haf/trunk/hildon-desktop/libhildondesktop/Makefile.am
+END
+hildon-desktop-panel-window-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/maemo/!svn/ver/13028/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel-window-dialog.h
+END
+hildon-desktop-item-plug.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-item-plug.h
+END
+hildon-desktop-panel-window.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-panel-window.h
+END
+hildon-status-bar-item.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/10732/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-status-bar-item.c
+END
+hildon-desktop-picture.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/13813/projects/haf/trunk/hildon-desktop/libhildondesktop/hildon-desktop-picture.c
+END

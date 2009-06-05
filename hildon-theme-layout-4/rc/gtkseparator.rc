@@ -1,0 +1,30 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-separator"
+{
+  ythickness = 3
+  xthickness = 3
+  GtkSeparator::wide-separators = 1
+  GtkSeparator::separator_height = 3
+ 
+  engine "sapwood"
+    {
+      image
+        {
+	  function    = BOX
+	  detail      = "hseparator"
+	  file        = "../images/qgn_plat_separator_horizontal.png"
+	  border      = { 12, 12, 0, 0 }
+	}
+      image
+        {
+	  function    = BOX
+	  detail      = "vseparator"
+	  file        = "../images/qgn_plat_separator_vertical.png"
+	  border      = { 0, 0, 12, 12 }
+	}
+    }
+}
+
+class "GtkSeparator" style "osso-separator"

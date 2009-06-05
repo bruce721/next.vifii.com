@@ -1,0 +1,220 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-default"
+{
+  # 'fg' = foreground in state, 'bg' = background in given state
+  # 'text' = text color in state, 'base' = text background in state
+  # styles:
+  #   NORMAL:      normal widget state
+  #   PRELIGHT:    e.g. mouse over
+  #   ACTIVE:      active widget part, e.g. pressed scrollbar trough
+  #   SELECTED:    data selection highlight color, e.g. items in list widget
+  #   INSENSITIVE: disabled widget
+
+# global picture theming.
+  GtkWidget::hildon-focus-handling = 1
+  GtkWidget::focus-line-width = 0
+  GtkWidget::focus-padding = 0
+  GtkWidget::focus-line-pattern = "\0\0\0\0\0\0\0\0"
+
+# Removed because this changes wrapping and results in incorrect wrapping
+# (and truncating) in dialogs.
+
+  GtkWidget::scroll-arrow-hlength = 20
+  GtkWidget::scroll-arrow-vlength = 20
+
+
+  engine "sapwood"
+  {
+    # selected text in entries, text widget, lists and trees
+    image
+      {
+	function = BOX
+	detail = "selection"
+	file = "../images/qgn_plat_focus_active.png"
+	border = { 2, 2, 2, 2 }
+      }
+#    image
+#      {
+#	function = FLAT_BOX
+#	detail = "text"
+#	file = "../sbarrowup.png"
+#      }
+#    # hline and vline
+#    image
+#      {
+#        function        = HLINE
+#        file            = "../hline.png"
+#        border          = { 2, 2, 0, 0 }
+#      }
+#    image
+#      {
+#        function        = VLINE
+#        file            = "../black.png"
+#      }
+#
+#    # do not draw widget focus at all. 
+#    image
+#      {
+#        function        = FOCUS
+#        overlay_file    = "../transparent.png"
+#        overlay_border  = { 4, 4, 4, 4 }
+#      }
+    image
+      {
+        function = FOCUS
+      }
+  }
+
+  GtkArrow::arrow-scaling = 1.0
+
+}
+class "GtkWidget" style "osso-default"
+
+
+# recolorable=TRUE in the 'image' section means that the
+# image is grayscale and can be colored.
+
+#################################################### 
+# ABOUT STYLES
+#
+# The way that multiple RC styles bound to the same 
+# widget are prioritized is that RC styles bound with 
+# widget take precedence over RC styles bound with 
+# widget_class, which, in turn, take precedence over 
+# RC styles bound with class. For multiple declarations 
+# of the same type, later declarations take precedence 
+# over earlier ones.
+#################################################### 
+
+###########
+# PROBABLY WON'T BE USED
+###########
+
+###########
+# NEED TO BE PROCESSED
+###########
+
+# Uncomment these lines to get the tap-and-hold functionality
+# enabled with selected widget, (n.b. that you'll have to run
+# the hildon-tap-hold.diff to GTK to get it work)
+#style "hildon-tap-hold"
+#{
+#  GtkWidget::tap-hold = 1
+#}
+#class "GtkEntry" style "hildon-tap-hold"
+#class "GtkTextView" style "hildon-tap-hold"	
+
+#################
+# REAL, FINISHED STUFF.
+#################
+
+#This has to be first because of font styles.
+
+# Some HIG-alike stuff
+gtk-button-images = 0
+gtk-entry-select-on-focus = 0
+gtk-toolbar-style = GTK_TOOLBAR_ICONS
+hildon-keyboard-shortcuts = 0
+
+## We don't want images on menus, but using this will remove icons also from
+## TN menus
+#gtk-menu-images = 0
+
+# Icon sizes
+gtk-toolbar-icon-size = GTK_ICON_SIZE_SMALL_TOOLBAR
+gtk-icon-sizes = "gtk-menu=26,26:gtk-button=26,26:gtk-small-toolbar=26,26:gtk-large-toolbar=26,26:gtk-dnd=26,26:gtk-dialog=50,50:"
+
+# Maemo af desktop widgets included in gtkrc.maemo_af_desktop
+
+##################
+# THESE HAVE MISSING IMAGES BUT ARE HERE BECAUSE OF STYLE PROPERTIES
+##################
+
+# BINDINGS
+
+binding "combo"
+{
+  bind "Left"  { "move-active" (step-up) }
+  bind "Right" { "move-active" (step-down) }
+  unbind "Up"
+  unbind "Down"
+}
+
+class "GtkComboBox" binding "combo"
+
+binding "dialog"
+{
+  bind "Up"    { "move-focus" (tab-backward) }
+  bind "Down"  { "move-focus" (tab-forward)  }
+}
+
+class "GtkDialog" binding "dialog"
+
+binding "buttonbox"
+{
+  bind "Left"  { "move-focus" (tab-backward) }
+  bind "Up"    { "move-focus" (tab-backward) }
+  bind "Right" { "move-focus" (tab-forward)  }
+  bind "Down"  { "move-focus" (tab-forward)  }
+}
+
+class "GtkHButtonBox" binding "buttonbox"
+class "GtkVButtonBox" binding "buttonbox"
+
+binding "treeview"
+{
+  bind "Left"  { "expand-collapse-cursor-row" (1, 0, 0) }
+  bind "Right" { "expand-collapse-cursor-row" (1, 1, 0) }
+  unbind "<control>F"
+  unbind "<control>f"
+}
+
+class "GtkTreeView" binding "treeview"
+
+# Stop Menu key from popping up entry/textview context menus
+binding "entry+textview"
+{
+  unbind "Menu"
+}
+
+class "GtkEntry" binding "entry+textview"
+class "GtkTextView" binding "entry+textview"
+
+# Fix Esc key for GtkMenus
+binding "menu-escape"
+{
+  bind "Escape" { "move-current" (parent) }
+}
+
+class "GtkMenu" binding "menu-escape"
+
+#Make F4 close the menu
+binding "menu-f4"
+{
+  bind "F4" { "cancel" () }
+}
+
+class "GtkMenu" binding "menu-f4"
+
+# Handle focus correctly for edition widgets
+binding "editors-focus"
+{
+  bind "Left"  { "move-focus" (left)         }
+  bind "Right" { "move-focus" (right)        }
+  bind "Up"    { "move-focus" (tab-backward) }
+  bind "Down"  { "move-focus" (tab-forward)  }
+}
+
+class "HildonTimeEditor" binding "editors-focus"
+class "HildonDateEditor" binding "editors-focus"
+
+# Unbind default cycle-handle-focus keys F6 (Fullscreen) and F8 (Decrease)
+binding "paned-cycle-focus"
+{
+  unbind "F6"
+  unbind "F8"
+}
+
+class "GtkPaned" binding "paned-cycle-focus"

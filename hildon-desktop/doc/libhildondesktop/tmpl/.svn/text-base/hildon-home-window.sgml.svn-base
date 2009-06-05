@@ -1,0 +1,67 @@
+<!-- ##### SECTION Title ##### -->
+HildonHomeWindow
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonHomeWindowPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonHomeWindow ##### -->
+<para>
+
+</para>
+
+@parent_instance: 
+@priv: 
+
+<!-- ##### FUNCTION hildon_home_window_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_home_window_get_menu ##### -->
+<para>
+
+</para>
+
+@window: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_home_window_set_menu ##### -->
+<para>
+
+</para>
+
+@window: 
+@menu: 
+
+
+<!-- ##### FUNCTION hildon_home_window_toggle_menu ##### -->
+<para>
+
+</para>
+
+@window: 
+
+

@@ -1,0 +1,43 @@
+<!-- ##### SECTION Title ##### -->
+hildon-desktop-item-plug
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopItemPlug ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopItemPlugIface ##### -->
+<para>
+
+</para>
+
+@g_iface: 
+@get_id: 
+@embedded: 
+
+<!-- ##### FUNCTION hildon_desktop_item_plug_get_id ##### -->
+<para>
+
+</para>
+
+@itemplug: 
+@Returns: 
+
+

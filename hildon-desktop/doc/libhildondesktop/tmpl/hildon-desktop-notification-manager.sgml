@@ -1,0 +1,154 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopNotificationManager
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopNotificationManagerPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopNotificationManager ##### -->
+<para>
+
+</para>
+
+@liststore: 
+@priv: 
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_get_singleton ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_notify ##### -->
+<para>
+
+</para>
+
+@nm: 
+@app_name: 
+@id: 
+@icon: 
+@summary: 
+@body: 
+@actions: 
+@hints: 
+@timeout: 
+@context: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_system_note_infoprint ##### -->
+<para>
+
+</para>
+
+@nm: 
+@message: 
+@context: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_system_note_dialog ##### -->
+<para>
+
+</para>
+
+@nm: 
+@message: 
+@type: 
+@label: 
+@context: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_get_capabilities ##### -->
+<para>
+
+</para>
+
+@nm: 
+@caps: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_get_server_info ##### -->
+<para>
+
+</para>
+
+@nm: 
+@out_name: 
+@out_vendor: 
+@out_version: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_close_notification ##### -->
+<para>
+
+</para>
+
+@nm: 
+@id: 
+@error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_close_all ##### -->
+<para>
+
+</para>
+
+@nm: 
+
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_find_by_id ##### -->
+<para>
+
+</para>
+
+@nm: 
+@id: 
+@return_iter: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_call_action ##### -->
+<para>
+
+</para>
+
+@nm: 
+@id: 
+@action_id: 
+
+
+<!-- ##### FUNCTION hildon_desktop_notification_manager_call_dbus_callback ##### -->
+<para>
+
+</para>
+
+@nm: 
+@dbus_call: 
+
+

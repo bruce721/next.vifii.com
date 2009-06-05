@@ -1,0 +1,38 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+#
+# GTK-SETTINGS
+#
+
+# Default backend to use
+gtk-file-chooser-backend = "gnome-vfs"
+
+# Are we using toolbar animation
+gtk-enable-animations = 0
+gtk-toolbar-style = GTK_TOOLBAR_ICONS
+
+# Keyboard navigation
+hildon-keyboard-navigation = 1
+
+# Menu interaction
+gtk-menu-shell-timeout = -1
+
+# Drag and drop treshold
+gtk-dnd-drag-threshold = 30
+
+# Touchscreen mode (GtkMenu scrolling, prelighting)
+gtk-touchscreen-mode = 1
+
+# Show last char in hidden entries for 600 ms
+gtk-entry-last-char-timeout = 600
+
+# Disable wrap-around in menus, notebooks and radio groups
+gtk-keynav-wrap-around = 0
+
+# Enable cursor only navigation
+gtk-keynav-cursor-only = 1
+
+# Enable the delayed asterix in password fields
+gtk-entry-password-hint-timeout = 600
+

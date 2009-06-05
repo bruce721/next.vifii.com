@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<node name="/">
+    <interface name="@HILDON_BACKGROUND_MANAGER_INTERFACE@">
+    <method name="SetBackground">
+      <arg type="i" name="picture_id"/>
+      <arg type="i" name="width"/>
+      <arg type="i" name="height"/>
+      <arg type="s" name="filename"/>
+      <arg type="s" name="cache"/>
+      <arg type="i" name="mode"/>
+    </method>
+  </interface>
+</node>

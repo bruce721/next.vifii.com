@@ -1,0 +1,58 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license 
+
+style "osso-filechooserbutton" {
+
+}
+
+class "GtkFileChooserButton" style "osso-filechooserbutton"
+
+style "osso-filechooserbutton-button" {
+
+
+    # file chooser button
+    engine "sapwood" {
+      image {
+          function = FOCUS
+          state    = ACTIVE
+    	  detail   = "buttondefault"
+  	  file = "../images/qgn_plat_single_line_input.png"
+  	  border   = { 2, 2, 2, 2 }
+      }
+      image {
+          function = FOCUS
+	  detail   = "buttondefault"
+  	  file = "../images/qgn_plat_single_line_input.png"
+	  border   = { 2, 2, 2, 2 }
+      }
+      image {
+          function = BOX
+	  shadow   = IN
+	  detail   = "buttondefault"
+	  file = "../images/qgn_plat_single_line_input.png"
+	  border   = { 2, 2, 2, 2 }
+      }
+      image {
+          function = BOX
+	  state    = SELECTED
+	  detail   = "buttondefault"
+	  file = "../images/qgn_plat_single_line_input.png"
+	  border   = { 2, 2, 2, 2 }
+      }
+      image {
+          function = BOX
+	  state    = INSENSITIVE
+	  detail   = "buttondefault"
+	  file = "../images/qgn_plat_single_line_input.png"
+	  border   = { 2, 2, 2, 2 }
+      }
+      image {
+	  function = BOX
+	  detail   = "buttondefault"
+	  file = "../images/qgn_plat_single_line_input.png"
+	  border   = { 2, 2, 2, 2 }
+      }
+    }
+}
+
+widget_class "*.GtkFileChooserButton.GtkButton" style "osso-filechooserbutton-button"

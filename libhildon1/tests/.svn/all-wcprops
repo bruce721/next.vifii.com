@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests
+END
+check-hildon-calendar-popup.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-calendar-popup.c
+END
+tc_banner_truncate.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/tc_banner_truncate.c
+END
+check-hildon-seekbar.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-seekbar.c
+END
+check-hildon-number-editor.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-number-editor.c
+END
+check-hildon-name-password-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-name-password-dialog.c
+END
+run_tests
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/run_tests
+END
+check-hildon-range-editor.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-range-editor.c
+END
+check-hildon-time-editor.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-time-editor.c
+END
+check-hildon-sort-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-sort-dialog.c
+END
+check-hildon-font-selection-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-font-selection-dialog.c
+END
+test_suites.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/test_suites.h
+END
+check-hildon-volumebar.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-volumebar.c
+END
+check-hildon-scroll-area.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-scroll-area.c
+END
+check-hildon-banner.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-banner.c
+END
+check-hildon-window.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-window.c
+END
+check_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check_utils.c
+END
+check-hildon-dialoghelp.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-dialoghelp.c
+END
+check-hildon-time-picker.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-time-picker.c
+END
+check-hildon-system-sound.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-system-sound.c
+END
+check_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check_utils.h
+END
+check-hildon-get-password-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-get-password-dialog.c
+END
+check-hildon-color-chooser.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-color-chooser.c
+END
+check-hildon-helper.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-helper.c
+END
+check-hildon-find-toolbar.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-find-toolbar.c
+END
+TEST-CASES.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/TEST-CASES.txt
+END
+check_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check_test.c
+END
+check-hildon-volumebar-range.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-volumebar-range.c
+END
+check-hildon-color-button.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-color-button.c
+END
+check-hildon-set-password-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-set-password-dialog.c
+END
+check-hildon-caption.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-caption.c
+END
+check-hildon-wizard-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-wizard-dialog.c
+END
+check-hildon-date-editor.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-date-editor.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/Makefile.am
+END
+check-hildon-weekday-picker.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-weekday-picker.c
+END
+check-hildon-note.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-note.c
+END
+check-hildon-controlbar.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-controlbar.c
+END
+check-hildon-program.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-program.c
+END
+check-hildon-code-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/tests/check-hildon-code-dialog.c
+END

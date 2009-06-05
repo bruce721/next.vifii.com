@@ -1,0 +1,208 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopPopupMenu
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopPopupMenuPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopPopupMenu ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL HildonDesktopPopupMenu::popup-menu-resize ##### -->
+<para>
+
+</para>
+
+@hildondesktoppopupmenu: the object which received the signal.
+
+<!-- ##### SIGNAL HildonDesktopPopupMenu::show-controls ##### -->
+<para>
+
+</para>
+
+@hildondesktoppopupmenu: the object which received the signal.
+@arg1: 
+
+<!-- ##### ARG HildonDesktopPopupMenu:item-height ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopPopupMenu:parent ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopPopupMenu:resize-parent ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_add_item ##### -->
+<para>
+
+</para>
+
+@menu: 
+@item: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_remove_item ##### -->
+<para>
+
+</para>
+
+@menu: 
+@item: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_replace_items ##### -->
+<para>
+
+</para>
+
+@menu: 
+@items: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_get_children ##### -->
+<para>
+
+</para>
+
+@menu: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_select_item ##### -->
+<para>
+
+</para>
+
+@menu: 
+@item: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_deselect_item ##### -->
+<para>
+
+</para>
+
+@menu: 
+@item: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_select_first_item ##### -->
+<para>
+
+</para>
+
+@menu: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_select_last_item ##### -->
+<para>
+
+</para>
+
+@menu: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_activate_item ##### -->
+<para>
+
+</para>
+
+@menu: 
+@item: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_get_selected_item ##### -->
+<para>
+
+</para>
+
+@menu: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_select_next_item ##### -->
+<para>
+
+</para>
+
+@menu: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_select_prev_item ##### -->
+<para>
+
+</para>
+
+@menu: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_scroll_to_selected ##### -->
+<para>
+
+</para>
+
+@menu: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_get_scroll_button_up ##### -->
+<para>
+
+</para>
+
+@menu: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_get_scroll_button_down ##### -->
+<para>
+
+</para>
+
+@menu: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_get_adjustment ##### -->
+<para>
+
+</para>
+
+@menu: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_menu_parent_size ##### -->
+<para>
+
+</para>
+
+@menu: 
+
+

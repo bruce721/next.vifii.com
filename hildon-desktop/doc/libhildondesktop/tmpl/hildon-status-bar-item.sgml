@@ -1,0 +1,196 @@
+<!-- ##### SECTION Title ##### -->
+hildon-status-bar-item
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO HILDON_STATUS_BAR_ITEM_TYPE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### TYPEDEF HildonStatusBarItem ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### TYPEDEF HildonStatusBarItemClass ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonStatusBarPluginFn_st ##### -->
+<para>
+
+</para>
+
+@initialize: 
+@destroy: 
+@update: 
+@get_priority: 
+@set_conditional: 
+
+<!-- ##### USER_FUNCTION HildonStatusBarItemEntryFn ##### -->
+<para>
+
+</para>
+
+@fn: 
+
+
+<!-- ##### USER_FUNCTION HildonStatusBarItemInitializeFn ##### -->
+<para>
+
+</para>
+
+@item: 
+@button: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION HildonStatusBarItemDestroyFn ##### -->
+<para>
+
+</para>
+
+@data: 
+
+
+<!-- ##### USER_FUNCTION HildonStatusBarItemUpdateFn ##### -->
+<para>
+
+</para>
+
+@data: 
+@value1: 
+@value2: 
+@str: 
+
+
+<!-- ##### USER_FUNCTION HildonStatusBarItemGetPriorityFn ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION HildonStatusBarItemSetConditionalFn ##### -->
+<para>
+
+</para>
+
+@data: 
+@cond: 
+
+
+<!-- ##### FUNCTION hildon_status_bar_item_update ##### -->
+<para>
+
+</para>
+
+@item: 
+@value1: 
+@value2: 
+@str: 
+
+
+<!-- ##### FUNCTION hildon_status_bar_item_update_conditional_cb ##### -->
+<para>
+
+</para>
+
+@item: 
+@user_data: 
+
+
+<!-- ##### FUNCTION hildon_status_bar_item_set_position ##### -->
+<para>
+
+</para>
+
+@item: 
+@position: 
+
+
+<!-- ##### FUNCTION hildon_status_bar_item_get_position ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_status_bar_item_get_priority ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_status_bar_item_get_name ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_status_bar_item_get_conditional ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_status_bar_item_get_mandatory ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_status_bar_item_set_button ##### -->
+<para>
+
+</para>
+
+@item: 
+@button: 
+
+
+<!-- ##### FUNCTION hildon_status_bar_item_get_button ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+

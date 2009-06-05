@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/15780/projects/haf/trunk/hildon-desktop/doc/libhildondesktop
+END
+libhildondesktop.types
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/maemo/!svn/ver/14569/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/libhildondesktop.types
+END
+libhildondesktop-docs.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/maemo/!svn/ver/14569/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/libhildondesktop-docs.sgml
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/maemo/!svn/ver/14569/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/Makefile.am
+END

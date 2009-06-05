@@ -1,0 +1,91 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-iradio-applet"
+{
+  xthickness = 0
+  ythickness = 0
+  HildonDesktopHomeItem::background-borders = { 0, 0, 0, 0 }
+  bg_pixmap[PRELIGHT] = "../images/qgn_plat_radio_applet_bg_alpha.png"
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_radio_applet_bg.png"
+          shaped = TRUE
+        }
+      image
+        {
+          function = SHADOW
+          file     = "../images/qgn_plat_radio_applet_bg.png"
+          shaped = TRUE
+        }
+    }
+}
+widget "*.osso-iradio-applet" style "osso-iradio-applet"
+
+style "osso-iradio-applet-volumebar"
+{
+  xthickness = 0
+  ythickness = 0
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_radio_applet_volume_bg.png"
+          border   = { 10, 10, 10, 10 }
+          shaped = TRUE
+        }
+    }
+}
+widget "*.osso-iradio-applet.*HildonVolumebar" style "osso-iradio-applet-volumebar"
+
+
+
+style "osso-iradio-volumebar"
+{
+  xthickness = 0
+  ythickness = 0
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = FLAT_BOX
+          file     = "../images/qgn_plat_radio_applet_volume_bg.png"
+          border   = { 10, 10, 10, 10 }
+          shaped = TRUE
+        }
+    }
+}
+widget "osso-iradio-volumebar-window" style "osso-iradio-volumebar"
+
+
+style "osso-iradio-button"
+{
+  GtkButton::default_border = { 0, 0, 0, 0 }
+  GtkButton::default_outside_border = { 0, 0, 0, 0 }
+  GtkButton::child_spacing = 0
+  xthickness = 0
+  ythickness = 0
+
+
+  engine "sapwood" {
+    image {
+      function = BOX
+      state = ACTIVE
+    }
+    image {
+      function = FOCUS
+    }
+    image {
+      function = BOX
+    }
+  }
+
+}
+widget "*.osso-iradio-button" style "osso-iradio-button"

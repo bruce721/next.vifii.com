@@ -1,0 +1,52 @@
+<!-- ##### SECTION Title ##### -->
+hildon-desktop-container
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopContainer ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopContainerIface ##### -->
+<para>
+
+</para>
+
+@g_iface: 
+@get_children: 
+@remove: 
+
+<!-- ##### FUNCTION hildon_desktop_container_get_children ##### -->
+<para>
+
+</para>
+
+@container: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_container_remove ##### -->
+<para>
+
+</para>
+
+@container: 
+@widget: 
+
+

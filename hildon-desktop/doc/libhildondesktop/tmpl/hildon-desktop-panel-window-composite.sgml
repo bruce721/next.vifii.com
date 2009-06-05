@@ -1,0 +1,39 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopPanelWindowComposite
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopPanelWindowCompositePrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT DesktopWindowData ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopPanelWindowComposite ##### -->
+<para>
+
+</para>
+
+@parent: 
+@priv: 
+

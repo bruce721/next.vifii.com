@@ -1,0 +1,85 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-internetsearch-applet"
+{
+  HildonDesktopHomeItem::background-borders = { 12, 92, 0, 0 }
+  bg_pixmap[PRELIGHT] = "../images/qgn_plat_home_search_bg_alpha.png"
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_home_search_bg.png"
+          border   = { 12, 92, 0, 0 }
+        }
+    }
+}
+class "IsPlugin" style "osso-internetsearch-applet"
+
+style "osso-internetsearch-applet-go-button"
+{
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          state    = ACTIVE
+          file     = "../images/qgn_plat_search_applet_button_pressed.png"
+        }
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_search_applet_button_normal.png"
+        }
+      image
+        {
+          function = FOCUS
+        }
+    }
+}
+widget "*.isearch-go-button" style "osso-internetsearch-applet-go-button"
+
+style "osso-internetsearch-applet-button"
+{
+  xthickness = 0
+  ythickness = 0
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+        }
+      image
+        {
+          function = FOCUS
+        }
+    }
+}
+
+widget_class "*.IsPlugin.GtkAlignment.GtkHBox.GtkToggleButton" style "osso-internetsearch-applet-button"
+
+style "osso-internetsearch-applet-arrow"
+{
+  GtkArrow::maemo-aspect-ratio = 1.0
+  GtkArrow::maemo-min-size = 26
+  engine "sapwood"
+    {
+      image
+        {
+          function = ARROW
+          state = ACTIVE
+          overlay_file = "../images/qgn_plat_combobox_button_pressed.png"
+          overlay_stretch = FALSE
+        }
+      image
+        {
+          function = ARROW
+          overlay_file = "../images/qgn_plat_combobox_button_normal.png"
+          overlay_stretch = FALSE
+        }
+    }
+}
+widget_class "*.IsPlugin.GtkAlignment.GtkHBox.GtkToggleButton.GtkArrow" style "osso-internetsearch-applet-arrow"

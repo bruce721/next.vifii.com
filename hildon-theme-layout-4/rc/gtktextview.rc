@@ -1,0 +1,35 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license 
+
+style "osso-textview"
+{
+  GtkWidget::focus_line_width = 3
+  
+  engine "sapwood"
+    {
+      image
+        {
+	  function = FOCUS
+	  state    = INSENSITIVE
+	  detail   = "textview"
+	  file     = "../images/qgn_plat_multi_line_input_disabled.png"
+	  border   = { 2, 2, 2, 2 }
+	}
+      image
+        {
+	  function = FOCUS
+	  detail   = "textview"
+	  file     = "../images/qgn_plat_multi_line_input.png"
+	  border   = { 2, 2, 2, 2 }
+	}
+      image
+        {
+	  function = FOCUS
+#	  detail   = "textview"
+	  file     = "../images/qgn_plat_multi_line_input.png"
+	  border   = { 2, 2, 2, 2 }
+	}
+    }
+}
+
+class "GtkTextView" style "osso-textview"

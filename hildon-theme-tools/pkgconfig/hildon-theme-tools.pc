@@ -1,0 +1,9 @@
+prefix=/opt/hildon
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+pkgdatadir=${prefix}/share/hildon-theme-tools
+commonrcfilesdir=${prefix}/share/hildon-theme-tools/commonrcfiles
+
+Name: hildon-theme-tools
+Description: Tools for developing hildon themes
+Version: 0.5.2

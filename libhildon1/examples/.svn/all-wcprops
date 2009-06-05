@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/maemo/!svn/ver/15243/projects/haf/trunk/hildon-1/examples
+END
+hildon-bread-crumb-trail-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/maemo/!svn/ver/14994/projects/haf/trunk/hildon-1/examples/hildon-bread-crumb-trail-example.c
+END
+hildon-caption-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-caption-example.c
+END
+hildon-wizard-dialog-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/maemo/!svn/ver/12829/projects/haf/trunk/hildon-1/examples/hildon-wizard-dialog-example.c
+END
+hildon-thumb-scrollbar-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-thumb-scrollbar-example.c
+END
+hildon-insensitive-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-insensitive-example.c
+END
+hildon-date-editor-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/11881/projects/haf/trunk/hildon-1/examples/hildon-date-editor-example.c
+END
+hildon-banner-long-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/13985/projects/haf/trunk/hildon-1/examples/hildon-banner-long-example.c
+END
+hildon-toolbar-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-toolbar-example.c
+END
+hildon-login-dialog-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-login-dialog-example.c
+END
+hildon-banner-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-banner-example.c
+END
+hildon-code-dialog-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-code-dialog-example.c
+END
+hildon-window-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-window-example.c
+END
+hildon-lookup-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-lookup-example.c
+END
+hildon-finger-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/maemo/!svn/ver/11725/projects/haf/trunk/hildon-1/examples/hildon-finger-example.c
+END
+hildon-seekbar-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/maemo/!svn/ver/12790/projects/haf/trunk/hildon-1/examples/hildon-seekbar-example.c
+END
+hildon-number-editor-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-number-editor-example.c
+END
+hildon-toolbar-seekbar-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/13262/projects/haf/trunk/hildon-1/examples/hildon-toolbar-seekbar-example.c
+END
+hildon-hvolumebar-insensitive-map-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/maemo/!svn/ver/12441/projects/haf/trunk/hildon-1/examples/hildon-hvolumebar-insensitive-map-example.c
+END
+hildon-find-toolbar-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/maemo/!svn/ver/13818/projects/haf/trunk/hildon-1/examples/hildon-find-toolbar-example.c
+END
+hildon-hvolumebar-timer-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/maemo/!svn/ver/12982/projects/haf/trunk/hildon-1/examples/hildon-hvolumebar-timer-example.c
+END
+hildon-time-editor-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-time-editor-example.c
+END
+hildon-icon-sizes-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-icon-sizes-example.c
+END
+hildon-sort-dialog-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-sort-dialog-example.c
+END
+hildon-color-button-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-color-button-example.c
+END
+hildon-hvolumebar-insensitive-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/maemo/!svn/ver/12382/projects/haf/trunk/hildon-1/examples/hildon-hvolumebar-insensitive-example.c
+END
+hildon-weekday-picker-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-weekday-picker-example.c
+END
+hildon-hvolumebar-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/13389/projects/haf/trunk/hildon-1/examples/hildon-hvolumebar-example.c
+END
+hildon-controlbar-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-controlbar-example.c
+END
+hildon-note-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-note-example.c
+END
+hildon-window-menu-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/15243/projects/haf/trunk/hildon-1/examples/hildon-window-menu-example.c
+END
+hildon-time-picker-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-time-picker-example.c
+END
+hildon-color-pop-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-color-pop-example.c
+END
+hildon-scrolled-window-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-scrolled-window-example.c
+END
+hildon-get-password-dialog-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-get-password-dialog-example.c
+END
+hildon-color-chooser-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-color-chooser-example.c
+END
+hildon-vvolumebar-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/11404/projects/haf/trunk/hildon-1/examples/hildon-vvolumebar-example.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/maemo/!svn/ver/14399/projects/haf/trunk/hildon-1/examples/Makefile.am
+END
+hildon-window-cmn-menu-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-window-cmn-menu-example.c
+END
+hildon-logical-color-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/maemo/!svn/ver/14399/projects/haf/trunk/hildon-1/examples/hildon-logical-color-example.c
+END
+hildon-set-password-dialog-example.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/maemo/!svn/ver/10834/projects/haf/trunk/hildon-1/examples/hildon-set-password-dialog-example.c
+END

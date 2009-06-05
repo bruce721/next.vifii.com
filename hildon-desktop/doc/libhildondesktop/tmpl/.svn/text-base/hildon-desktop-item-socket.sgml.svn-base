@@ -1,0 +1,54 @@
+<!-- ##### SECTION Title ##### -->
+hildon-desktop-item-socket
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopItemSocket ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopItemSocketIface ##### -->
+<para>
+
+</para>
+
+@g_iface: 
+@add_id: 
+@get_id: 
+@plug_added: 
+@plug_removed: 
+
+<!-- ##### FUNCTION hildon_desktop_item_socket_add_id ##### -->
+<para>
+
+</para>
+
+@itemsocket: 
+@window_id: 
+
+
+<!-- ##### FUNCTION hildon_desktop_item_socket_get_id ##### -->
+<para>
+
+</para>
+
+@itemsocket: 
+@Returns: 
+
+

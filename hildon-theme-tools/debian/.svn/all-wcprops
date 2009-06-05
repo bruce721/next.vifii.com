@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/maemo/!svn/ver/13254/projects/haf/trunk/hildon-theme-tools/debian
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/maemo/!svn/ver/8688/projects/haf/trunk/hildon-theme-tools/debian/control
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/8332/projects/haf/trunk/hildon-theme-tools/debian/compat
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/13254/projects/haf/trunk/hildon-theme-tools/debian/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/maemo/!svn/ver/10146/projects/haf/trunk/hildon-theme-tools/debian/copyright
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/maemo/!svn/ver/8332/projects/haf/trunk/hildon-theme-tools/debian/rules
+END

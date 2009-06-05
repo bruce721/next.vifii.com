@@ -1,0 +1,306 @@
+dump-image.o dump-image.o: dump-image.c /usr/include/stdio.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h \
+  /usr/lib/gcc/i486-linux-gnu/4.2.4/include/stddef.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i486-linux-gnu/4.2.4/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h ../libmb/mb.h ../libmb/mbconfig.h \
+  ../libmb/mbpixbuf.h ../libmb/mbconfig.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+  /usr/include/string.h /usr/include/bits/string.h \
+  /usr/include/bits/string2.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /usr/include/signal.h /usr/include/bits/signum.h \
+  /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+  /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
+  /usr/include/bits/sigthread.h /usr/include/libpng12/png.h \
+  /usr/include/zlib.h /usr/include/zconf.h /usr/include/zlibdefs.h \
+  /usr/include/libpng12/pngconf.h /usr/include/setjmp.h \
+  /usr/include/bits/setjmp.h /usr/include/X11/Xlib.h /usr/include/X11/X.h \
+  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
+  /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
+  /usr/include/X11/keysymdef.h /usr/include/X11/Xatom.h \
+  /usr/include/sys/ipc.h /usr/include/bits/ipctypes.h \
+  /usr/include/bits/ipc.h /usr/include/sys/shm.h /usr/include/bits/shm.h \
+  /usr/include/sys/time.h /usr/include/X11/extensions/XShm.h \
+  /usr/include/X11/Xmd.h ../libmb/mbexp.h ../libmb/mbdotdesktop.h \
+  /usr/include/locale.h /usr/include/bits/locale.h /usr/include/ctype.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h /usr/include/dirent.h \
+  /usr/include/bits/dirent.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  ../libmb/mbutil.h /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/sys/wait.h /usr/include/sys/resource.h \
+  /usr/include/bits/resource.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/X11/Xft/Xft.h \
+  /usr/include/ft2build.h \
+  /usr/include/freetype2/freetype/config/ftheader.h \
+  /usr/include/freetype2/freetype/freetype.h \
+  /usr/include/freetype2/freetype/config/ftconfig.h \
+  /usr/include/freetype2/freetype/config/ftoption.h \
+  /usr/include/freetype2/freetype/config/ftstdlib.h \
+  /usr/lib/gcc/i486-linux-gnu/4.2.4/include/limits.h \
+  /usr/lib/gcc/i486-linux-gnu/4.2.4/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix2_lim.h \
+  /usr/include/freetype2/freetype/fterrors.h \
+  /usr/include/freetype2/freetype/ftmoderr.h \
+  /usr/include/freetype2/freetype/fterrdef.h \
+  /usr/include/freetype2/freetype/fttypes.h \
+  /usr/include/freetype2/freetype/ftsystem.h \
+  /usr/include/freetype2/freetype/ftimage.h \
+  /usr/include/fontconfig/fontconfig.h \
+  /usr/include/X11/extensions/Xrender.h \
+  /usr/include/X11/extensions/render.h /usr/include/X11/Xft/XftCompat.h \
+  /usr/include/langinfo.h /usr/include/nl_types.h ../libmb/mbtray.h \
+  ../libmb/mbutil.h ../libmb/mbmenu.h /usr/include/X11/Xresource.h \
+  /usr/include/X11/extensions/shape.h
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/lib/gcc/i486-linux-gnu/4.2.4/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/i486-linux-gnu/4.2.4/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+../libmb/mb.h:
+
+../libmb/mbconfig.h:
+
+../libmb/mbpixbuf.h:
+
+../libmb/mbconfig.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/libpng12/png.h:
+
+/usr/include/zlib.h:
+
+/usr/include/zconf.h:
+
+/usr/include/zlibdefs.h:
+
+/usr/include/libpng12/pngconf.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/X11/Xlib.h:
+
+/usr/include/X11/X.h:
+
+/usr/include/X11/Xfuncproto.h:
+
+/usr/include/X11/Xosdefs.h:
+
+/usr/include/X11/Xutil.h:
+
+/usr/include/X11/keysym.h:
+
+/usr/include/X11/keysymdef.h:
+
+/usr/include/X11/Xatom.h:
+
+/usr/include/sys/ipc.h:
+
+/usr/include/bits/ipctypes.h:
+
+/usr/include/bits/ipc.h:
+
+/usr/include/sys/shm.h:
+
+/usr/include/bits/shm.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/X11/extensions/XShm.h:
+
+/usr/include/X11/Xmd.h:
+
+../libmb/mbexp.h:
+
+../libmb/mbdotdesktop.h:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/ctype.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/dirent.h:
+
+/usr/include/bits/dirent.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+../libmb/mbutil.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/bits/resource.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/X11/Xft/Xft.h:
+
+/usr/include/ft2build.h:
+
+/usr/include/freetype2/freetype/config/ftheader.h:
+
+/usr/include/freetype2/freetype/freetype.h:
+
+/usr/include/freetype2/freetype/config/ftconfig.h:
+
+/usr/include/freetype2/freetype/config/ftoption.h:
+
+/usr/include/freetype2/freetype/config/ftstdlib.h:
+
+/usr/lib/gcc/i486-linux-gnu/4.2.4/include/limits.h:
+
+/usr/lib/gcc/i486-linux-gnu/4.2.4/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/freetype2/freetype/fterrors.h:
+
+/usr/include/freetype2/freetype/ftmoderr.h:
+
+/usr/include/freetype2/freetype/fterrdef.h:
+
+/usr/include/freetype2/freetype/fttypes.h:
+
+/usr/include/freetype2/freetype/ftsystem.h:
+
+/usr/include/freetype2/freetype/ftimage.h:
+
+/usr/include/fontconfig/fontconfig.h:
+
+/usr/include/X11/extensions/Xrender.h:
+
+/usr/include/X11/extensions/render.h:
+
+/usr/include/X11/Xft/XftCompat.h:
+
+/usr/include/langinfo.h:
+
+/usr/include/nl_types.h:
+
+../libmb/mbtray.h:
+
+../libmb/mbutil.h:
+
+../libmb/mbmenu.h:
+
+/usr/include/X11/Xresource.h:
+
+/usr/include/X11/extensions/shape.h:

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Test 1
+Name[fr_FR]=La Test Un
+Comment=Test Entry 1
+Exec=test %f
+X-Some-Key=تثجضصسظم

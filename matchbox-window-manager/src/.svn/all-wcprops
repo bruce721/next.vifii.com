@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/matchbox/!svn/ver/1761/trunk/matchbox-window-manager/src
+END
+matchbox-remote.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/matchbox/!svn/ver/1235/trunk/matchbox-window-manager/src/matchbox-remote.c
+END
+misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/misc.h
+END
+ewmh.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/matchbox/!svn/ver/1530/trunk/matchbox-window-manager/src/ewmh.c
+END
+toolbar_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/matchbox/!svn/ver/1349/trunk/matchbox-window-manager/src/toolbar_client.c
+END
+toolbar_client_alt.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/matchbox/!svn/ver/1646/trunk/matchbox-window-manager/src/toolbar_client_alt.c
+END
+xml.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/1087/trunk/matchbox-window-manager/src/xml.c
+END
+ewmh.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/matchbox/!svn/ver/1312/trunk/matchbox-window-manager/src/ewmh.h
+END
+stack.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/matchbox/!svn/ver/1436/trunk/matchbox-window-manager/src/stack.c
+END
+toolbar_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/toolbar_client.h
+END
+xml.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/xml.h
+END
+desktop_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/matchbox/!svn/ver/1187/trunk/matchbox-window-manager/src/desktop_client.c
+END
+base_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/matchbox/!svn/ver/1577/trunk/matchbox-window-manager/src/base_client.c
+END
+stack.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/stack.h
+END
+keys.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/matchbox/!svn/ver/1761/trunk/matchbox-window-manager/src/keys.c
+END
+desktop_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/desktop_client.h
+END
+structs.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/matchbox/!svn/ver/1577/trunk/matchbox-window-manager/src/structs.h
+END
+base_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/matchbox/!svn/ver/1087/trunk/matchbox-window-manager/src/base_client.h
+END
+keys.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/keys.h
+END
+mbtheme.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/matchbox/!svn/ver/1692/trunk/matchbox-window-manager/src/mbtheme.c
+END
+wm.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/matchbox/!svn/ver/1692/trunk/matchbox-window-manager/src/wm.c
+END
+mbtheme.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/matchbox/!svn/ver/1305/trunk/matchbox-window-manager/src/mbtheme.h
+END
+wm.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/matchbox/!svn/ver/1136/trunk/matchbox-window-manager/src/wm.h
+END
+dialog_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/matchbox/!svn/ver/1466/trunk/matchbox-window-manager/src/dialog_client.c
+END
+dialog_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/dialog_client.h
+END
+dockbar_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/matchbox/!svn/ver/1252/trunk/matchbox-window-manager/src/dockbar_client.c
+END
+composite-engine.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/matchbox/!svn/ver/1084/trunk/matchbox-window-manager/src/composite-engine.c
+END
+mbtheme-standalone.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/matchbox/!svn/ver/1305/trunk/matchbox-window-manager/src/mbtheme-standalone.c
+END
+dockbar_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/dockbar_client.h
+END
+composite-engine.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/composite-engine.h
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/list.c
+END
+mbtheme-standalone.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/matchbox/!svn/ver/1305/trunk/matchbox-window-manager/src/mbtheme-standalone.h
+END
+select_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/matchbox/!svn/ver/942/trunk/matchbox-window-manager/src/select_client.c
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/list.h
+END
+select_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/select_client.h
+END
+main_client.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/matchbox/!svn/ver/1370/trunk/matchbox-window-manager/src/main_client.c
+END
+session.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/matchbox/!svn/ver/1151/trunk/matchbox-window-manager/src/session.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/main.c
+END
+client_common.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/matchbox/!svn/ver/1628/trunk/matchbox-window-manager/src/client_common.c
+END
+main_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/matchbox/!svn/ver/907/trunk/matchbox-window-manager/src/main_client.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/matchbox/!svn/ver/1423/trunk/matchbox-window-manager/src/Makefile.am
+END
+session.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/matchbox/!svn/ver/1150/trunk/matchbox-window-manager/src/session.h
+END
+misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/matchbox/!svn/ver/1235/trunk/matchbox-window-manager/src/misc.c
+END
+client_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/matchbox/!svn/ver/1276/trunk/matchbox-window-manager/src/client_common.h
+END

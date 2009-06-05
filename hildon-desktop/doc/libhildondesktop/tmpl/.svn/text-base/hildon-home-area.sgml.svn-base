@@ -1,0 +1,107 @@
+<!-- ##### SECTION Title ##### -->
+hildon-home-area
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### FUNCTION hildon_home_area_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_home_area_set_layout_mode ##### -->
+<para>
+
+</para>
+
+@area: 
+@layout_mode: 
+
+
+<!-- ##### FUNCTION hildon_home_area_get_layout_mode ##### -->
+<para>
+
+</para>
+
+@area: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_home_area_save_configuration ##### -->
+<para>
+
+</para>
+
+@area: 
+@filename: 
+@error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_home_area_load_configuration ##### -->
+<para>
+
+</para>
+
+@area: 
+@filename: 
+@error: 
+
+
+<!-- ##### FUNCTION hildon_home_area_get_layout_changed ##### -->
+<para>
+
+</para>
+
+@area: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_home_area_get_overlaps ##### -->
+<para>
+
+</para>
+
+@area: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_home_area_put ##### -->
+<para>
+
+</para>
+
+@area: 
+@child: 
+@x: 
+@y: 
+@stack_index: 
+
+
+<!-- ##### FUNCTION hildon_home_area_move ##### -->
+<para>
+
+</para>
+
+@area: 
+@child: 
+@x: 
+@y: 
+
+

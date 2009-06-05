@@ -1,0 +1,322 @@
+libhildon (2.0.7-1) unstable; urgency=low
+
+  * Fixes: NB#87442: annoying warning: ** Gdk - gdkdrawable-x11.c:878
+    drawable is not apixmap or window
+
+ -- Claudio Saavedra <csaavedra@igalia.com>  Wed, 05 Nov 2008 16:41:20 +0200
+
+libhildon (2.0.6-1) gutsy; urgency=low
+
+  * Fix bug in code dialog entry. Fixes: NB#85874
+  * Added missing debian/compat
+
+ -- Kimmo Hämäläinen <kimmo.hamalainen@nokia.com>  Tue,  5 Aug 2008 10:43:50 +0300
+
+libhildon (2.0.5-1) gutsy; urgency=low
+
+  * src/hildon-color-chooser.h
+  * src/hildon-color-chooser-dialog.h:
+  * Fixes: NB#86838: Add G_BEGIN_DECLS and G_END_DECLS to allow linking
+    against C++
+
+ -- Karl Lattimer <karl.lattimer@nokia.com>  Mon, 14 Jul 2008 14:00:00 +0300 
+
+libhildon (2.0.4-1) gutsy; urgency=low 
+
+  * src/hildon-banner.c: revert the recent change, that introduced gtk_window_present() calls. 
+    This reopens: Bug 78481 - [freetest] information banners are hidden under browser menu
+    But resolves another variant of: Bug 83953
+
+ -- Natalia Dobrovolskaya <natalia.dobrovolskaya@nokia.com>  Wed, 16 Apr 2008 10:37:00 +0100
+
+libhildon (2.0.3-1) gutsy; urgency=low
+
+  * Fixes: NB#78896: libhildon code inspection/coverity: uninitialised local values in 
+    hildon_date_editor_size_allocate
+  * Fixes: NB#77775: Media Player, Save Now playing list, too long name makes banner disappear.
+  * Fixes: NB#79182: info banner flickering with certain message lengts.
+  * Fixes: NB#83953: Lock dialog is not visible when device is locked for the first time after flash
+
+ -- Natalia Dobrovolskaya <natalia.dobrovolskaya@nokia.com>  Tue, 15 Apr 2008 15:03:00 +0100
+
+libhildon (2.0.2-1) gutsy; urgency=low 
+
+  * Fixes: MB#1220: HildonWindow should take GtkMenu accel_group into account
+  * Fixes NB#78481: information banners are hidden under browser menu
+  * Fixes: NB#79791: Cannot set focus to Master volume using stylus
+  * Fixes: NB#22072: Revisiting fix for "Implement robust timer handling in Info Banner" bug
+  * Fixes: MB#924: Hildon widgets doesn't support RTL mode
+  * Fixes: MB#1212: Hide info banners (infoprints) on click
+  * Enable fixing: NB#79916 and NB#79918: The help topic for Color selector cannot be opened
+  * Fixes: NB#81696: The passcode is not overwritten even after	selecting
+
+ -- Natalia Dobrovolskaya <natalia.dobrovolskaya@nokia.com>  Thu, 03 Apr 2008 14:50:00 +0100
+
+libhildon (2.0.1-2) gutsy; urgency=low
+
+  * Fixes: MB#1276: wrong allocators used in hildon_window_get_borders
+
+ -- Sven Herzberg <sven@imendio.com>  Mon, 25 Feb 2008 11:50:10 +0100
+
+libhildon (2.0.1-1) unstable; urgency=low
+
+  * Do not use PACKAGE_VERSION_MAJOR for the API revision.
+
+ -- Xan Lopez <xan.lopez@nokia.com>  Thu, 10 Jan 2008 16:31:15 +0200
+
+libhildon (2.0.0-1) unstable; urgency=low
+
+  * Fixes: NB#78616: breadcrumb trail node removal logic fix.
+  * Fixes: NB#75310: add missing outer-border style property to HildonColorChooser.
+
+ -- Xan Lopez <xan.lopez@nokia.com>  Wed, 09 Jan 2008 14:27:08 +0200
+
+libhildon (1.99.1-1) stable; urgency=low
+
+  * Fixes: NB#25592 Accessibility unable to access entry box
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 14 Dec 2007 11:29:19 +0200
+
+libhildon (1.99.0-2) stable; urgency=low
+
+  * Updating the gtk dependancy.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 11 Oct 2007 16:05:48 +0300
+
+libhildon (1.99.0-1) stable; urgency=low
+
+  * Fixes: NB#71660 RSS applet is not using correct logical colors for feeds
+  * Upping version to (almost) 2.0.0 for hildon 2.0
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 10 Oct 2007 14:10:28 +0300
+
+libhildon (1.0.17-1.1) stable; urgency=low
+
+  * Fixes: NB#70842 General brokeness in toolbars visibility
+  * Fixes: NB#62031 Extra arrow in front of top level item in breadcrumb trail
+  * Fixes: MB#615 Can't show/hide the HildonWindow's toolbar
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 28 Sep 2007 15:03:11 +0300
+
+libhildon (1.0.16-1.1) stable; urgency=low
+
+  * Mem-leak fixes in font selector and color selector
+  * Mem-leak fix in style helper
+  * Making the code dialog a bit more thumbable 
+
+  * Fixes: NB#63694 device lock, truncation of secu_application_title
+  * Fixes: NB#70273 Memory leaks when switching applets and background
+  * Fixes: NB#70474 Memory leak and access to already freed memory in color selector
+  * Fixes: NB#70499 HildonFontSelectionDialog memory leak 
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 21 Sep 2007 14:41:13 +0300
+
+libhildon (1.0.15-1.1) stable; urgency=low
+
+  * debian/control: Add glib and gtk+ doc packages to build dependencies to
+    get gtk-doc crossreferences right
+  * debian/rules: --enable-gtk-doc (with nodocs DEB_BUILD_OPTIONS support)
+
+  * Fixes: NB#67955 Device lock/unlock code not accepted from HW keyboard
+  * Fixes: NB#52301 Wrong item is highlighted in Find toolbar history list 
+  * Fixes: NB#68610 caption multiple focus possible in Authentication dialog weba_fi_auhentication_realm
+  * Fixes: NB#69306 API documentation is missing
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 17 Sep 2007 14:07:51 +0300
+
+libhildon (1.0.14-1) stable; urgency=low
+
+  * Removing the patch for hiding HildonWindow before destroy. Breaks DBus.
+  * Fixes for HildonCalendar expose methods
+  * Fixes for composite-widgets focus handling
+  * New dialog layout for the HildonCalendar (Ok/Cancel)
+  * Making find toolbar thumbable
+  * Changing the stylus repeat timeout to match our needs
+  * New esd dependency 
+
+  * Fixes: NB#54146 Hilon Calendar popup:The changes in active month/year are not shown
+  * Fixes: NB#59299 Leaving the calendar dialog is not possible without selecting something
+  * Fixes: NB#66060 Search toolbar has wrong height in ComboBoxEntry and toolbarbuttons are too narrow
+  * Fixes: NB#58352 on startup, hildon-desktop GLIB WARNING ** hildon-1...
+  * Fixes: NB#60489 Key repeat rate in number editor
+  * Fixes: NB#65155 HildonVolumebar: mute grabs focus, not possible to adjust volume using HW keys
+  * Fixes: NB#63955 hildon_volumebar_set_mute() grabs focus even if the widget is unmapped
+  * Fixes: NB#66673 Questionable main loop iteration in hildon_window_destroy()
+  * Fixes: NB#66628 Account setting dialog crashes while moving the focus using the h/w key. 
+ 
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 24 Aug 2007 16:18:24 +0300
+
+libhildon (1.0.13-1) stable; urgency=low
+
+  * Fixes to HildonBanners for temporary windows
+  * Minor bugfix in the helper function for logical colors
+  * New examples
+
+  * Fixes: NB#58352 on startup, hildon-desktop GLIB WARNING...
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 17 Aug 2007 14:46:03 +0300
+
+libhildon (1.0.12-1) stable; urgency=low
+
+  * New HILDON_CHECK_VERSION macro
+  * Bugfixes
+  * Minor doc updates
+
+  * Fixes: NB#62061 Please include HILDON_CHECK_VERSION macro
+  * Fixes: NB#49374 Programs using HildonWizardDialog cannot set the sensitivity of buttons when the page changes
+  * Fixes: NB#64355 Control panel; Device lock: OK and Cancel buttons
+  * Fixes: NB#60154 It is possible to enter invalid date in the birthday date picker
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 06 Aug 2007 09:52:19 +0300
+
+libhildon (1.0.11-1) stable; urgency=low
+
+  * Adding some new API functions to control the active item in HildonFindToolbar
+  * Fixing the default focus for font selection dialog
+  * New examples
+  * Changing the default long key press time
+  * Fixed time picker on-map breakage
+
+  * Fixes: NB#63700 wrong definition for HILDON_WINDOW_LONG_PRESS_TIME
+  * Fixes: NB#54182 HildonDateEditor min/max properties cannot be set
+  * Fixes: NB#63430 Ok button of preview dialog is not highlited,when font size is 32pt.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 25 Jul 2007 10:14:34 +0300
+
+libhildon (1.0.10-2) stable; urgency=low
+
+  * Fix header installation. 
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon,  2 Jul 2007 10:09:31 +0300
+
+libhildon (1.0.10-1) stable; urgency=low
+
+  * Fixing a bit of focus crazyness in the time and date editors
+  * Removing the separator from the code dialog
+  * Fixing circular dep to enums
+  * Hide the HildonWindow before performing the destroy
+
+  * Fixes: NB#61129 volumebar info banner in muted state
+  * Fixes: NB#61128 volumebar sensitivy does not change when the widget is not mapped
+  * Fixes: NB#60518 Unable to move the focus from the buttons to date or time editor.
+  * Fixes: NB#60349 Date editor invalidates keyboard number input
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 29 Jun 2007 16:49:58 +0300
+
+libhildon (1.0.9-1) stable; urgency=low
+
+  * Breadcrumb align/visibility fixes
+
+  * Fixes: MB#1466 hildon_window_toggle_menu() unconditionally uses button=0 for gtk_menu_popup()
+  * Fixes: MB#1230 libhildon doesn't build because of broken strict-aliasing
+  * Fixes: MB#1093 Banners should use GDK_WINDOW_TYPE_HINT_NOTIFICATION
+  * Fixes: NB#52946 Pressing (accidentally) back and then menu key with thumb in quick succession and unfocusing the menu closes the application
+  * Fixes: MB#1101 Reproducible unintentional window/application close bug 
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 07 Jun 2007 14:39:06 +0300
+
+libhildon (1.0.8-1) stable; urgency=low
+
+  * Breadcrumb fixes
+  * HildonBanner fixes for transiency 
+  * Updated examples
+
+  * Fixes: NB#56434 Name of the month truncates in the Date & Time page in the startup wizard.
+  * Fixes: NB#54127 The arrow heads of Calendar popup vanish(except the one that is tapped) when tapped on one of the arrows of month or year.
+  * Fixes: NB#50288 Box remains on the am/pm indicator of the Date and Time Settings dialog.
+  * Fixes: NB#56082 HildonCalendarpopup:Sliding sylus to a dimmed date changes the year to 1970
+  * Fixes: NB#54147 Hildon calendar popup:The range checks for the years are not consistent.
+  * Fixes: NB#41501 Last line of text in preview dialog is not shown properly when bold and maximum font is selected
+  * Fixes: NB#38955 Inconsistent behaviour observed when 2 instances of date and time applet are open.
+  * Fixes: NB#52379 HildonCaption won't accept focus when it contains a complex widget tree
+  * Fixes: NB#56624 "Searching" info note displayed even after minimizing the search window
+  * Fixes: NB#59276 Escape timeout handler is not removed when HildonWindow is deleted.
+  * Fixes: NB#55161 Refreshing library is shown on top of other applications 
+  * Fixes: NB#58982 HildonBreadcrumbtrail:Pressing Esc key does not show any effect
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 01 Jun 2007 15:43:59 +0300
+
+libhildon (1.0.7-1) stable; urgency=low
+
+  * Fixed at some point in the past, but adding here:
+
+  * Fixes: NB#44440 hildon_note_new_cancel_with_progress_bar does unreasonable ellipsization...
+  * Fixes: NB#49916 ADDRESS BOOK, truncation, §addr_nc_notification4b§
+  * Fixes: NB#52006 The number editor in Pdf Viewer goes on a loop after reaching the maximum value.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 25 May 2007 11:05:41 +0300
+
+libhildon (1.0.6-1) stable; urgency=low
+
+  * Fixes: NB#54061 Notes application crashes when font size & font colour is changed
+  * Fixes: NB#48934 Switch to page with empty page number dialog responded when taped outside the content area
+
+  * Memory allocation fixes for color and font selection widgets
+  * Breadcrumb leak/visibility fixes
+  * New examples
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 22 May 2007 13:45:59 +0300
+
+libhildon (1.0.5-1) stable; urgency=low
+
+  * Fixes: NB#54149 Date editor: Accepts year greater than 2037
+  * Fixes: NB#49374 Programs using HildonWizardDialog cannot set the sensitivity of buttons when the page changes
+
+  * Memory freeing fixes in font selection dialog.
+  * Breadcrumb update.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 07 May 2007 13:16:09 +0300
+
+libhildon (1.0.4-1) stable; urgency=low
+
+  * Changing the API guard name to HILDON_ENABLE_UNSTABLE_API.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 26 Apr 2007 16:20:55 +0300
+
+libhildon (1.0.3-1) stable; urgency=low
+
+  * Removing the API guard from helper functions. It was a mistake.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 26 Apr 2007 15:54:12 +0300
+
+libhildon (1.0.2-1) stable; urgency=low
+
+  * Guard unstable API's with ENABLE_UNSTABLE_API define
+  * Breadcrumb updates
+  * Fixing a problem with timed banners having their parrent destroyed before they are
+  * Fixing the sh libs
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 25 Apr 2007 16:48:30 +0300
+
+libhildon (1.0.1-1) stable; urgency=low
+
+  * New breadcrumb trial widget.
+  * Fingerable scrollbar API.
+
+  * Fixes: NB#54182 HildonDateEditor min/max properties cannot be set
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 16 Apr 2007 11:09:27 +0300
+
+libhildon (1.0.0-1) stable; urgency=low
+
+  * Move to Gtk 2.10
+  * Consolidated API
+  * All the deprecated widgets are now removed
+  * Version bumping to 1.0.0 since we're now nice and stable
+  * Fix packaging for gtk-doc (not enabled by default)
+  * License change to LGPL version 2.1 or later
+  * Adding examples for many widgets
+
+  * Fixes: NB#49043 Build fails due to duplicate definition of INVALID_CHAR
+  * Fixes: NB#49810 Errors in hildon-libs
+  * Fixes: NB#47751 Tap and hold of Home key minimize applications but does not close the application menu
+  * Fixes: NB#46434 HildonWindow: inconsistent memory management
+  * Fixes: NB#30265 Warning from hildonlibs build
+  * Fixes: NB#47751 Tap and hold of Home key minimize applications but does not close the application menu
+  * Fixes: NB#47989 Not possible to set empty title for HildonWindow
+  * Fixes: NB#50496 While quickly tapping the same Edit button, the message is displayed differently.
+  * Fixes: NB#51736 Enhancement in hildon_caption_set_label_text()
+  * Fixes: NB#50854 application menu closes when mouse released
+  
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 29 Mar 2007 16:36:27 +0300
+

@@ -1,0 +1,18 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "hildon-webshortcut"
+{
+  HildonDesktopHomeItem::background-borders = { 0, 0, 0, 0 }
+  bg_pixmap[PRELIGHT] = "../images/qgn_plat_webshortcut_applet_bg_alpha.png"
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_webshortcut_applet_bg.png"
+        }
+    }
+}
+class "Hhws" style "hildon-webshortcut"

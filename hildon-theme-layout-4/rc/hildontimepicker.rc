@@ -1,0 +1,68 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+####################################################  
+# Hildon Time Picker
+#
+#
+#################################################### 
+
+style "osso-time-picker-up" {
+
+  engine "sapwood" {
+    image {
+      function = BOX
+      state = ACTIVE
+      overlay_file = "../images/qgn_plat_arrow_up_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image {
+      function = BOX
+      overlay_file = "../images/qgn_plat_arrow_up_normal.png"
+      overlay_stretch = FALSE
+    }
+  }
+}
+widget "*.hildon-time-picker-up" style "osso-time-picker-up"
+
+style "osso-time-picker-down" {
+
+  engine "sapwood" {
+    image {
+      function = BOX
+      state = ACTIVE
+      overlay_file = "../images/qgn_plat_arrow_down_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image {
+      function = BOX
+      overlay_file = "../images/qgn_plat_arrow_down_normal.png"
+      overlay_stretch = FALSE
+    }
+  }
+}
+widget "*.hildon-time-picker-down" style "osso-time-picker-down"
+
+style "osso-time-picker-ebox" {
+      xthickness = 0
+      ythickness = 0
+
+      engine "sapwood" {
+         image {
+            function = FLAT_BOX
+	    state = SELECTED
+            file = "../images/qgn_plat_focus_active.png"
+            border = { 2, 2, 2, 2 }
+         }
+         image {
+            function = FLAT_BOX
+         }
+      }
+}
+widget_class "HildonTimePicker.GtkVBox.GtkAlignment.GtkTable.GtkFrame.GtkEventBox" style "osso-time-picker-ebox"
+widget_class "HildonTimePicker.GtkVBox.GtkAlignment.GtkTable.GtkAlignment.GtkFrame.GtkEventBox" style "osso-time-picker-ebox"
+
+widget_class "HildonTimePicker.GtkVBox.GtkAlignment.GtkTable.GtkLabel" style "osso-LargeFont"
+widget_class "HildonTimePicker.GtkVBox.GtkAlignment.GtkTable.GtkFrame.GtkEventBox.GtkLabel" style "osso-LargeFont"
+widget_class "HildonTimePicker.GtkVBox.GtkAlignment.GtkHButtonBox.GtkButton.GtkLabel" style "osso-ButtonFont"
+widget_class "HildonTimePicker.GtkVBox.GtkAlignment.GtkTable.GtkAlignment.GtkFrame.GtkEventBox.GtkLabel" style "osso-SystemFont"

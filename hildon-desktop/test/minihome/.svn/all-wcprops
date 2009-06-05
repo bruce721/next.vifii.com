@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/maemo/!svn/ver/14233/projects/haf/trunk/hildon-desktop/test/minihome
+END
+hildon-home-select-applets-dialog.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/test/minihome/hildon-home-select-applets-dialog.c
+END
+minihome.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/test/minihome/minihome.c
+END
+hildon-home-select-applets-dialog.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/test/minihome/hildon-home-select-applets-dialog.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/test/minihome/Makefile
+END

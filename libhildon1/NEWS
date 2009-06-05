@@ -1,0 +1,98 @@
+[2.0.1-1 release]
+* Do not use PACKAGE_VERSION_MAJOR for the API revision.
+
+[2.0.0-1 release]
+* Fix breadcrumb trail node removal logic.
+* Add missing outer-border style for HildonColorChooser.
+
+[1.99.1-1 release]
+* Accesability fixes for get/set password dialog.
+
+[1.99.0-1 release]
+* Upping version to (almost) 2.0.0 for hildon 2.0
+
+[1.0.17-1 release]
+* Fixed toolbar visibility
+* Fixed breadcrumb separator 
+
+[1.0.16-1 release]
+* Mem-leak fixes in font selector and color selector
+* Mem-leak fix in style helper
+* Making the code dialog a bit more thumbable 
+
+[1.0.15-1 release]
+* Fixing hw keyboard support in lock code dialog
+* Fixing focus behavior in caption
+* Additions to find toolbar
+* Documentation fixes
+
+[1.0.14-1 release]
+* Removing the patch for hiding HildonWindow before destroy. Breaks DBus.
+* Fixes for HildonCalendar expose methods
+* Fixes for composite-widgets focus handling
+* New dialog layout for the HildonCalendar (Ok/Cancel)
+* Making find toolbar thumbable
+* Changing the stylus repeat timeout to match our needs
+* New esd dependency 
+
+[1.0.13-1 release]
+* Fixes to HildonBanners for temporary windows
+* Minor bugfix in the helper function for logical colors
+* New examples
+
+[1.0.12-1 release]
+* New HILDON_CHECK_VERSION macro
+* Bugfixes
+* Minor doc updates
+
+[1.0.11-1 release]
+* Adding some new API functions to control the active item in HildonFindToolbar
+* Fixing the default focus for font selection dialog
+* New examples
+* Changing the default long key press time
+* Fixed time picker on-map breakage
+
+[1.0.10-2 release]
+* Fix header installation
+
+[1.0.10-1 release]
+* Fixing a bit of focus crazyness in the time and date editors
+* Removing the separator from the code dialog
+* Fixing circular dep to enums
+* Hide the HildonWindow before performing the destroy
+
+[1.0.9-1 release]
+* Breadcrumb align/visibility fixes
+* HildonWindow fixes
+
+[1.0.8-1 release]
+* HildonBanner fixes for transiency
+* InfoBanner fixes
+* Updated examples 
+* A few other fixes in few places 
+
+[1.0.7-1 release]
+* Adding the gtk-timeout-update multiplier  to certain widgets
+
+[1.0.6-1 release]
+* Memory allocation fixes for color and font selection widgets
+* Breadcrumb leak/visibility fixes
+* New examples
+
+[1.0.5-1 release]
+* Fixes in the HildonWizardDialog
+* Memory freeing fixes in font selection dialog
+* Breadcrumb update
+
+[1.0.3-1 release]
+* Removing the API guard from helper functions. It was a mistake.
+
+[1.0.2-1 release]
+* Guard unstable API's with ENABLE_UNSTABLE_API define
+* Breadcrumb updates
+* Fixing a problem with timed banners having their parrent destroyed before they are
+* Fixing the sh libs
+
+[1.0.1-1 release] 
+* Breadcrumb trail widget by Xan
+* Fingerable scrollbar API by Michael

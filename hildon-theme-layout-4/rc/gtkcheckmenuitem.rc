@@ -1,0 +1,85 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license 
+
+style "osso-menucheck"
+{
+
+  GtkCheckMenuItem::indicator_size = 26
+  engine "sapwood"
+  {
+    image
+      {
+        function        = CHECK
+	shadow          = IN
+	state           = INSENSITIVE
+	overlay_file    = "../images/qgn_plat_menu_check_mark_disabled.png"
+      }
+    image
+      {
+        function        = CHECK
+	shadow          = IN
+	state           = ACTIVE
+	overlay_file    = "../images/qgn_plat_menu_check_mark_focus.png"
+      }
+    image
+      {
+        function        = CHECK
+	shadow          = IN
+	state           = PRELIGHT
+	overlay_file    = "../images/qgn_plat_menu_check_mark_focus.png"
+      }
+    image
+      {
+        function        = CHECK
+	shadow          = IN
+	state           = SELECTED
+	overlay_file    = "../images/qgn_plat_menu_check_mark_focus.png"
+      }
+    image
+      {
+        function        = CHECK
+	shadow          = IN
+	overlay_file    = "../images/qgn_plat_menu_check_mark_normal.png"
+      }
+    image
+      {
+        function        = OPTION
+	shadow          = IN
+	state           = INSENSITIVE
+	overlay_file    = "../images/qgn_plat_menu_button_radio_disabled.png"
+	overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = OPTION
+	shadow          = IN
+	state           = ACTIVE
+	overlay_file    = "../images/qgn_plat_menu_button_radio_focus.png"
+	overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = OPTION
+	shadow          = IN
+	state           = PRELIGHT
+	overlay_file    = "../images/qgn_plat_menu_button_radio_focus.png"
+	overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = OPTION
+	shadow          = IN
+	state           = SELECTED
+	overlay_file    = "../images/qgn_plat_menu_button_radio_focus.png"
+	overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = OPTION
+	shadow          = IN
+	overlay_file    = "../images/qgn_plat_menu_button_radio_normal.png"
+	overlay_stretch = FALSE
+      }
+  }
+}
+class "GtkCheckMenuItem" style "osso-menucheck"

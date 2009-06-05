@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/maemo/!svn/ver/13629/projects/haf/trunk/hildon-desktop/background-manager
+END
+hbm-background.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/13629/projects/haf/trunk/hildon-desktop/background-manager/hbm-background.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/maemo/!svn/ver/12543/projects/haf/trunk/hildon-desktop/background-manager/main.c
+END
+hildon-background-manager.service.in
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/background-manager/hildon-background-manager.service.in
+END
+background-manager.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/maemo/!svn/ver/13629/projects/haf/trunk/hildon-desktop/background-manager/background-manager.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/maemo/!svn/ver/12988/projects/haf/trunk/hildon-desktop/background-manager/Makefile.am
+END
+hbm-background.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/maemo/!svn/ver/12814/projects/haf/trunk/hildon-desktop/background-manager/hbm-background.h
+END
+background-manager.xml.in
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/maemo/!svn/ver/13629/projects/haf/trunk/hildon-desktop/background-manager/background-manager.xml.in
+END
+background-manager-dbus.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/maemo/!svn/ver/10059/projects/haf/trunk/hildon-desktop/background-manager/background-manager-dbus.h.in
+END
+background-manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/maemo/!svn/ver/13629/projects/haf/trunk/hildon-desktop/background-manager/background-manager.h
+END

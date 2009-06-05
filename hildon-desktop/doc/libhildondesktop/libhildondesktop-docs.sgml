@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"
+[
+  <!ENTITY version SYSTEM "version.xml">
+]>
+
+<book id="index" xmlns:xi="http://www.w3.org/2003/XInclude">
+  <bookinfo>
+    <title>libhildondesktop 2.0 Reference Manual</title>
+    <releaseinfo>For Hildon Desktop &version;</releaseinfo>
+  </bookinfo>
+
+  <chapter id="overview">
+    <title>Overview</title>
+    <xi:include href="xml/libhildondesktop.xml"/>
+  </chapter>
+
+  <chapter id="desktop-items">
+    <title>Desktop items</title>
+    <xi:include href="xml/hildon-desktop-item.xml"/>
+    <xi:include href="xml/hildon-desktop-home-item.xml"/>
+    <xi:include href="xml/hildon-desktop-panel-item.xml"/>
+    <xi:include href="xml/tasknavigator-item.xml"/>
+    <xi:include href="xml/statusbar-item.xml"/>
+  </chapter>
+
+  <chapter id="window-menu">
+    <title>Window and menu-like</title>
+    <xi:include href="xml/hildon-desktop-popup-window.xml"/>
+    <xi:include href="xml/hildon-desktop-popup-menu.xml"/>
+  </chapter>
+
+  <index id="symbols">
+    <title>Index</title>
+  </index>
+  <index role="hierarchy" id="hierarchy">
+    <title>Object Hierarchy</title>
+    <xi:include href="xml/tree_index.sgml"/>
+  </index>
+</book>

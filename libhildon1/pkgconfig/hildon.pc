@@ -1,0 +1,11 @@
+prefix=/opt/hildon
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/hildon-1
+
+Name: hildon
+Description: Hildon widgets library
+Requires: gtk+-2.0 >= 2.10
+Version: 2.0.7
+Libs: -L${libdir} -lhildon-1
+Cflags: -I${includedir} 

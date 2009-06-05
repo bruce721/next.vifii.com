@@ -1,0 +1,73 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license 
+
+style "osso-menuitem"
+{
+  GtkMenuItem::wide-separators = 1
+  GtkMenuItem::separator_height = 3
+  GtkMenuItem::arrow-scaling = 1.4
+
+  engine "sapwood"
+  {
+    # Image for passive focus.
+    image
+      {
+	function = BOX
+	state = SELECTED
+	file = "../images/qgn_plat_focus_passive.png"
+	border = { 2, 2, 2, 2 }
+      }
+    
+    # Image for active focus.
+    image
+      {
+	function = BOX
+	state = PRELIGHT
+        file = "../images/qgn_plat_focus_active.png"
+        border = { 2, 2, 2, 2 }
+      }
+    
+    image
+      {
+        function        = ARROW
+        arrow_direction = RIGHT
+        state           = INSENSITIVE
+        overlay_file    = "../images/qgn_plat_menu_next_level_arrow_disabled.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = ARROW
+	arrow_direction = RIGHT
+	shadow          = OUT
+	state           = PRELIGHT
+	overlay_file    = "../images/qgn_plat_menu_next_level_arrow_pressed.png"
+	overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = ARROW
+	arrow_direction = RIGHT
+	shadow          = OUT
+	overlay_file    = "../images/qgn_plat_menu_next_level_arrow_normal.png"
+	overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = ARROW
+        arrow_direction = RIGHT
+        shadow          = IN
+        overlay_file    = "../images/qgn_plat_menu_next_level_arrow_focused.png"
+        overlay_stretch = FALSE
+      }
+     image
+      {
+        function        = BOX
+	detail          = "hseparator"
+        file            = "../images/qgn_plat_separator_horizontal.png"
+        border          = { 12, 12, 0, 0 }
+      }
+  }		  
+}
+
+class "GtkMenuItem" style "osso-menuitem"

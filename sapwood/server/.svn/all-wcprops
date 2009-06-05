@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/maemo/!svn/ver/17519/projects/haf/trunk/sapwood/server
+END
+sapwood-server.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/maemo/!svn/ver/17519/projects/haf/trunk/sapwood/server/sapwood-server.c
+END
+cache-node.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/maemo/!svn/ver/17070/projects/haf/trunk/sapwood/server/cache-node.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/17519/projects/haf/trunk/sapwood/server/Makefile.am
+END
+cache-node.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/maemo/!svn/ver/17070/projects/haf/trunk/sapwood/server/cache-node.h
+END

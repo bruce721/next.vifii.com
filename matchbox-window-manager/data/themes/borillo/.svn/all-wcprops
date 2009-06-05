@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/matchbox/!svn/ver/926/trunk/matchbox-window-manager/data/themes/borillo
+END
+prev.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/matchbox/!svn/ver/926/trunk/matchbox-window-manager/data/themes/borillo/prev.png
+END
+next.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/matchbox/!svn/ver/926/trunk/matchbox-window-manager/data/themes/borillo/next.png
+END
+theme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/matchbox/!svn/ver/708/trunk/matchbox-window-manager/data/themes/borillo/theme.xml
+END
+close.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/matchbox/!svn/ver/926/trunk/matchbox-window-manager/data/themes/borillo/close.png
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/themes/borillo/Makefile.am
+END
+blank.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/matchbox/!svn/ver/926/trunk/matchbox-window-manager/data/themes/borillo/blank.png
+END
+theme.desktop
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/matchbox/!svn/ver/711/trunk/matchbox-window-manager/data/themes/borillo/theme.desktop
+END
+minimise.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/matchbox/!svn/ver/926/trunk/matchbox-window-manager/data/themes/borillo/minimise.png
+END

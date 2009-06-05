@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/matchbox/!svn/ver/2048/trunk/libmatchbox
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/matchbox/!svn/ver/1529/trunk/libmatchbox/configure.ac
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/matchbox/!svn/ver/651/trunk/libmatchbox/AUTHORS
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/matchbox/!svn/ver/2048/trunk/libmatchbox/ChangeLog
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/matchbox/!svn/ver/905/trunk/libmatchbox/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/matchbox/!svn/ver/1088/trunk/libmatchbox/Makefile.am
+END
+autogen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/matchbox/!svn/ver/651/trunk/libmatchbox/autogen.sh
+END
+libmb.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/matchbox/!svn/ver/1297/trunk/libmatchbox/libmb.pc.in
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/matchbox/!svn/ver/1372/trunk/libmatchbox/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/matchbox/!svn/ver/761/trunk/libmatchbox/README
+END
+libmatchbox.doap
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/matchbox/!svn/ver/1452/trunk/libmatchbox/libmatchbox.doap
+END

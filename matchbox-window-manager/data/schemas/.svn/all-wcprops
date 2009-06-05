@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/matchbox/!svn/ver/823/trunk/matchbox-window-manager/data/schemas
+END
+matchbox.schemas
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/matchbox/!svn/ver/653/trunk/matchbox-window-manager/data/schemas/matchbox.schemas
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/matchbox/!svn/ver/823/trunk/matchbox-window-manager/data/schemas/Makefile.am
+END

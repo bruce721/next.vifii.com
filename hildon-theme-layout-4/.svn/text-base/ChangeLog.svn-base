@@ -1,0 +1,2086 @@
+2008-08-05  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	[0.14.9-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+	* COPYING: Licensing update. 
+	Creative Commons Attribution-ShareAlike 2.5 -> 3.0
+	
+2008-03-05  Kristian Rietveld  <kris@imendio.com>
+
+	* rc/gtkcellview.rc:
+	* rc/Makefile.am:
+	* rc/gtkrc.rc: Add engine images for the cell renderer details,
+	like the style for GtkTreeView does.  Fixes MB#1121.
+
+2007-11-23  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.14.7-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-11-23  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtksettings.rc: Removing the gtk-menu-popup-click-time that was
+	supposed to fix NB#74557.
+
+2007-11-13  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.14.6-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-11-07  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtksettings.rc (gtk-menu-popup-click-time): never close
+	menus on release for long press. Fixes: NB#74557
+
+2007-11-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.14.5-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-10-30  Tomas Junnonen  <tomas.junnonen@nokia.com>
+
+	* rc/hildonkeyboard.rc: Apply VkbBgColor to the thumb-scv widget.
+	Fixes: NB#72581.
+
+2007-10-26  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossopromoapplet.rc: added theming for the promo applet
+	* rc/gtkrc.maemo_af_desktop.rc: include ossopromoapplet.rc
+
+2007-10-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* data/layout.txt: Adding the proper _alpha for generic appliet theming.
+
+2007-10-10  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.14.4-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* rc/gtktreeview.rc: Updating.
+
+2007-10-08  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* rc/gtktreeview.rc: Fixed treeview headers use DefaultTextColor
+	instead of button colors. Yes, it is technically a button, but it
+	should use default text colors in this context. Fixes NB#72427.
+
+2007-10-05  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* rc/gtkbutton.rc: fixed style match a bit, so it actually still
+	hopefully works. :-)
+
+2007-10-04  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Fixing the broken rc/missing inheritance for colors.
+
+2007-10-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Fixing the flickering problem in the multiple-windows
+	popup.
+
+2007-10-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.14.3-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-10-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Fixing the last SELECTED/PRELIGHT issues pointed out by
+	Tigert in the multiple-windows switcher.
+
+2007-10-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Fixing the colors used in the bookmarks plugin. Fixes:
+	NB#71275.
+
+2007-10-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc:
+	* rc/hildonnavigator.rc: Fixing the selected/prelight colors for
+	switcher/window menu items.
+
+2007-10-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Correcting the arrow size in thumb menu.
+
+2007-10-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.14.2-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-10-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkbutton.rc:
+	* rc/gtkcombobox.rc:
+	* rc/hildondateeditor.rc:
+	* rc/hildontimeeditor.rc: More fixes to the time edtor and date editor
+	entries.
+
+2007-10-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Adding the fix to have proper colors in window-list popup
+	highlights. 
+
+2007-10-01  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Theme the HDSwitcherMenuItem's.
+
+2007-10-01  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonnavigator.rc: Fix the active focus on notification menu item.
+
+2007-10-01  Tomas Junnonen  <tomas.junnonen@nokia.com>
+
+	* rc/hildonkeyboard.rc: Use DefaultTextColor as word completion
+	candidate button foreground.
+
+2007-10-01  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/hildonnavigator.rc: add ACTIVE and PRELIGHT background
+	for the highlighted 4th button. Fixes: NB#71593
+
+2007-10-01  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* rc/themespecificgtk.rc: Added MediaPlayerPrerollColor to logical
+	colors, and hardcoded it to white. Fixes NB#71262.
+
+2007-10-01  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkentry.rc: Fixing one thing for the entry.
+
+2007-09-28  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.14.1-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-09-28  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkiconview.rc: More fixes to the control panel item.
+
+2007-09-28  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkcombobox.rc:
+	* rc/gtkentry.rc: Changing the way the entries are being drawn. Fixes:
+	NB#70831.
+
+2007-09-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkcombobox.rc: Fixing the way disabled combo-box arrow is being
+	displayed. Fixes: #NB68074.
+
+2007-09-27  Tomas Junnonen  <tomas.junnonen@nokia.com>
+
+	* src/hildonkeyboard.rc: Apply input window background color to FKB.
+
+2007-09-26  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/Makefile.am:
+	* rc/gtkiconview.rc:
+	* rc/gtkrc.rc: Adding base/simple theming for the GtkIconView. Fixes:
+	NB#70554.
+
+2007-09-26  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtktreeview.rc: Changing the focus line width. Fixes: NB#71011. 
+
+	* rc/hildontimeeditor.rc: AM/PM button now uses DefaultTextColor. Fixes:
+	NB#70769.
+
+2007-09-25  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.14.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-09-25  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Use the specified (PluginMenuBgColor) color 
+	as the default background for the menu from navigator. Fixes: NB#65748.
+
+2007-09-25  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossoiradioapplet.rc:
+	* rc/ossorssfeedreader.rc: Updating the no-focus override. Fixes:
+	#NB65860.
+
+2007-09-25  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* rc/themespecificgtk.rc: 
+	* data/layout.txt: added PluginMenuBgColor.
+
+2007-09-24  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Apply the HildonThumbMenuItem style a bit differently, so
+	that it's possible to have it also used in the browser UI.
+
+2007-09-21  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Fixing the border values from 2,2,2,2 to 6,6,6,6 for the
+	new focus active/passive graphics added for plugin menu stuff.
+
+2007-09-21  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: updated a bit to tweak layout (no gtkrc
+	changes, just slightly moving the odd/evenrow-stuff around in
+	template rather)
+
+2007-09-19  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.13.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-09-19  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtktreeview.rc: Uppss, actually correcting the border values. They're
+	now:
+
+	qgn_plat_tree_view_even.png 		- 2, 2, 13, 13
+	qgn_plat_tree_view_odd.png  		- 2, 2, 13, 13
+
+	qgn_plat_tree_view_even_start.png	- 2, 0, 13, 13
+	qgn_plat_tree_view_even_middle.png	- 0, 0, 13, 13
+	qgn_plat_tree_view_even_end.png		- 0, 2, 13, 13
+
+	qgn_plat_tree_view_odd_start.png	- 2, 0, 13, 13
+	qgn_plat_tree_view_odd_middle.png	- 0, 0, 13, 13
+	qgn_plat_tree_view_odd_end.png 		- 0, 2, 13, 13
+
+2007-09-18  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Added coordinates for the new treeview images
+	(see previous log entry below)
+
+2007-09-18  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Adding a fix for mini-arrows in menus.
+
+	* rc/gtktreeview.rc: Adding the rc stuff for new graphics. The border
+	values expected are:
+
+	qgn_plat_tree_view_even.png 		- 4, 4, 13, 13
+	qgn_plat_tree_view_odd.png  		- 4, 4, 13, 13
+
+	qgn_plat_tree_view_even_start.png	- 4, 0, 13, 13
+	qgn_plat_tree_view_even_middle.png	- 0, 0, 13, 13
+	qgn_plat_tree_view_even_end.png		- 0, 4, 13, 13
+
+	qgn_plat_tree_view_odd_start.png	- 4, 0, 13, 13
+	qgn_plat_tree_view_odd_middle.png	- 0, 0, 13, 13
+	qgn_plat_tree_view_odd_end.png 		- 0, 4, 13, 13
+
+	Fixes: #NB66964.
+
+2007-09-18  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/Makefile.am:
+	* rc/gtkrc.rc:
+	* rc/hildongrid.rc: House keeping, removing the hildon grid.
+
+2007-09-18  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/Makefile.am:
+	* rc/gtkrc.rc:
+	* rc/hildonapp.rc: Renaming hildonapp.rc to hildonwindow.rc. 
+
+2007-09-14  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtktreeview.rc: Use different graphics for the drop indicator, fixes
+	NB#66333.
+
+2007-09-14  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* rc/hildonseekbar.rc, data/layout.txt: fixed the seekbar border
+	values to 4, 4, 0, 0 so we can have a 2px tiled area in the middle,
+	and the border value is the same as in the other variants.
+
+2007-09-13  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/hildonnavigator.rc: the highlighted state of button4 is only
+	its NORMAL state, not PRELIGHT nor ACTIVE
+
+2007-09-13  Tomas Junnonen  <tomas.junnonen@nokia.com>
+
+	* rc/hildonkeyboard.rc: Change FKB inactive tab theming. Fixes NB#66951.
+
+2007-09-13  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: updated seekbar gfx to 9 pixels wide for better 
+	theming possiblilities.
+
+2007-09-13  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonseekbar.rc: Fixing the border values to 3 + 3 for seekbar new
+	elements.
+
+2007-09-13  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc:
+	* rc/hildonappsmenu.rc:
+	* rc/hildonnavigator.rc: Correcting the border values for separators.
+	Fixes: NB#69501.
+
+2007-09-13  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* data/layout.txt: 
+	
+	Removing:
+
+	qgn_plat_seek_bar_regular_shaft_stream_finished_disabled.png
+	qgn_plat_seek_bar_regular_shaft_stream_finished_normal.png
+	qgn_plat_seek_bar_toolbar_shaft_stream_finished_disabled.png
+	qgn_plat_seek_bar_toolbar_shaft_stream_finished_normal.png
+
+	(the purple crack)
+
+	In it's place moving: 
+
+	qgn_plat_seek_bar_toolbar_shaft_stream_disabled.png
+	qgn_plat_seek_bar_toolbar_shaft_stream_normal.png
+	qgn_plat_seek_bar_regular_shaft_stream_disabled.png
+	qgn_plat_seek_bar_regular_shaft_stream_normal.png 
+
+	(but now with 6px width instead of 4)
+
+	* rc/hildonseekbar.rc: Some more fixes. 
+
+2007-09-13  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossoglobalsearch.rc: Fixing the selected/active states for global
+	search entries. Fixes: NB#67151.
+
+2007-09-12  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.12.2-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-09-12  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkcheckbutton.rc:
+	* rc/hildonbreadcrumbtrail.rc:
+	* rc/hildonkeyboard.rc:
+	* rc/hildontimepicker.rc:
+	* rc/ossomediaplayer.rc: Fixing the sapwood warnings about the different
+	border values for same elements.
+
+2007-09-12  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonnavigator.rc: Now really fixing the switcher.
+
+2007-09-12  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonappsmenu.rc:
+	* rc/hildonnavigator.rc: Fixing the switcher menu weirdness and appsmenu
+	focus weirdness. 
+
+2007-09-12  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* data/layout.txt: Adding missing .png.
+
+2007-09-11  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossospeeddial.rc: Adding the new speeddial theming upgrade. Fixes
+	NB#69016.
+
+2007-09-11  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonstatusbar.rc: Adding the styling for the extension bar. Fixes:
+	NB#65211.
+
+2007-09-10  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossointernetsearchapplet.rc: theme the engine button
+	as a combobox button
+
+2007-09-10  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com>
+
+	* rc/Makefile.am:
+	* rc/gtkrc.rc:
+	* rc/ossoaddressbook.rc: Adding the styling for the addressbook live
+	search. Fixes: NB#66694.
+
+2007-09-10  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossointernetsearchapplet.rc: set x and y thickness to 0
+	for the engine button.
+	Fixes: NB#66470
+
+2007-09-10  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossointernetsearchapplet.rc: Added theming of the "Go" button.
+
+2007-09-07  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenu.rc: Corrent theming for the menu items in menu lunched from
+	task navigator.
+
+2007-09-07  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Added focus graphics (active + passive) for
+	task navigator plugin menu so it can have different colour than
+	regular menus, moved the separator bit to a better location.
+
+	qgn_plat_task_navigation_plugin_menu_focus_active.png=2441,65,14,14
+	qgn_plat_task_navigation_plugin_menu_focus_passive.png=2441,45,14,14 
+
+	* rc/themespecificgtk.rc: Added WCPrefixColor for input method folks
+
+	* rc/gtkmenu.rc: Plugin menus should use PluginMenuTextColor.
+
+2007-09-05  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.12.1-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-09-05  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonseekbar.rc: Small tweak to seekbar theming, shouldn't make a
+	difference.
+
+2007-09-05  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonnavigator.rc: When the navigator switcher button is pressed,
+	don't do any extra highlight/focus.
+
+2007-09-05  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtktreeview.rc: Update to treeview theming. We actually need to
+	change graphics name at some point and update even more... but should do
+	for now.
+
+2007-09-03  Mohammad Anwari  <Mohammad.Anwari@nokia.com>
+
+	* rc/hildonkeyboard.rc: Use VkbBgColor for VKB and InputBackgrdColor
+	for the input method ui. Fixes: NB#66771.
+
+2007-08-31  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkmenuitem.rc: add 1.4 scaling factor to menuitem arrows.
+	Depends on gtk+ >= 2.10.12-osso14
+
+2007-08-30  Tomas Junnonen  <tomas.junnonen@nokia.com>
+
+	* rc/hildonkeyboard.rc: Correct FKB active tab theming. Fixes NB#66951.
+
+2007-08-30  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Oops, mediaplayer pause had a typo. Also corrected
+	a bunch of windows carriage return crap from the file. D'oh.
+
+2007-08-30  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.12.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-08-29  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonkeyboard.rc: Ooops, accidentally removed some important
+	stuff. Should be all fine now.
+
+2007-08-29  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/themespecificgtk.rc: Adding the PluginMenuSecondaryTextColor to
+	themespecific stuff.
+
+2007-08-29  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonkeyboard.rc: Introducing the border value changes mentioned
+	by Tuomas.
+
+2007-08-29  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtktreeview.rc: Applying a patch from Tommi Komulainen for new
+	treeview focus handling. Fixes: NB#54874.
+
+2007-08-29  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossomediaplayer.rc: update ossomediaplayer.rc to manage
+	the new ui layout update, related to new control images, new
+	playlist/current clip images and new tabs images. It embebed the
+	icons in the images, now the buttons has a fixed size and other
+	minor updates. Fixes: NB#66912.
+
+2007-08-29  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: 
+
+	Oops, forgot PluginMenuSecondaryTextColor it seems. Added.
+
+	Updates:
+	
+	Added for Tommi:
+	   qgn_plat_focus_left_selection_cursor.png=804,663,4,6
+	   qgn_plat_focus_middle_selection_cursor.png=808,663,2,6
+	   qgn_plat_focus_right_selection_cursor.png=810,663,4,6
+	   qgn_plat_focus_selection_cursor.png=823,663,6,6
+
+	Updated image and new border values are 10,10,0,0
+	   qgn_plat_inputmet_buffer_zone_top.png=6553,178,22,10
+
+	Removed:
+	   qgn_plat_inputmet_buffer_zone_left.png=6526,178,24,27
+
+	Updated border values to 10,93,0,0
+	   qgn_plat_inputmet_button_key_space_normal.png=6100,77,105,35
+	   qgn_plat_inputmet_button_key_space_pressed.png=6100,117,105,35
+	   qgn_plat_inputmet_button_key_space_disabled.png=6100,158,105,35
+
+	Added disabled state for pause button 
+	   qgn_plat_button_mplayer2_pause_disabled=5500,435,88,75
+
+	Corrected a typo (disssabled -> disabled) somewhere.
+	
+2007-08-28  Tomas Junnonen  <tomas.junnonen@nokia.com>
+
+	* rc/hildonkeyboard.c: Fixes for VKB button theming. Fixes NB#66896.
+
+2007-08-28  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.11.1-2 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-08-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossortc.rc: Fixes for the new chavo theming. Fixes NB#66801.
+
+2007-08-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* data/layout.txt: Fixing the search applet alpha.
+
+2007-08-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkseparator.rc: Fixing the normal separators (not the ones being
+	inside menu items). Fixes NB#66731.
+
+2007-08-23  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtktreeview.rc: set separator height to 3 pixels.
+	Fixes: NB#66637
+
+2007-08-23  Lucas Rocha  <lucas.rocha@nokia.com>
+
+	* rc/hildonnavigator.rc, rc/hildonappsmenu.rc: correctly set the
+	stretch_overlay and sizing of hildon desktop popup menu arrows. 
+
+2007-08-22  Lucas Rocha  <lucas.rocha@nokia.com>
+
+	* rc/hildonnavigator.rc, rc/hildonappsmenu.rc: correctly set the
+	separator height in the style for applications menu and switcher menu. 
+
+2007-08-22  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/defaultarrows.rc: set maemo-min-size here too.
+
+2007-08-22  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* data/layout.txt: Adding InputBackgrdColor back, it's actually being
+	used.
+
+2007-08-22  Richard Sun  <richard.sun@nokia.com>
+
+	* rc/hildonkeyboard.rc: disable "buttondefault" for menu, close,
+	backspace, return button of FKB. Fixes NB#65930 
+	
+2007-08-22  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: fixed off-by-3-pixels on 
+	qgn_plat_inputmet_button_down_pressed.png
+
+	* rc/ossomediaplayer.rc: removed focused and pressed-focused
+	states as those are never used.
+
+	* data/layout.txt: updates: 
+
+	Removed logical color: InputBackgrdColor, seems not used.
+
+	Added logical colors:
+		RssAppletBgColor=7942,703,30,16
+		SpeedContactAppletBgColor=7942,718,30,16
+		VkbBgColor=7942,733,30,16
+
+	Updated graphics (yeah, these don't really belong in the desktop theme..):
+		qgn_plat_task_pane_menu1_separator.png=2527,45,26,1
+		qgn_plat_task_pane_menu2_separator.png=2635,45,26,1
+		qgn_plat_task_switcher_menu_separator.png=2845,45,26,1
+		qgn_plat_task_notification_menu_separator.png=3001,45,26,1
+		qgn_plat_task_navigation_plugin_menu_separator=113,666,26,1
+
+		qgn_plat_button_mplayer1_normal.png=5219,192,88,75
+		qgn_plat_button_mplayer2_normal.png=5219,273,88,75
+		qgn_plat_button_mplayer3_normal.png=5219,354,88,75
+		qgn_plat_button_mplayer4_normal.png=5219,435,88,75
+
+		qgn_plat_button_mplayer1_pressed.png=5313,192,88,75
+		qgn_plat_button_mplayer2_pressed.png=5313,273,88,75
+		qgn_plat_button_mplayer3_pressed.png=5313,354,88,75
+		qgn_plat_button_mplayer4_pressed.png=5313,435,88,75
+
+		qgn_plat_button_mplayer1_disabled.png=5407,192,88,75
+		qgn_plat_button_mplayer2_disabled.png=5407,273,88,75
+		qgn_plat_button_mplayer3_disabled.png=5407,354,88,75
+		qgn_plat_button_mplayer4_disabled.png=5407,435,88,75
+
+	Added graphics:
+		qgn_plat_button_mplayer2_pause_normal.png=5500,273,88,75
+		qgn_plat_button_mplayer2_pause_presssed.png=5500,273,88,75
+
+		qgn_plat_button_mplayer_now_playing_normal.png=5676,186,72,49
+		qgn_plat_button_mplayer_now_playing_pressed.png=5676,241,72,49
+		qgn_plat_button_mplayer_playlist_normal.png=5598,186,72,49
+		qgn_plat_button_mplayer_playlist_pressed.png=5598,241,72,49
+
+	Removed images - these were never used anyway.
+		qgn_plat_button_mplayer1_focused
+		qgn_plat_button_mplayer2_focused
+		qgn_plat_button_mplayer3_focused
+		qgn_plat_button_mplayer4_focused
+
+		qgn_plat_button_mplayer1_pressed_focused
+		qgn_plat_button_mplayer2_pressed_focused
+		qgn_plat_button_mplayer3_pressed_focused
+		qgn_plat_button_mplayer4_pressed_focused
+
+2007-08-22  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcombobox.rc:
+	* rc/hildonbreadcrumbtrail.rc:
+
+	Set maemo-min-size and maemo-aspect-ratio where needed for
+	GtkArrow.
+	Requires gtk+ >= 2.10.12-osso14
+
+2007-08-21  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonnavigator.rc: Different theming for the switcher highlight.
+
+2007-08-21  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonnavigator.rc: Adding the highlighted state theming for the
+	switcher. Fixes NB#63183.
+
+2007-08-21  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/base.rc
+	* rc/gtkrange.rc
+	* rc/gtktoolbar.rc
+	* rc/hildonappsmenu.rc
+	* rc/hildonnavigator.rc
+	* rc/hildonnumbereditor.rc
+	* rc/hildonstatusbar.rc
+	* rc/ossomediaplayer.rc: Remove remaining redundant stretch=TRUE and
+	border={0,0,0,0} Fixes: NB#46625
+
+2007-08-20 Tapani Palli <tapani.palli@nokia.com>
+
+	* data/theme.xml: move statusbar one pixel right (NB#66022)
+
+2007-08-20  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonkeyboard.rc: Fixing the border values for some input methods
+	elements. Fixes: NB#66057.
+
+2007-08-20  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossorssfeedreader.rc: Applying a patch to fix rss applet buttons
+	focused theming. Fixes NB#66019.
+
+2007-08-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.11.0-2 release]
+
+	* debian/changelog: Adding missing "Fixes" keyword in debian changelog.
+
+2007-08-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.11.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+	* rc/ossomediaplayer.rc: Swapping (again) the webradio images etc, as
+	Tuomas has fixed it elsewhere.
+
+	* rc/ossorssfeedreader.rc: Commiting a patch in to fix tiny scrollbar in
+	the rss reader applet. Fixes: NB#65468.
+
+2007-08-16  Lucas Rocha  <lucas.rocha@nokia.com>
+
+	* rc/hildonappsmenu.rc: removed useless passive focus definition on
+	applications pane.
+
+2007-08-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonappsmenu.rc:
+	* rc/hildonnavigator.rc: Adding correct theming for separators. Fixes
+	NB#65690.
+
+2007-08-16  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: swapped the mediaplayer "music file" and
+	"netradio" images, they were mixed. Fixes NB#62184.
+
+2007-08-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkmenutoolbutton.rc:
+	* rc/ossortc.rc: Removing the old and unused images that were causing
+	the warnings to be printed on theme load.
+
+2007-08-15  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonnavigator.rc:
+	* rc/themespecificgtk.rc: Use the new colors for task switcher
+	elements.
+
+2007-08-15  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: removed all separator colors (not feasible to
+	implement)
+	* data/layout.txt: added the menu separators as 4 graphics:
+	qgn_plat_task_pane_menu1_separator.png=2527,45,18,3
+	qgn_plat_task_pane_menu2_separator.png=2635,45,18,3
+	qgn_plat_task_switcher_menu_separator.png=2845,45,18,3
+	qgn_plat_task_notification_menu_separator.png=3001,45,18,3
+	
+2007-08-14  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonnavigator.rc: Fixing the arrow theming for the switcher. Fixes
+	NB#65691.
+
+2007-08-14  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonstatusbar.rc: Adding the proper theming for the hildon
+	statusbar extension. Fixes NB#65211.
+
+2007-08-13  Mohammad Anwari  <mdamt@maemo.org>
+
+	* rc/hildonkeyboard.rc: Use big font size for Finger keyboard menu. 
+	Fixes NB#53689.
+
+2007-08-13  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonnavigator.rc: Unborking the comment.
+
+2007-08-13 Tapani Palli <tapani.palli@nokia.com>
+
+	* data/theme.xml: modified 'minimize' animation to hit task switcher
+	menu correctly (NB#65244)
+
+2007-08-10  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonappsmenu.rc:
+	* rc/hildonnavigator.rc:
+	* rc/hildonstatusbar.rc: Adding real color mappings instead of the
+	hardcoded colors for new applcation menu and switcher.
+
+2007-08-09  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonappsmenu.rc: Removing the prelight state from the arrow
+	buttons. Fixes NB#63886.
+
+2007-08-09  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossomediaplayer.rc: Swapping the webradio and now playing images.
+	Fixes: NB#65089.
+
+2007-08-06  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.10.2-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-07-31  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/base.rc:
+
+	Remove bindings for Left and Right in dialog, only do it for bboxes.
+	Fixes: NB#63406
+
+	Unbind Ctrl+F in GtkTreeView to disable interactive search, Fixes: MB#1724
+
+2007-07-31  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkcombobox.rc: Fixing the theming for derrived GtkComboBox objects.
+	Fixes NB#64458.
+
+2007-07-30  Lucas Rocha  <lucas.rocha@nokia.com>
+
+	* rc/hildonnavigator.rc: added theming for new switcher menu.
+
+2007-07-30  Tomas Junnonen  <tomas.junnonen@nokia.com>
+
+	* rc/hildonkeyboard.rc: Add a style for the FKB menuitems.
+
+2007-07-25  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.10.1-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-07-24  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonappsmenu.rc: Adding the proper styling for passive/active focus
+	for the new application menu. Now just needs a little hacks in the
+	application menu code itself to simulate the hackish sapwood menuitem
+	behaviour. Refs NB#60575.
+
+2007-07-23  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonseekbar.rc: Fixing some theming problems in the seekbar. Fixes
+	NB#61733.
+
+2007-07-23  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossomediaplayer.rc: Adding rc support for mediaplayer background
+	images. Fixes: NB#62182. 
+
+2007-07-12  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/gtktoolbar.rc: Use correct style properties and state/shadow
+	states for separators. Fixes toolbar separator item painting.
+	(Fixes: NB#61775)
+
+2007-07-12  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/base.rc: Unbind GtkPaned::cycle-handle-focus default keys (F6, F8)
+	as we use them for Fullscreen and Decrease already. (Fixes: NB#52265)
+
+2007-07-12  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/hildonseekbar.rc
+	* rc/gtkrange.rc: Move arrow-paint-box-layout setting to baseclass,
+	and add arrow-scaling=1.0 which will replace the former once available.
+	Fixes unwanted scaling in control bar and volume bars.
+
+2007-07-11  Lucas Rocha  <lucas.rocha@nokia.com>
+
+	* rc/hildonappsmenu.rc: add theming on scrolling buttons.
+
+2007-07-09  Lucas Rocha  <lucas.rocha@nokia.com>
+
+	* rc/hildonappsmenu.rc: set the viewport background color to avoid
+	needing to paint the menu item one.
+
+2007-07-09  Lucas Rocha  <lucas.rocha@nokia.com>
+
+	* rc/Makefile.am, rc/gtkrc.maemo_af_desktop.rc, rc/hildonappsmenu.rc: new RC 
+	file for applications menu theming.
+
+2007-07-03  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/hildonthumbscrollbar.rc: correct border values for thumbable
+	scrollbar. Fixes: NB#61802
+
+2007-06-29  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossoiradioapplet: Added theming for both BOX and SHADOW,
+	until the internet radio applet has applied a patch of mine
+
+2007-06-29  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.10.0-1 release]
+
+	* NEWS:
+	* debian/changelog:
+	* consfigure.ac: Updating.
+
+2007-06-29  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossorssfeedreader: Added theming for both BOX and SHADOW,
+	until the RSS reader applet has applied a patch of mine
+
+2007-06-28  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtksettings.rc (gtk-entry-password-hint-timeout): use the correct
+	GtkSettings name. Fixes: NB#60153
+
+2007-06-26  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossorssfeedreader.rc: Fixing the border values for rss reader. Fixes
+	NB#61636.
+
+2007-06-26  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonbreadcrumbtrail.rc: Fixing the breadcrumb bordervalues. Fixes
+	NB#61622.
+
+2007-06-26  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkbutton.rc:
+	* rc/gtktoolbutton.rc:
+	* rc/hildontimeeditor.rc: Removing the button displacement (equals to x =
+	0, y = 0 now). Fixes NB#61717.
+
+2007-06-26  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/base.rc (gtk-icon-sizes): handle focus for Editor widgets.
+	Depends on gtk+2.0 >= 2.10.12-osso6
+
+2007-06-25  Richard Sun  <richard.sun@nokia.com>
+
+	* rc/hildonkeyboard.rc: 
+	Add theme of thumb-able special character input. 
+
+2007-06-25  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkbuttonbox.rc: missing "maemo-position-theming = 1" in GtkHButtonBox.
+
+2007-06-20  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* rc/gtkbutton.rc: Applied colors to gtkbutton, seems to work.	
+
+2007-06-19  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* rc/themespecificgtk.rc: Added colors here too (oops) - still need to 
+	be added to the gtkbutton.rc!
+
+	* data/layout.txt: new colors for default buttons:
+	ButtonTextColor=7942,643,30,16
+	ButtonTextPressedColor=7942,659,30,16
+	ButtonTextDisabledColor=7942,673,30,16
+
+	* data/layout.txt: two new graphics for input method
+	qpn_plat_inputm_thumb_scv_tab_normal.png=5633,637,72,58 
+	qpn_plat_inputm_thumb_scv_tab_pressed.png=5633,701,72,58
+	
+2007-06-19  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.9.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-06-19  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/Makefile.am (RC_FILES):
+	* rc/gtkrc.rc:
+
+	Remove hildonbreadcrumbbutton.rc.
+
+2007-06-14  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* Added 3 new logical colors for dialog buttons:
+	
+	DialogButtonTextColor
+	DialogButtonTextPressedColor
+	DialogButtonTextDisabledColor
+
+2007-06-13  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/hildonbreadcrumbtrail.rc: fine tune border values for end graphics.
+
+2007-06-13  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/hildonhome.rc:
+	- removed left bar, not used any more
+	- fixed theming of the titlebar
+
+2007-06-13  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkbutton.rc: Adding new style "osso-dialogbutton-text-color" so that
+	the actual dialog button colors get applied to GTkLabel inside the dialog
+	buttons.
+
+2007-06-12  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Added 3 new logical colors:
+	DialogButtonTextColor=7942,568,30,16
+	PluginMenuTextColor=7942,583,30,16
+	HomeTitleTextColor=7942,598,30,16
+
+	* rc/themespecificgtk.rc: added here:
+	color["DialogButtonTextColor"]		= "@DialogButtonTextColor@"
+	color["PluginMenuTextColor"]		= "@PluginMenuTextColor@"	
+	color["HomeTitleTextColor"]		= "@HomeTitleTextColor@"
+
+	* rc/gtkbutton.rc: added color def's here, inherited the color style.
+
+2007-06-11  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtksettings.rc: Disabling the gtk animations.
+
+2007-06-11  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtksettings.rc: Adding the gtk-entry-last-char-timeout that equals
+	600 for delayed asterix in password fields. Fixes NB#60153.
+
+2007-06-08  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonseekbar.rc: A few fixes for the HildonSeekBar theming.
+
+2007-06-08  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossomediaplayer.rc: Backporting the fix for mediaplayer tabs. Fixes
+	NB#59734.
+
+2007-06-07  Tomas Junnonen  <tomas.junnonen@nokia.com>
+
+	* rc/hildonkeyboard.c:
+	- Fix FKB tabs not being themed, use a larger font
+	- Apply background pixmap to wc frame
+	- Use proper unique pixmaps for the finger sized candidate buttons
+
+2007-06-05 Tapani Palli <tapani.palli@nokia.com>
+
+	* data/theme.xml: finetune frame animation rectangle coordinates for
+	plankton theme
+
+2007-06-01  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossoclock.rc: Fixed background name and border values
+
+2007-06-01  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.8.2-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-06-01  Johan Bilien  <johan.bilien@nokia.com>
+
+	* COPYING: Adding fully Creative Commons Attribution-ShareAlike 2.5 license.
+
+	* ./: Adding refferences to license in all source files.
+
+2007-06-01  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossoiradioapplet.rc: Fixed border values
+
+2007-05-30  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossorssfeedreader.rc: Fixed border values
+
+2007-05-28  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/hildonnavigator.rc: Added background for the task navigator
+
+2007-05-28  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonvolumebar.rc: Fixing the mute button focus drawing for
+	volumebars. Fixes NB#54525.
+
+2007-05-28  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/hildonwebshortcut.rc:
+	- added
+	- use qgn_plat_webshortcut_applet_bg.png as background and alpha
+	mask
+	* rc/gtkrc.maemo_af_desktop.rc:
+	- include hildonwebshortcut.rc
+
+2007-05-28  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossospeeddial.rc: Changed background name and border values
+
+2007-05-28  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/defaultarrows.rc: Making the default arrow prelight state the pressed
+	state. Needed to get proper effect in the HildonCalendar during month/year
+	scrolling and browsing. 
+
+2007-05-25  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossointernetsearchapplet:
+	- fixed border values.
+	- added theming of buttons in alignment.
+
+2007-05-25  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.8.1-1 release]
+
+	* AUTHORS:
+	* COPYING:
+	* NEWS:
+	* README:
+	* configure.ac:
+	* debian/changelog:
+	* debian/copyright: Updating. 
+
+2007-05-24  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtksettings.rc: revert gtk-timeout-repeat
+	to the default value, using 150 breaks too many things.
+
+2007-05-24  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcombobox.rc: set child-displacement-{x,y} to 0
+	for the toggle button.
+	* rc/base.rc: make F4 (menu key) close menus. Fixes: NB#54923
+
+2007-05-24  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossorssfeedreader.rc: Removing arrows from the RSS reader. Fixes
+	NB#57366. 
+
+2007-05-24  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/ossomediaplayer.rc: Fixing the borders in the media player. Fixes
+	NB#55620. 
+
+2007-05-22  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* rc/themespecificgtk.rc: Added new logical colors also
+	here. Removed HWRWhiteTextColor which is no longer used and wasnt
+	even used in gtkrc anymore.
+
+2007-05-16  Mohammad Anwari  <mdamt@maemo.org>
+
+	* rc/hildonkeyboard.rc: Added space key theme. Related to NB#56124. 
+
+2007-05-14  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.8.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+	* rc/themespecificgtk.rc: Removing some old colors.
+
+2007-05-15  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtksettings.rc: Fix keynav-cursor-only and set keynav-wrap-around to 0
+
+2007-05-15  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Added a bunch of logical colours, had to move
+	existing ones around, so beware with your designs if you use the
+	template!
+
+2007-05-14  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* data/layout.txt: Adding some missing .png extensions.
+
+2007-05-14  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* data/layout.txt: Changing the 'separate_alpha' to 'noalpha' etc. 
+
+2007-05-11  Tomas Junnonen  <tomas.junnonen@nokia.com>
+
+	* rc/hildonkeyboard.rc:
+	Updated Input Method theming to use current class names.
+	Added a scaling version of the word completion widget.
+
+	* rc/themespecificgtk.rc, data/layout.txt: Added a few IM colors
+	
+2007-05-10  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/base.rc (gtk-icon-sizes): add binding for Esc key on GtkMenu
+
+2007-05-10  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: updates:
+
+	changed:
+	   qgn_plat_home_search_bg.png=3296,521,106,50
+	   qgn_plat_inputmet_pane_border.png=6100,203,6,6
+	New:
+	   qgn_plat_search_applet_button_normal.png=3412,521,50,50
+	   qgn_plat_search_applet_button_pressed.png=3472,521,50,50
+	   qgn_plat_inputmet_button_key_space_normal.png=6100,77,105,35
+	   qgn_plat_inputmet_button_key_space_pressed.png=6100,117,105,35
+	   qgn_plat_inputmet_button_key_space_disabled.png=6100,158,105,35
+	   qgn_plat_scroll_rss_shaft_normal.png=3601,243,6,14
+	   qgn_plat_scroll_rss_thumb_normal.png=3601,267,6,14
+	Removed
+	   qgn_plat_application_call_handling_block_active.png
+	   qgn_plat_application_call_handling_frame_block.png
+	   qgn_plat_header_show.png
+	   qgn_plat_header_show_pressed.png
+	   qgn_plat_header_hide.png
+	   qgn_plat_header_hide_pressed.png
+	   qgn_plat_button_breadcrumb_normal.png 
+	   qgn_plat_button_breadcrumb_focused.png
+	   qgn_plat_button_breadcrumb_pressed.png
+	Removed,
+	   qgn_plat_task_navigation_application_switcher_01_normal.png
+	   qgn_plat_task_navigation_application_switcher_02_normal.png
+	   qgn_plat_task_navigation_application_switcher_03_normal.png 
+	   qgn_plat_task_navigation_application_switcher_04_normal.png
+	   qgn_plat_task_navigation_button_01_normal.png
+	   qgn_plat_task_navigation_button_02_normal.png
+	   qgn_plat_task_navigation_button_03_normal.png
+	...and replaced with one contiguous background:
+	 qgn_plat_home_border_left.png
+
+2007-05-10  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/ossortc.rc: remove the rule for chat background, the
+	image is missing.
+	
+2007-05-10  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/afterincludes.rc: remove reference to osso-entry-special.
+
+2007-05-10 Tapani Palli <tapani.palli@nokia.com>
+
+	* data/theme.xml: add frame animation values
+
+2007-05-09  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildoncolorchooser.rc: Fixing the color chooser theming.
+
+2007-05-09  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/hildonnavigator.rc:
+	- moved focus and pressed images to bg_pixmaps so that they
+	can be applied by the compositing TN instead
+	- removed deceased button5
+
+2007-05-09  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Moved submenu arrow graphics around to make
+	space, added 30 new arrows (I know...) for thumb scroll
+	buttons. Yikes. Also new background images for the new task
+	navigator menus. Still need to add the colors.
+
+2007-05-08  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Added new graphics for home applets and moved the
+	existing ones around a bit, changed sizes also.
+
+2007-05-08  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonapp.rc: Reverting the mistakengly commited margin changes.
+
+	* rc/ossomediaplayer.rc: Mediaplayer stuff. Fixes NB#54750. 
+
+2007-04-20  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossorssfeedreader.rc:
+	* rc/ossointernetsearchapplet.rc:
+	* rc/ossospeeddial.rc:
+	* rc/ossoiradioapplet.rc:
+	* rc/ossoclock.rc:
+
+	Added _alpha suffix to all the backgrounds used as alpha mask
+
+2007-05-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.7.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-05-03  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkmenuitem.rc: the arrow graphics selected/pressed states
+	are mixed.
+
+2007-05-03  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/base.rc: Stop Menu key from popping up the entry/textview context
+	menu. Fixes: NB#50637
+
+2007-05-03  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Oops, restored the listbox header graphics. D'oh.
+
+2007-05-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkrange.rc: 
+	* rc/gtkscrollbar.rc: Normal vertical and horizontal scrollbars are
+	now highlighted when being dragged.
+
+	* rc/gtksettings.rc: Adding the proper gtk-timeout-repeat setting.
+	Fixes NB#54151.
+
+2007-05-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonhome.rc: Removing the unused apple resize mode styling.
+
+2007-05-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonthumbscrollbar.rc: Changing "TRUE" to "1". Forgot that the
+	parsing is dumb. 
+
+	* rc/hildonvolumebar.rc: Fixing the inverted vertical volumebar fill.
+
+2007-05-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonthumbscrollbar.rc: Highlight the thumb scrollbar when
+	dragging. Fixes NB#55340.
+
+	* rc/themespecificgtk.rc: Removing the unused color declarations.
+
+2007-05-02  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/ossoiradioapplet.rc: Fix border values for bg.
+	
+2007-05-02  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/base.rc: Add GtkTreeView Left/Right binding.
+
+2007-04-29  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Grand reorganizing of color swatches. Hopefully
+	everything works after this :-) Some new colors added too.
+
+2007-04-28  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: 
+
+	qgn_plat_application_call_handling_block_active.png=7145,719,26,26
+	qgn_plat_application_call_handling_frame_block.png=7210,719,26,26
+
+	qgn_plat_arrow_expander_disabled.png=7184,619,26,26
+	qgn_plat_arrow_expander_down_disabled.png=7184,650,26,26
+	qgn_plat_arrow_expander_down_focused.png=7153,650,26,26
+	qgn_plat_arrow_expander_down_normal.png=7122,650,26,26
+	qgn_plat_arrow_expander_focused.png=7153,619,26,26
+	qgn_plat_arrow_expander_normal.png=7122,619,26,26
+
+	Moved around (left) a bit to make space for new logical color
+	layout.
+
+2007-04-27  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Oops. Swapped coords for disabled and
+	focused-pressed button bitmaps.. duh. Should now work better :-)
+
+	* rc/gtknotebook.rc: made the notebook pixmap not repeat if the
+	notebook is taller than normal.
+
+2007-04-25  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+	
+	[0.6.2-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+	* rc/hildonapp.rc: Fixing the margins to 12 pixels.
+
+2007-04-24  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/base.rc: Add bindings for GtkComboBox and GtkDialog.
+	USe GtkArrow::arrow-scaling property.
+	
+	* rc/gtksettings.rc: Disable wrap around in menus, notebooks
+	and radio groups.
+	
+	* rc/hildonbreadcrumbtrail.rc: Update inner border values for
+	back button.
+
+2007-04-20  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossorssfeedreader.rc:
+	* rc/ossointernetsearchapplet.rc:
+	* rc/ossospeeddial.rc:
+	* rc/ossoiradioapplet.rc:
+	* rc/ossoclock.rc:
+
+	Added necessary definitions for the Home compositor.
+
+2007-04-20  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossointernetsearchapplet: Fixed border values to 18
+
+2007-04-17  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcombobox.rc: Use overlay for the combobox arrows.
+
+2007-04-16  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcheckbutton.rc:
+	* rc/gtkradiobutton.rc:
+
+	Once more into the breach, dear friends, once more;
+	Or close the wall up with our English dead!
+	III,i,1
+
+	William Shakespeare, Henry V
+
+	PS: remove unintentionally commited FOCUS rules.
+
+2007-04-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.6.1-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* rc/gtkrc.rc: Updating.
+
+2007-04-16  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/hildonbreadcrumbtrail.rc: Add special case for position theming
+	when there's only one breadcrumb.
+
+2007-04-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.6.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+	* rc/gtkrc.rc: Updating.
+
+2007-04-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/themespecificgtk.rc: Removing the alternative font defs for the
+	time being. Seems to break some things. Need to investiagate.
+
+2007-04-13  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkbuttonbox.rc: Set maemo-position-theming style property.
+
+2007-04-13  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/hildonbreadcrumbtrail.rc:
+	* rc/Makefile.rc:
+
+	Add HildonBreadCrumbTrail rc file.
+
+2007-04-11  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: moved voip buttons more tightly together and 
+	evened their spacing for easier editing.
+
+	Moved thumb scrollbars a bit, and added very small scroll
+	indicators as food for thought, could be used for stylus panned
+	content to save space..? Not in layout yet though - will need to
+	discuss this with mdk first.
+	
+2007-04-04  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcombobox.rc: Update to use new graphics. Still missing the
+	arrows pointing up.
+
+2007-04-03  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.5.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-04-03  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: new combobox artwork, removed old cruft, 
+	some cleanups. 
+
+2007-03-30  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: 
+
+	More fixes: 
+
+	- some rather huge voip and contacts graphics to come
+	(argh, must split out of here!)
+
+	- task navigator full height background: 
+	  qgn_plat_task_navigation_background.png
+
+	- search popup toolbar graphic
+	  qgn_plat_live_search_frame.png
+
+	- task nav / switcher button changes, and other things I forget now.
+
+2007-03-30  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: 
+	Sorted the graphics alphabetically (duh, should have done this
+	ages ago :)) - and added disabled breadcrumb arrow image.
+
+	Made submenu arrows graphics 26x26 pixels size.
+
+	Removed disabled button images from breadcrumb, those are not
+	really needed.
+
+	Added pressed states for scrollbar thumbs for better visibility
+	and to be consistent with thumb scrollbar.
+	 
+	Images: qgn_plat_scroll_horizontal_thumb_pressed.png
+	        qgn_plat_scroll_vertical_thumb_pressed.png,
+
+	..these are the same size & border values as regular thumb graphics.
+
+2007-03-30  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkrc.rc: Fixing the base.rc.
+
+2007-03-30  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/Makefile.am:
+	* rc/hildoncalendar.rc: Moving the gtkcalendar styles hildoncalendar.
+
+2007-03-29  Johan Bilien  <johan.bilien@nokia.com>
+
+	* rc/ossointernetsearchapplet.rc: adapt to the applet's new
+	widget layout
+
+2007-03-28  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: pressed variant of the path separator chevron 
+
+2007-03-28  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/gtkmenuitem.rc: add qgn_plat_menu_next_level_arrow_focused
+	
+2007-03-27  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: added 
+	qgn_plat_menu_next_level_arrow_focused.png=2464,128,20,30
+	(parent menu's arrow when submenu has focus)
+
+2007-03-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.4.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-03-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/Makefile.am:
+	* rc/gtkrc.rc:
+	* rc/hildonthumbscrollbar.rc: Style for the thumb-sized 'fingerable' scrollbar.
+
+	* rc/themespecificgtk.rc: Adding the DejaVu Sans Condensed as the
+	second font option.
+
+2007-03-23  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: added thumb-sized scrollbar images, hopefully
+	got them right :)
+
+2007-03-22  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: added breadcrumb images for Xan.
+
+2007-03-21  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Moved the (view)buttons next to dialog buttons in
+	the template.
+
+	Moved listbox icons a bit (are these used at all?) and tooltip graphic
+	into a bit more sensible place.
+
+2007-03-21  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Removed unused viewbutton images so they dont get
+	created anymore (left plain and "nesw" -variant) - still need to move
+	them next to the dialog buttons.
+	
+	I also moved dialog button coordinates (the whole group together)
+	30 pixels down and 160 pixels right to use the space better for
+	other things in the future.
+	
+2007-03-20  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.3.1-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog:
+
+2007-03-20  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/themespecificgtk.rc: the @ format wasn't supposed to be used here.
+
+2007-03-19  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: oops, forgot to fix the coordinates of two
+	additional images that got moved around in the template as
+	well. Duh.. (The normal states for minimize + close buttons).
+
+2007-03-16  Tuomas Kuosmanen  <tuomas.kuosmanen@nokia.com>
+
+	* data/layout.txt: Moved the minimize/close button images and
+	statusbar background 90 pixels to the left so it alings better
+	in the template. Affected images are: 
+	  - qgn_plat_status_bar_background.png
+	  - qgn_plat_button_minimize_pressed.png
+	  - qgn_plat_button_close_pressed.png
+	
+2007-03-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.3.0-1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-03-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* data/layout.txt: Fixing a coordinate of the _frame_right thing.
+	Moving one pixel right.
+
+2007-03-16  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/*.rc:
+
+	Use the @ format for logical color references.
+
+2007-03-12  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtktreeview.rc:
+
+	Use the new tree-view-separator-area property.
+
+2007-03-12  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcheckbutton.rc:
+	* rc/gtkradiobutton.rc:
+
+	Add interior-focus = 1, we need it to draw focus only over the child.
+
+2007-03-07  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildonvolumebar.rc: Fixing the broken volumebar ranges.
+
+2007-03-07  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/hildontimepicker.rc: Fixing the missing HildonTimePicker arrows.
+
+2007-03-06  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkmenuitem.rc:
+
+	Update the detail in the separator rule and add
+	GtkMenuItem::wide-separators so the BOX function and
+	separator-height properties are used in the code.
+
+2007-03-06  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/base.rc
+	* rc/gtkbuttonbox.rc
+	* rc/gtkcalendar.rc
+	* rc/gtkfilechooserbutton.rc
+	* rc/gtkseparator.rc
+	* rc/hildoncandidatebox.rc
+	* rc/hildoncontrolbar.rc
+	* rc/hildonnavigatorpopuplist.rc
+	* rc/hildonseekbar.rc
+	* rc/hildontimeeditor.rc
+	* rc/hildonvolumebar.rc
+	* rc/ossoiradioapplet.rc
+
+	Kill all hildonlike properties.
+
+	* rc/gtkmenuitem.rc:
+
+	Kill hildonlike property and arrow_in_focus.
+	
+2007-03-06  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcombobox.rc:
+
+	Fix border values for graphics. Will the brokeness ever end?
+
+2007-03-05  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/themespecificgtk.rc:
+
+	Remove hildonlike property from GtkEntry.
+	
+2007-03-05  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/themespecificgtk.rc: 
+	
+	s/logical_color/color/
+	
+2007-03-05  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtktreeview.rc:
+
+	Remove {odd,even}-row-color properties, they are not used by the theme
+	engine.
+	Remove passive-focus property, it's gone from GTK+.
+	Remove expander-indent, it's now an ordinary property inside GTK+ with
+	the correct default value if MAEMO_CHANGES is enabled.
+
+2007-03-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkscrolledwindow.rc: Fixing the scrolled window shadow. Not used
+	by anything at the moment AFAIK but it won't hurt for future.
+
+2007-03-02  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkviewport.rc:
+
+	The class name of GtkViewport has a typo and the rules have never
+	been used. This fixes among other things the Control Panel ugliness.
+	We never noticed before because the shadow type was hardcoded to NONE
+	in maemo gtk 2.6. Way to go :)
+
+2007-02-27  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* data/layout.txt: Adding the bradcrumb, thumbsize scroolbar and
+	customized toolbar for mediaplayer to layout. Chaging the size of
+	application _frame_left and _frame_right.
+
+2007-02-26  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkprogressbar.rc:
+
+	Update the border values to make the widget look nice when expanded
+	vertically.
+
+2007-02-22  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcombobox.rc:
+
+	Update the border values to match the graphics.
+
+2007-02-22  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.2.1-1 release]
+
+	* AUTHORS:
+	* NEWS:
+	* README:
+	* configure.ac: 
+	* debian/changelog: Updating.
+
+2007-02-22  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/hildondateeditor.rc
+	* rc/ossorssfeedreader.rc
+	* rc/gtkframe.rc
+	* rc/gtkcombobox.rc
+	* rc/ossospeeddial.rc
+	* rc/hildontimeeditor.rc
+	* rc/hildonstatusbar.rc
+	* rc/ossoiradioapplet.rc
+	* rc/ossortc.rc
+	* rc/ossoclock.rc
+	* rc/ossomediaplayer.rc: Update GtkFrame painting rules for gtk+ 2.10
+	  - remove non-existent "GtkFrame::hildonlike" property
+	  - use function=SHADOW instead of BOX
+
+	* rc/gtkentrycompletion.rc: Removed redundant references to files,
+	they're already inherited from GtkFrame
+
+2007-02-22  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/base.rc
+	* rc/gtkbutton.rc
+	* rc/gtkcalendar.rc
+	* rc/gtkcheckbutton.rc
+	* rc/gtkcheckmenuitem.rc
+	* rc/gtkcombobox.rc
+	* rc/gtkentry.rc
+	* rc/gtkentrycompletion.rc
+	* rc/gtkfilechooserbutton.rc
+	* rc/gtkframe.rc
+	* rc/gtkmenu.rc
+	* rc/gtkmenuitem.rc
+	* rc/gtknotebook.rc
+	* rc/gtkprogressbar.rc
+	* rc/gtkradiobutton.rc
+	* rc/gtkrange.rc
+	* rc/gtkseparator.rc
+	* rc/gtktextview.rc
+	* rc/gtktoggletoolbutton.rc
+	* rc/gtktoolbar.rc
+	* rc/gtktoolbutton.rc
+	* rc/gtktreeview.rc
+	* rc/hildonapp.rc
+	* rc/hildonbreadcrumbbutton.rc
+	* rc/hildoncontrolbar.rc
+	* rc/hildondateeditor.rc
+	* rc/hildongrid.rc
+	* rc/hildonkeyboard.rc
+	* rc/hildonnavigator.rc
+	* rc/hildonnumbereditor.rc
+	* rc/hildonseekbar.rc
+	* rc/hildonstatusbar.rc
+	* rc/hildontimeeditor.rc
+	* rc/hildontimepicker.rc
+	* rc/hildonvolumebar.rc
+	* rc/hildonweekdaypicker.rc
+	* rc/ossoclock.rc
+	* rc/ossoglobalsearch.rc
+	* rc/ossointernetsearchapplet.rc
+	* rc/ossoiradioapplet.rc
+	* rc/ossomediaplayer.rc
+	* rc/ossorssfeedreader.rc
+	* rc/ossortc.rc
+	* rc/ossospeeddial.rc
+	
+	stretch = TRUE and overlay_stretch = TRUE are
+	default values too, remove them from files.
+
+	$DEITY bless emacs recursive find-query-replace.
+
+2007-02-21  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/defaultarrows.rc:
+	* rc/gtkcheckbutton.rc:
+	* rc/gtkcheckmenuitem.rc:
+	* rc/gtkexpander.rc:
+	* rc/gtkmenuitem.rc:
+	* rc/gtknotebook.rc:
+	* rc/gtkradiobutton.rc:
+	* rc/gtkscrollbar.rc:
+	* rc/gtktreeview.rc:
+	* rc/hildoncontrolbar.rc:
+	* rc/hildonkeyboard.rc:
+	* rc/hildonnavigatorpopuplist.rc:
+
+	overlay_border = { 0, 0, 0, 0 } is the default, remove it
+	from all files.
+	
+2007-02-21  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkprogressbar.rc:
+
+	Shrink {x,y}spacing by 2 pixels.
+
+2007-02-21  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcheckbutton.rc:
+	* rc/gtkradiobutton.rc:
+
+	Add new FOCUS rules to match code changes in sapwood. Makes the focus
+	on standalone {check,radio}buttons have some vague resemblace to the
+	spec, but this needs more work (and very possibly theme graphics
+	changes).
+
+2007-02-21  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkprogressbar.rc:
+
+	Remove old style properties.
+
+2007-02-20  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtksettings.rc:
+
+	Enable widget navigation with cursor only.
+
+2007-02-19  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/afterthemespecificgtk.rc: Fixing the menu prelight and other
+	prelights.
+
+2007-02-19  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkradiobutton.rc:
+	* rc/gtkcheckbutton.rc:
+
+	Add empty FOCUS handlers.
+
+2007-02-16  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.2.0 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-02-16  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcombobox.rc:
+	
+	GtkComboBox::minimum-width is gone too.
+	
+2007-02-15  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkdialog.rc
+
+	extended_{left,right}_border have gone the way of the Dodo too.
+
+2007-02-15  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkdialog.rc:
+
+	Drop inner-left-border, inner-right-border and use xthickness instead.
+
+2007-02-15  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* README: Adding a small README about the versioning system for this
+	package etc.
+
+2007-02-14  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/hildonnavigator.rc:
+
+	The default for border is { 0, 0, 0, 0}, no need to plague the rc
+	file with it.
+
+2007-02-14  Tommi Komulainen  <tommi.komulainen@nokia.com>
+	
+	* rc/gtkmenu.rc: Remove unused hildonlike, and redundant
+	horizontal/vertical padding properties. Add horizontal_offset = -18 to
+	overlap submenus with their parent. Fixes: MB#1059
+
+2007-02-14  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcombobox.rc:
+	
+	Drop hildon-like properties, arrow-width and arrow-height for
+	arrow-size, change border parameters for GtkToggle button, remove
+	FOCUS rules.
+
+	Once we get the graphics update we should re-enable the ARROW rule
+	and the combobox should look ok again.
+
+2007-02-13  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* NEWS:
+	* data/layout.txt: qgn_plat_combobox_frame_normal.png extraction
+	changed.qgn_plat_combobox_frame_pressed.png added. Those fixes are
+	needed for the ComboBox.
+
+2007-02-12  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkentrycompletion.rc:
+	
+	Change function from BOX to SHADOW, drop hildon-like property.
+
+2007-02-12  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkcombobox.rc:
+	
+	Change GtkComboBoxEntry from BOX to SHADOW.
+
+2007-02-12  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtksettings.rc:
+	
+	Enable gtk-entry-last-char-timeout with 600 (600 ms).
+
+2007-02-12  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/hildontimeeditor.rc: 
+	* rc/gtkcombobox.rc:
+
+	More GtkEntry style fixes.
+
+2007-02-09  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.1.2 release]
+
+	* AUTHORS: Adding Xan to the authors. 
+
+	* NEWS: 
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-02-09  Xan Lopez  <xan.lopez@nokia.com>
+
+	* rc/gtkentry.rc: change drawing function from BOX to SHADOW, drop
+	hildonlike property, drop show-last-char property and change border
+	properties to the new format.
+
+2007-02-06  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/gtkmenu.rc (osso-menu): Remove scroll arrow background painting.
+
+2007-02-05  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/Makefile.am:
+	* rc/gtkrc.rc:
+	* rc/gtkviewport.rc: Remove the shadow from GtkViewPort.
+
+2007-02-05  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/gtkbutton.rc: Remove the 'osso_button' detail so that we get
+	decent fallback graphics for all buttons. Remove references to all
+	other view buttons as the matching rules no longer apply.
+	NOTE: The unused buttons should be removed also from the coordinate
+	files and the templates.
+
+2007-02-05  Tommi Komulainen  <tommi.komulainen@nokia.com>
+
+	* rc/base.rc: Change FALSE to 0 since gtk can't parse FALSE.
+	Comment 'gtk-menu-images = 0' as it has unintended effect on TN menus.
+
+	* rc/gtksettings.rc: Enable touchscreen mode (GtkMenu scrolling,
+	prelighting)
+	
+2007-02-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	[0.1.1 release]
+
+	* NEWS:
+	* configure.ac:
+	* debian/changelog: Updating.
+
+2007-02-02  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/base.rc: Icon sizes and some HIG definitions.
+
+2007-02-01  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkbutton.rc: Use the 'position' keyword instead of detail for
+	sapwood 2.91.0. Patch by Tommi Komulainen. Fixes MB#973.
+
+	* rc/gtktreeview.rc: Active/passive focus for gtk 2.10. Patch by Tommi
+	Komulainen. Fixes MB#992.
+
+2007-01-31  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* rc/gtkcheckbutton.rc: Removing the check focus that overdraws
+	everything.
+
+2007-01-31  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* configure.ac:
+	* debian/changelog: Changing version number and fixing the pkgconfig
+	file.
+
+2007-01-29  Michael Dominic Kostrzewa  <michael.kostrzewa@nokia.com> 
+
+	* pkgconfig/hildon-theme-layout-4.pc.in:
+	* ChangeLog.3:
+	* README:
+	* configure.ac:
+	* debian/changelog:
+	* debian/control:
+	* debian/rules:
+	* pkgconfig/Makefile.am:
+	* pkgconfig/hildon-theme-layout-3.pc.in: Changes for
+	hildon-theme-layout-4.
+

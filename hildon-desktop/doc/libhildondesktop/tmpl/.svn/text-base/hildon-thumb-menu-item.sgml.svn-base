@@ -1,0 +1,82 @@
+<!-- ##### SECTION Title ##### -->
+HildonThumbMenuItem
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO THUMB_BUTTON_ID ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT HildonThumbMenuItem ##### -->
+<para>
+
+</para>
+
+@menu_item: 
+
+<!-- ##### FUNCTION hildon_thumb_menu_item_new ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_thumb_menu_item_new_with_labels ##### -->
+<para>
+
+</para>
+
+@label: 
+@thumb_label: 
+@comment: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_thumb_menu_item_new_with_mnemonic ##### -->
+<para>
+
+</para>
+
+@label: 
+@thumb_label: 
+@comment: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_thumb_menu_item_set_images ##### -->
+<para>
+
+</para>
+
+@thumb_menu_item: 
+@image: 
+@thumb_image: 
+
+
+<!-- ##### FUNCTION hildon_menu_set_thumb_mode ##### -->
+<para>
+
+</para>
+
+@menu: 
+@thumb_mode: 
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+
+<Menu>
+
+  <!-- This is actually not needed -->
+  <Name>Others Menu</Name>
+
+  <!-- Search the default locations -->
+  <DefaultAppDirs/>
+  <DefaultDirectoryDirs/>
+
+  // My selection submenu
+  <Menu>
+    <Name>tana_fi_my_selection</Name>
+    <Include>
+    </Include>
+  </Menu>
+
+  // Internet submenu
+  <Menu>
+    <Name>tana_fi_internet</Name>
+    <Include>
+    </Include>
+  </Menu>
+
+  // Communication submenu
+  <Menu>
+    <Name>tana_fi_communication</Name>
+    <Include>
+    </Include>
+  </Menu>
+
+  // Utilities submenu
+  <Menu>
+    <Name>tana_fi_utilities</Name>
+    <Include>
+    </Include>
+  </Menu>
+
+  // Settings submenu
+  <Menu>
+    <Name>tana_fi_settings</Name>
+    <Include>
+      <Filename>hildon-control-panel.desktop</Filename>
+      <Filename>hildon-application-manager.desktop</Filename>
+      <Filename>hwr-teacher.desktop</Filename>
+    </Include>
+  </Menu>
+
+  // Extras submenu
+  <Menu>
+    <Name>tana_fi_extras</Name>
+    <All/>
+    <Include>
+    </Include>
+  </Menu>
+
+</Menu>

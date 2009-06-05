@@ -1,0 +1,10 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license 
+
+style "osso-completion-frame"
+{
+  xthickness = 6
+  ythickness = 6
+}
+
+widget "hildon-completion-window.GtkFrame" style "osso-completion-frame"

@@ -1,0 +1,27 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license 
+
+style "osso-frame"
+{
+  xthickness = 3
+  ythickness = 3
+  
+  engine "sapwood"
+    {
+      image
+        {
+	  function = SHADOW
+	  state    = INSENSITIVE
+	  file     = "../images/qgn_plat_frame_disabled.png"
+	  border   = { 3, 3, 3, 3 }
+	}
+      image
+        {
+	  function = SHADOW
+	  file     = "../images/qgn_plat_frame.png"
+	  border   = { 3, 3, 3, 3 }
+	}
+    }
+}
+
+class "GtkFrame" style "osso-frame"

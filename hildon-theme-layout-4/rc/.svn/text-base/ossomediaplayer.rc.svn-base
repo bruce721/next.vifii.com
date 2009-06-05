@@ -1,0 +1,335 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-mplayer1-button"
+{
+  engine "sapwood"
+    {
+        image {
+            function = BOX
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_mplayer1_pressed.png"
+                border   = { 43, 43, 37, 37 }
+        }
+        image {
+            function = BOX
+                state    = INSENSITIVE
+                file     = "../images/qgn_plat_button_mplayer1_disabled.png"
+                border   = { 43, 43, 37, 37 }
+        }
+        image {
+            function = BOX
+                file     = "../images/qgn_plat_button_mplayer1_normal.png"
+                border   = { 43, 43, 37, 37 }
+        }
+    }
+}
+
+widget "*.Mplayer1Button" style "osso-mplayer1-button"
+
+style "osso-mplayer2-button"
+{
+  engine "sapwood"
+    {
+        image {
+            function = BOX
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_mplayer2_pressed.png"
+                border   = { 43, 43, 37, 37 }
+        }
+        image {
+            function = BOX
+                state    = INSENSITIVE
+                file     = "../images/qgn_plat_button_mplayer2_disabled.png"
+                border   = { 43, 43, 37, 37 }
+        }
+        image {
+            function = BOX
+                file     = "../images/qgn_plat_button_mplayer2_normal.png"
+                border   = { 43, 43, 37, 37 }
+        }
+    }
+}
+
+widget "*.Mplayer2Button" style "osso-mplayer2-button"
+
+style "osso-mplayer2-pause-button"
+{
+  engine "sapwood"
+    {
+        image {
+            function = BOX
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_mplayer2_pause_pressed.png"
+                border   = { 43, 43, 37, 37 }
+        }
+        image {
+            function = BOX
+                state    = INSENSITIVE
+                file     = "../images/qgn_plat_button_mplayer2_pause_disabled.png"
+                border   = { 43, 43, 37, 37 }
+        }
+        image {
+            function = BOX
+                file     = "../images/qgn_plat_button_mplayer2_pause_normal.png"
+                border   = { 43, 43, 37, 37 }
+        }
+    }
+}
+
+widget "*.Mplayer2PauseButton" style "osso-mplayer2-pause-button"
+
+style "osso-mplayer3-button"
+{
+  engine "sapwood"
+    {
+        image {
+            function = BOX
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_mplayer3_pressed.png"
+                border   = { 43, 43, 37, 37 }
+        }
+        image {
+            function = BOX
+                state    = INSENSITIVE
+                file     = "../images/qgn_plat_button_mplayer3_disabled.png"
+                border   = { 43, 43, 37, 37 }
+        }
+        image {
+            function = BOX
+                file     = "../images/qgn_plat_button_mplayer3_normal.png"
+                border   = { 43, 43, 37, 37 }
+        }
+    }
+}
+
+widget "*.Mplayer3Button" style "osso-mplayer3-button"
+
+style "osso-mplayer4-button"
+{
+  engine "sapwood"
+    {
+        image {
+            function = BOX
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_mplayer4_pressed.png"
+                border   = { 43, 43, 37, 37 }
+        }
+        image {
+            function = BOX
+                state    = INSENSITIVE
+                file     = "../images/qgn_plat_button_mplayer4_disabled.png"
+                border   = { 43, 43, 37, 37 }
+        }
+        image {
+            function = BOX
+                file     = "../images/qgn_plat_button_mplayer4_normal.png"
+                border   = { 43, 43, 37, 37 }
+        }
+    }
+}
+
+widget "*.Mplayer4Button" style "osso-mplayer4-button"
+
+style "osso-mplayer5-button"
+{
+  xthickness = 35
+  ythickness = 24
+
+  engine "sapwood"
+    {
+        image {
+            function = BOX
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_mplayer_playlist_pressed.png"
+                border   = { 35, 35, 24, 24 }
+        }
+        image {
+            function = BOX
+                file     = "../images/qgn_plat_button_mplayer_playlist_normal.png"
+                border   = { 35, 35, 24, 24 }
+        }
+    }        
+}
+
+widget "*.Mplayer5Button" style "osso-mplayer5-button"
+
+style "osso-mplayer6-button"
+{
+  xthickness = 35
+  ythickness = 24
+    
+  engine "sapwood"
+    {
+        image {
+            function = BOX
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_mplayer_now_playing_pressed.png"
+                border   = { 35, 35, 24, 24 }
+        }
+        image {
+            function = BOX
+                file     = "../images/qgn_plat_button_mplayer_now_playing_normal.png"
+                border   = { 35, 35, 24, 24 }
+        }
+    }        
+}
+
+widget "*.Mplayer6Button" style "osso-mplayer6-button"
+
+style "osso-mp-button-frame"
+{
+  engine "sapwood"
+    {
+        image {
+            function = SHADOW
+                file     = "../images/qgn_plat_mediaplayer_buttons_bg.png"
+                border   = { 56, 56, 112, 112 }
+        }
+    }
+}
+
+widget "*.MplayerButtonFrame" style "osso-mp-button-frame"
+
+style "mediaplayer-tab-right" = "osso-window-background" {
+   engine "sapwood" {
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-frame-top"
+		file = "../images/qgn_plat_toolbar_frame_top_right_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+        image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-frame-bottom"
+		file = "../images/qgn_plat_toolbar_frame_bottom_right_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar"
+		file = "../images/qgn_plat_toolbar_right_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-fullscreen-frame-top"
+		file = "../images/qgn_plat_toolbar_fullscreen_frame_top_right_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-fullscreen-frame-middle"
+		file = "../images/qgn_plat_toolbar_fullscreen_frame_middle.png"
+		border = { 24, 24, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-fullscreen-frame-bottom"
+		file = "../images/qgn_plat_toolbar_fullscreen_frame_bottom_right_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "findtoolbar-fullscreen"
+		file = "../images/qgn_plat_toolbar_fullscreen_find.png"
+		border = { 24, 24, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-fullscreen"
+		file = "../images/qgn_plat_toolbar_fullscreen_right_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+   }
+}
+
+widget "MediaPlayerTabNowPlaying" style "mediaplayer-tab-right"
+
+style "mediaplayer-tab-left" = "osso-window-background" {
+    engine "sapwood" {
+	image {
+		function = BOX
+        	state = NORMAL
+		detail = "toolbar-frame-top"
+		file = "../images/qgn_plat_toolbar_frame_top_left_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-frame-bottom"
+		file = "../images/qgn_plat_toolbar_frame_bottom_left_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar"
+		file = "../images/qgn_plat_toolbar_left_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-fullscreen-frame-top"
+		file = "../images/qgn_plat_toolbar_fullscreen_frame_top_left_tab.png"
+        	border = { 24, 198, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-fullscreen-frame-middle"
+		file = "../images/qgn_plat_toolbar_fullscreen_frame_middle.png"
+		border = { 24, 24, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-fullscreen-frame-bottom"
+		file = "../images/qgn_plat_toolbar_fullscreen_frame_bottom_left_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "findtoolbar-fullscreen"
+		file = "../images/qgn_plat_toolbar_fullscreen_find.png"
+		border = { 24, 24, 0, 0 }
+	}
+	image {
+		function = BOX
+		state = NORMAL
+		detail = "toolbar-fullscreen"
+		file = "../images/qgn_plat_toolbar_fullscreen_left_tab.png"
+		border = { 24, 198, 0, 0 }
+	}
+   }
+}
+
+widget "MediaPlayerTabLibrary" style "mediaplayer-tab-left"
+
+# Background images for media player, as application installer,
+# because this behavior is not directly supported by the theming
+# machinery, the media player renders the background image itself.
+# What pixmap to render is specified here, but in a hackish
+# way: the render code will look into bg_pixmap[ACTIVE] and
+# bg_pixmap[NORMAL] to find the pixmap, and will render it always,
+# independent of the state of the widget.
+
+style "osso-mplayer-now-playing-current-clip-mode"
+{
+    bg_pixmap[NORMAL] = "../images/qgn_plat_application_media_player_image_webradio.png"
+    bg_pixmap[ACTIVE] = "../images/qgn_plat_application_media_player_image.png"
+}
+
+widget "*.MediaPlayerCurrentClipDetailsImage" style "osso-mplayer-now-playing-current-clip-mode"
+ 

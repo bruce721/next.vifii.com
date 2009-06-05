@@ -1,0 +1,36 @@
+<!-- ##### SECTION Title ##### -->
+StatusbarItemBinding
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT StatusbarItemBinding ##### -->
+<para>
+
+</para>
+
+@parent: 
+@plug: 
+
+<!-- ##### FUNCTION statusbar_item_binding_new ##### -->
+<para>
+
+</para>
+
+@wid: 
+@Returns: 
+
+

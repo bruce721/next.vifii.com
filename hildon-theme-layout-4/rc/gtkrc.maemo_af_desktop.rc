@@ -1,0 +1,20 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+include "base.rc"
+
+# Adding maemo_af_desktop specific widgets 
+include "hildonhome.rc"
+include "hildonnavigator.rc"
+include "hildonnavigatorpopuplist.rc"
+include "hildonstatusbar.rc"
+include "hildonappsmenu.rc"
+
+# Home applets
+include "ossoclock.rc"
+include "ossoiradioapplet.rc"
+include "ossorssfeedreader.rc"
+include "ossospeeddial.rc"
+include "ossointernetsearchapplet.rc"
+include "hildonwebshortcut.rc"
+include "ossopromoapplet.rc"

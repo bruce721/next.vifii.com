@@ -1,0 +1,219 @@
+[0.14.9-1]
+* Bumped license to Creative Commons version 3.0.
+
+[0.14.8-1]
+* Messed up version numbering I think.. :P
+
+[0.14.7-1]
+* Reverting fixes for long-press
+
+[0.14.6-1]
+* Fixes for long-press
+
+[0.14.5-1]
+* Bugfix for special character toolbar
+
+[0.14.4-1]
+* Mostly small fixes
+
+[0.14.3-1]
+* Fixing colors used in the bookmarsk plugin
+* More fixes for windows popups
+* Correcting arrow size in thumb menu
+
+[0.14.2-1]
+* Fixes for GtkEntry theming borkeness
+* Proper colors for window popups
+
+[0.14.1-1]
+* Adding theming for GtkIconView
+* Fixes to the GtkEntry drawing
+* ComboBox fixes 
+
+[0.14.0-1]
+* Added PluginMenuBgColor.
+* Fixing some border values
+* Fixes for flicker-free menus from navigator
+
+[0.13.0-1]
+* Seekbar fixes
+* House keeping 
+
+[0.12.2-1]
+* Support for black menus
+* Theming for the "Go" button
+* Fixing the extension bar theming
+* Styling for address book live search
+* Proper theming for the switcher
+* Focus fixes for the apps menu
+
+[0.12.1-1]
+* Fixed navigator switched state for pressed
+* Fixed treeview theming
+* Scaling factor to arrows applied
+* Correct FKB tab theming
+* VKB fixes 
+
+[0.12.0-1]
+* Fixes for VKB button theming
+* Input methods border values updates
+* Treeview focus updates
+* Updated mediaplayer layout
+
+[0.11.1-1]
+* Fixing RSS applet focused buttons theming
+* Fixed border values of some input method elements
+* Move statusbar one pixel right
+* Removing remaining redundant stretch and border settings
+* Highlighted state theming for switcher
+* GtkArrow fixes for sapwood stretching
+* Separator fixes for normal separators and new app menu separators
+* Fixing the search applet alpha
+* Fixed new chavo theming        
+
+[0.11.0-1]
+* Adding real color mappings for app/switcher/not menu
+* Modified minimize animation
+* Use big font size for finger keyboard
+* Proper theming for statusbar extension
+* Fixed arrow theming in the switcher
+* Removed all separator colors from the layout, added separator graphics
+* Removing all, unused images that were causing warnings during theme load
+* Swapped webradio and now playing images  
+
+[0.10.2-1]
+* FKB menuitems style
+* Theming for new switcher menu
+* Bugfixes
+
+[0.10.1-1]
+* New application menu theming
+* Fixing seekbar theming
+* Rc support for mediaplayer background
+* State/shadow types for separators
+* Correct border values for finger scrollbar
+
+[0.10.0-1]
+* Removing button displacement
+* Fixed border values for RSS reader 
+* Handle focus for edit widgets
+* Adding theme for thumbable special-character input in IM
+
+[0.9.0-1]
+* Fine-tuned animations for plankton theme
+* Disabling the gtk animations
+* Fixes for seekbar theming
+* Fix for mediaplayer tabs
+* Fixed theming of the titlebar 
+* New colors for dialog buttons (layout change)
+* Breadcrumb fixes 
+
+[0.8.2-1]
+* Fixing problems with the mute button
+* Fallback image for tasknavigator when composite not present
+
+[0.8.1-1]
+* Fixing the license to CC Attribution-ShareAlike 2.5
+* Removed arrows from RSS reader
+* Fixed borders for media player
+* Input method fixes
+
+[0.8.0-1]
+* Adding a bunch of new logical colours
+* Updated input method theming   
+* Added binding for Esc key on GtkMenu
+* Transparent applets stuff
+* Matchbox frame animation rules
+* Fixed color chooser theming
+* Reorganized elements here and there
+* Theming support for media player now playing buttons
+
+[0.7.0-1]
+* Fixes: NB#54069 Missing tick of check box in focus
+* Fixes: NB#55340 The thumb in finger scrollbar does not show its clicked state
+* Fixes: NB#54151 Time picker: Pressing Up/Down navigation keys does not increment or decrement the value correctly
+* Fixes: NB#55140 Separators and arrowheads are missing from the column list headers
+
+* Normal vertical and horizontal scrollbars are now highlighted when being dragged
+* Adding the proper gtk-timeout-repeat setting
+* Fixing the inverted vertical volumebar fill
+* Grand reorganizing of color swatches
+* Made the notebook pixmap not repeat if the notebook is taller than normal
+
+[0.6.2-1 release]
+* Disable wrap around in menus, notebooks and radio groups
+* Added necessary definitions for the Home compositor (applets)/
+* Fixing focus in radio button and check button  
+
+[0.6.1-1 release]
+* Add special case for position theming when there's only one breadcrumb.
+
+[0.6.0-1 release]
+* Removing the alternative font defs for the time being
+* Set maemo-position-theming style property
+* HildonBreadCrumbTrail rc file
+* Moved voip buttons more tightly together and evened their spacing for easier editing
+* Moved thumb scrollbars a bit
+* Combobox updates
+
+[0.5.0-1 release]
+* Added qgn_plat_menu_next_level_arrow_focused.png
+* Moving the gtkcalendar styles to hildoncalendar
+* Sorted the graphics alphabetically
+* Made submenu arrows graphics
+* Added pressed states for scrollbar thumbs for better visibility and to be consistent with thumb scrollbar
+* Task navigator full height background
+* Search popup toolbar graphic
+* Task nav / switcher button changes
+* New combobox artwork
+
+[0.4.0-1 release]
+* Removed unused viewbutton images
+* Moved listbox icons a bit and and tooltip graphic
+* Added breadcrumb images
+* Added thumb-sized scrollbar images
+* RC style for the thumb-sized 'fingerable' scrollbar
+* Adding the DejaVu Sans Condensed as the second font option
+        
+[0.3.1-1 release]
+* Fixing the coords for minimize and close buttons (normal state)
+* Fixing the logical colors definitions
+
+[0.3.0-1 release]
+* Adding the bradcrumb, thumbsize scroolbar and customized toolbar for mediaplayer to layout
+* Fixing the scrolled window shadow
+* Remove {odd,even}-row-color properties, they are not used by the theme engine
+* Fixing the volumebar ranges and time picker arrows
+* Use the @ format for logical color references
+* Fixing a coordinate of the _frame_right thing. moving one pixel right
+
+[0.2.1-1 release]
+* Update GtkFrame painting rules for gtk+ 2.10
+* Remove non-existent "GtkFrame::hildonlike" property
+* use function=SHADOW instead of BOX
+* Removed the setters for default values
+* Shrink progressbar spacing by 2 pixels
+* Fixing the menu prelight and other prelights
+* Enable widget navigation with cursor only.
+* Add new FOCUS rules to match code changes in sapwood
+
+[0.2.0-1 release]
+* GtkEntry style fixes
+* Horizontal offset for Menu
+* GtkComboBox fixes 
+* GtkDialog thickness fixes
+
+[0.1.2-1 release]
+* Enable touchscreen mode
+* FALSE --> 0
+* Removed osso_button detail 
+* Removed shadow from GtkViewPort
+* Removed scroll arrow background painting
+* Changed GtkEntry drawing to SHADOW 
+
+[0.1.1-1 release]
+* Adding the proper GtkSettings and some HIG definitions.
+* Fixing the CheckButton drawing.
+* Active/passive focus. 
+* Dialog button fixes.
+

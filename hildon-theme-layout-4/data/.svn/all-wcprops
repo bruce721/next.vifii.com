@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/maemo/!svn/ver/14469/projects/haf/trunk/hildon-theme-layout-4/data
+END
+theme.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/maemo/!svn/ver/13297/projects/haf/trunk/hildon-theme-layout-4/data/theme.xml
+END
+index.theme
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/9413/projects/haf/trunk/hildon-theme-layout-4/data/index.theme
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/9413/projects/haf/trunk/hildon-theme-layout-4/data/Makefile.am
+END
+layout.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/maemo/!svn/ver/14469/projects/haf/trunk/hildon-theme-layout-4/data/layout.txt
+END
+bundle.ini.in
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/maemo/!svn/ver/9413/projects/haf/trunk/hildon-theme-layout-4/data/bundle.ini.in
+END

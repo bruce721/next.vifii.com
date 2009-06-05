@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/maemo/!svn/ver/10376/projects/haf/trunk/hildon-theme-cacher/scripts
+END
+hildon-theme-recache-all.in
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/maemo/!svn/ver/10376/projects/haf/trunk/hildon-theme-cacher/scripts/hildon-theme-recache-all.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/maemo/!svn/ver/8252/projects/haf/trunk/hildon-theme-cacher/scripts/Makefile.am
+END

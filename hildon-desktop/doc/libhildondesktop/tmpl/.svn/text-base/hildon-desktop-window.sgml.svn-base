@@ -1,0 +1,52 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopWindow
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopWindowPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT HildonDesktopWindow ##### -->
+<para>
+
+</para>
+
+@parent: 
+@priv: 
+@container: 
+
+<!-- ##### FUNCTION hildon_desktop_window_set_sensitive ##### -->
+<para>
+
+</para>
+
+@window: 
+@sensitive: 
+
+
+<!-- ##### FUNCTION hildon_desktop_window_set_focus ##### -->
+<para>
+
+</para>
+
+@window: 
+@focus: 
+
+

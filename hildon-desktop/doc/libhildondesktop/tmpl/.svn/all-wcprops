@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/maemo/!svn/ver/15780/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl
+END
+hildon-desktop-item.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/maemo/!svn/ver/15780/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-item.sgml
+END
+hildon-desktop-panel.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-panel.sgml
+END
+statusbar-item-wrapper.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/statusbar-item-wrapper.sgml
+END
+hildon-desktop-marshalers.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-marshalers.sgml
+END
+hildon-desktop-panel-window-dialog.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-panel-window-dialog.sgml
+END
+home-item.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/home-item.sgml
+END
+hildon-desktop-item-plug.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-item-plug.sgml
+END
+hildon-desktop-panel-window-composite.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-panel-window-composite.sgml
+END
+hildon-thumb-menu-item.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-thumb-menu-item.sgml
+END
+hildon-desktop-window.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-window.sgml
+END
+hildon-desktop-popup-window.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-popup-window.sgml
+END
+statusbar-item-socket.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/statusbar-item-socket.sgml
+END
+hildon-log.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-log.sgml
+END
+hildon-desktop-picture.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-picture.sgml
+END
+libhildondesktop-unused.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/libhildondesktop-unused.sgml
+END
+tasknavigator-item-socket.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/tasknavigator-item-socket.sgml
+END
+statusbar-item.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/statusbar-item.sgml
+END
+hildon-desktop-notification-service.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-notification-service.sgml
+END
+hildon-desktop-home-item.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-home-item.sgml
+END
+hildon-home-window.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-home-window.sgml
+END
+statusbar-item-binding.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/statusbar-item-binding.sgml
+END
+hildon-desktop-multiscreen.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-multiscreen.sgml
+END
+hildon-desktop-toggle-button.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-toggle-button.sgml
+END
+hildon-desktop-panel-item.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-panel-item.sgml
+END
+hildon-desktop-notification-manager.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-notification-manager.sgml
+END
+hildon-desktop-plugin.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-plugin.sgml
+END
+hildon-desktop-panel-expandable.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-panel-expandable.sgml
+END
+hildon-desktop-panel-window.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-panel-window.sgml
+END
+hildon-desktop-popup-menu.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-popup-menu.sgml
+END
+libhildonmenu.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/libhildonmenu.sgml
+END
+hildon-status-bar-item.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-status-bar-item.sgml
+END
+libhildondesktop.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/libhildondesktop.sgml
+END
+hildon-desktop-background.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-background.sgml
+END
+hildon-desktop-container.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-container.sgml
+END
+hildon-desktop-item-socket.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-desktop-item-socket.sgml
+END
+hildon-home-titlebar.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-home-titlebar.sgml
+END
+hildon-home-area.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/hildon-home-area.sgml
+END
+tasknavigator-item.sgml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/maemo/!svn/ver/14596/projects/haf/trunk/hildon-desktop/doc/libhildondesktop/tmpl/tasknavigator-item.sgml
+END

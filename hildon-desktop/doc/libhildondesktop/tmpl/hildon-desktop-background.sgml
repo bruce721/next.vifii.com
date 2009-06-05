@@ -1,0 +1,154 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopBackground
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopBackgroundPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO HILDON_DESKTOP_TYPE_BACKGROUND_MODE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO HILDON_DESKTOP_BACKGROUND_NO_IMAGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### USER_FUNCTION HildonDesktopBackgroundApplyCallback ##### -->
+<para>
+
+</para>
+
+@bg: 
+@pixmap_xid: 
+@error: 
+@user_data: 
+
+
+<!-- ##### ENUM HildonDesktopBackgroundMode ##### -->
+<para>
+
+</para>
+
+@HILDON_DESKTOP_BACKGROUND_CENTERED: 
+@HILDON_DESKTOP_BACKGROUND_SCALED: 
+@HILDON_DESKTOP_BACKGROUND_STRETCHED: 
+@HILDON_DESKTOP_BACKGROUND_TILED: 
+@HILDON_DESKTOP_BACKGROUND_CROPPED: 
+
+<!-- ##### STRUCT HildonDesktopBackground ##### -->
+<para>
+
+</para>
+
+@parent: 
+@priv: 
+
+<!-- ##### FUNCTION hildon_desktop_background_mode_get_type ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_background_save ##### -->
+<para>
+
+</para>
+
+@bg: 
+@filename: 
+@error: 
+
+
+<!-- ##### FUNCTION hildon_desktop_background_load ##### -->
+<para>
+
+</para>
+
+@bg: 
+@filename: 
+@error: 
+
+
+<!-- ##### FUNCTION hildon_desktop_background_apply ##### -->
+<para>
+
+</para>
+
+@bg: 
+@window: 
+@error: 
+
+
+<!-- ##### FUNCTION hildon_desktop_background_apply_async ##### -->
+<para>
+
+</para>
+
+@bg: 
+@window: 
+@Param3: 
+@user_data: 
+
+
+<!-- ##### FUNCTION hildon_desktop_background_copy ##### -->
+<para>
+
+</para>
+
+@src: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_background_equal ##### -->
+<para>
+
+</para>
+
+@bg1: 
+@bg2: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_background_cancel ##### -->
+<para>
+
+</para>
+
+@bg: 
+
+
+<!-- ##### FUNCTION hildon_desktop_background_get_filename ##### -->
+<para>
+
+</para>
+
+@bg: 
+@Returns: 
+
+

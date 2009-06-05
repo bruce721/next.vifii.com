@@ -1,0 +1,62 @@
+<!-- ##### SECTION Title ##### -->
+hildon-desktop-picture
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### FUNCTION hildon_desktop_picture_and_mask_from_file ##### -->
+<para>
+
+</para>
+
+@filename: 
+@picture: 
+@mask: 
+@width: 
+@height: 
+
+
+<!-- ##### FUNCTION hildon_desktop_picture_and_mask_from_pixbuf ##### -->
+<para>
+
+</para>
+
+@display: 
+@pixbuf: 
+@picture: 
+@mask: 
+
+
+<!-- ##### FUNCTION hildon_desktop_picture_from_drawable ##### -->
+<para>
+
+</para>
+
+@drawable: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_picture_from_color ##### -->
+<para>
+
+</para>
+
+@color: 
+@width: 
+@height: 
+@Returns: 
+
+

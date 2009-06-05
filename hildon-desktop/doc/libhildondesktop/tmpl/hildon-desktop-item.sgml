@@ -1,0 +1,119 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopItem
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### MACRO HILDON_DESKTOP_ITEM_SETTINGS_SYMBOL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT HildonDesktopItem ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL HildonDesktopItem::init ##### -->
+<para>
+
+</para>
+
+@hildondesktopitem: the object which received the signal.
+@arg1: 
+
+<!-- ##### SIGNAL HildonDesktopItem::item-create ##### -->
+<para>
+
+</para>
+
+@hildondesktopitem: the object which received the signal.
+@arg1: 
+
+<!-- ##### ARG HildonDesktopItem:id ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopItem:item-name ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopItem:mandatory ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopItem:resource ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopItem:temporary ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION hildon_desktop_item_get_widget ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_item_get_id ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_item_get_name ##### -->
+<para>
+
+</para>
+
+@item: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_item_find_by_id ##### -->
+<para>
+
+</para>
+
+@item: 
+@id: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION HildonDesktopItemSettingsDialog ##### -->
+<para>
+
+</para>
+
+@module: 
+@Returns: 
+
+

@@ -1,0 +1,77 @@
+9
+
+dir
+2096
+http://svn.o-hand.com/repos/matchbox/trunk/matchbox-window-manager/data/themes
+http://svn.o-hand.com/repos/matchbox
+
+
+
+2006-11-23T17:32:21.364201Z
+1427
+mallum
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b067294f-1dea-0310-9683-c47a78595994
+
+bluebox
+dir
+
+borillo
+dir
+
+Default
+dir
+
+MBOpus
+dir
+
+Makefile.am
+file
+
+
+
+
+2009-01-21T10:25:53.000000Z
+85c2a1e40bc2f764b8e2ad4b2dc3cb03
+2005-01-12T13:59:59.835115Z
+1027
+mallum
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+72
+
+blondie
+dir
+

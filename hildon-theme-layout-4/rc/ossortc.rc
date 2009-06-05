@@ -1,0 +1,112 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-rtc-video-out-frame"
+{
+  xthickness = 2
+  ythickness = 2
+  
+  engine "sapwood"
+    {
+      image
+        {
+	  function = SHADOW
+	  file     = "../images/qgn_plat_voip_video_out_frame.png"
+	  border   = { 105, 105, 86, 86 }
+	}
+    }
+}
+
+style "osso-rtc-video-in-frame"
+{
+  xthickness = 2
+  ythickness = 2
+  
+  engine "sapwood"
+    {
+      image
+        {
+	  function = SHADOW
+	  file     = "../images/qgn_plat_voip_video_in_frame.png"
+	  border   = { 189, 189, 155, 155 }
+	}
+    }
+}
+
+style "osso-rtc-button-voip"
+{
+  engine "sapwood"
+    {
+        image {
+            function = FOCUS
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_voip_pressed.png"
+                border   = { 35, 35, 35, 35 }
+        }
+        image {
+            function = FOCUS
+                file     = "../images/qgn_plat_button_voip_focused.png"
+                border   = { 35, 35, 35, 35 }
+        }
+        image {
+            function = BOX
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_voip_pressed.png"
+                border   = { 35, 35, 35, 35 }
+        }
+        image {
+            function = BOX
+                state    = INSENSITIVE
+                file     = "../images/qgn_plat_button_voip_disabled.png"
+                border   = { 35, 35, 35, 35 }
+        }
+        image {
+            function = BOX
+                file     = "../images/qgn_plat_button_voip_normal.png"
+                border   = { 35, 35, 35, 35 }
+        }
+    }
+}
+
+style "osso-rtc-button-contact"
+{
+  engine "sapwood"
+    {
+        image {
+            function = FOCUS
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_contact_pressed.png"
+                border   = { 24, 24, 0, 0 }
+        }
+        image {
+            function = FOCUS
+                file     = "../images/qgn_plat_button_contact_focused.png"
+                border   = { 24, 24, 0, 0 }
+        }
+        image {
+            function = BOX
+                state    = ACTIVE
+                file     = "../images/qgn_plat_button_contact_pressed.png"
+                border   = { 24, 24, 0, 0 }
+        }
+        image {
+            function = BOX
+                state    = INSENSITIVE
+                file     = "../images/qgn_plat_button_contact_disabled.png"
+                border   = { 24, 24, 0, 0 }
+        }
+        image {
+            function = BOX
+                file     = "../images/qgn_plat_button_contact_normal.png"
+                border   = { 24, 24, 0, 0 }
+        }
+    }
+}
+
+
+widget "*.rtcom-voip-button" style "osso-rtc-button-voip"
+widget "*.rtcom-contact-button" style "osso-rtc-button-contact"
+
+widget "*.rtcom-video-out-frame" style "osso-rtc-video-out-frame"
+widget "*.rtcom-video-in-frame" style "osso-rtc-video-in-frame"
+

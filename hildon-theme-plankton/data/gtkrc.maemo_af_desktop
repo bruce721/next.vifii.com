@@ -1,0 +1,1772 @@
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-default"
+{
+  # 'fg' = foreground in state, 'bg' = background in given state
+  # 'text' = text color in state, 'base' = text background in state
+  # styles:
+  #   NORMAL:      normal widget state
+  #   PRELIGHT:    e.g. mouse over
+  #   ACTIVE:      active widget part, e.g. pressed scrollbar trough
+  #   SELECTED:    data selection highlight color, e.g. items in list widget
+  #   INSENSITIVE: disabled widget
+
+# global picture theming.
+  GtkWidget::hildon-focus-handling = 1
+  GtkWidget::focus-line-width = 0
+  GtkWidget::focus-padding = 0
+  GtkWidget::focus-line-pattern = "\0\0\0\0\0\0\0\0"
+
+# Removed because this changes wrapping and results in incorrect wrapping
+# (and truncating) in dialogs.
+
+  GtkWidget::scroll-arrow-hlength = 20
+  GtkWidget::scroll-arrow-vlength = 20
+
+
+  engine "sapwood"
+  {
+    # selected text in entries, text widget, lists and trees
+    image
+      {
+	function = BOX
+	detail = "selection"
+	file = "../images/qgn_plat_focus_active.png"
+	border = { 2, 2, 2, 2 }
+      }
+#    image
+#      {
+#	function = FLAT_BOX
+#	detail = "text"
+#	file = "../sbarrowup.png"
+#      }
+#    # hline and vline
+#    image
+#      {
+#        function        = HLINE
+#        file            = "../hline.png"
+#        border          = { 2, 2, 0, 0 }
+#      }
+#    image
+#      {
+#        function        = VLINE
+#        file            = "../black.png"
+#      }
+#
+#    # do not draw widget focus at all. 
+#    image
+#      {
+#        function        = FOCUS
+#        overlay_file    = "../transparent.png"
+#        overlay_border  = { 4, 4, 4, 4 }
+#      }
+    image
+      {
+        function = FOCUS
+      }
+  }
+
+  GtkArrow::arrow-scaling = 1.0
+
+}
+class "GtkWidget" style "osso-default"
+
+
+# recolorable=TRUE in the 'image' section means that the
+# image is grayscale and can be colored.
+
+#################################################### 
+# ABOUT STYLES
+#
+# The way that multiple RC styles bound to the same 
+# widget are prioritized is that RC styles bound with 
+# widget take precedence over RC styles bound with 
+# widget_class, which, in turn, take precedence over 
+# RC styles bound with class. For multiple declarations 
+# of the same type, later declarations take precedence 
+# over earlier ones.
+#################################################### 
+
+###########
+# PROBABLY WON'T BE USED
+###########
+
+###########
+# NEED TO BE PROCESSED
+###########
+
+# Uncomment these lines to get the tap-and-hold functionality
+# enabled with selected widget, (n.b. that you'll have to run
+# the hildon-tap-hold.diff to GTK to get it work)
+#style "hildon-tap-hold"
+#{
+#  GtkWidget::tap-hold = 1
+#}
+#class "GtkEntry" style "hildon-tap-hold"
+#class "GtkTextView" style "hildon-tap-hold"	
+
+#################
+# REAL, FINISHED STUFF.
+#################
+
+#This has to be first because of font styles.
+
+# Some HIG-alike stuff
+gtk-button-images = 0
+gtk-entry-select-on-focus = 0
+gtk-toolbar-style = GTK_TOOLBAR_ICONS
+hildon-keyboard-shortcuts = 0
+
+## We don't want images on menus, but using this will remove icons also from
+## TN menus
+#gtk-menu-images = 0
+
+# Icon sizes
+gtk-toolbar-icon-size = GTK_ICON_SIZE_SMALL_TOOLBAR
+gtk-icon-sizes = "gtk-menu=26,26:gtk-button=26,26:gtk-small-toolbar=26,26:gtk-large-toolbar=26,26:gtk-dnd=26,26:gtk-dialog=50,50:"
+
+# Maemo af desktop widgets included in gtkrc.maemo_af_desktop
+
+##################
+# THESE HAVE MISSING IMAGES BUT ARE HERE BECAUSE OF STYLE PROPERTIES
+##################
+
+# BINDINGS
+
+binding "combo"
+{
+  bind "Left"  { "move-active" (step-up) }
+  bind "Right" { "move-active" (step-down) }
+  unbind "Up"
+  unbind "Down"
+}
+
+class "GtkComboBox" binding "combo"
+
+binding "dialog"
+{
+  bind "Up"    { "move-focus" (tab-backward) }
+  bind "Down"  { "move-focus" (tab-forward)  }
+}
+
+class "GtkDialog" binding "dialog"
+
+binding "buttonbox"
+{
+  bind "Left"  { "move-focus" (tab-backward) }
+  bind "Up"    { "move-focus" (tab-backward) }
+  bind "Right" { "move-focus" (tab-forward)  }
+  bind "Down"  { "move-focus" (tab-forward)  }
+}
+
+class "GtkHButtonBox" binding "buttonbox"
+class "GtkVButtonBox" binding "buttonbox"
+
+binding "treeview"
+{
+  bind "Left"  { "expand-collapse-cursor-row" (1, 0, 0) }
+  bind "Right" { "expand-collapse-cursor-row" (1, 1, 0) }
+  unbind "<control>F"
+  unbind "<control>f"
+}
+
+class "GtkTreeView" binding "treeview"
+
+# Stop Menu key from popping up entry/textview context menus
+binding "entry+textview"
+{
+  unbind "Menu"
+}
+
+class "GtkEntry" binding "entry+textview"
+class "GtkTextView" binding "entry+textview"
+
+# Fix Esc key for GtkMenus
+binding "menu-escape"
+{
+  bind "Escape" { "move-current" (parent) }
+}
+
+class "GtkMenu" binding "menu-escape"
+
+#Make F4 close the menu
+binding "menu-f4"
+{
+  bind "F4" { "cancel" () }
+}
+
+class "GtkMenu" binding "menu-f4"
+
+# Handle focus correctly for edition widgets
+binding "editors-focus"
+{
+  bind "Left"  { "move-focus" (left)         }
+  bind "Right" { "move-focus" (right)        }
+  bind "Up"    { "move-focus" (tab-backward) }
+  bind "Down"  { "move-focus" (tab-forward)  }
+}
+
+class "HildonTimeEditor" binding "editors-focus"
+class "HildonDateEditor" binding "editors-focus"
+
+# Unbind default cycle-handle-focus keys F6 (Fullscreen) and F8 (Decrease)
+binding "paned-cycle-focus"
+{
+  unbind "F6"
+  unbind "F8"
+}
+
+class "GtkPaned" binding "paned-cycle-focus"
+
+# Adding maemo_af_desktop specific widgets 
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+#################################################### 
+# HILDON home
+#################################################### 
+
+style "osso-home-titlebar-background" {
+	bg_pixmap[NORMAL] = "../images/qgn_plat_home_status_bar_background.png"
+}
+class "HildonHomeTitlebar" style "osso-home-titlebar-background"
+
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+##############################################
+# Task Navigator Tooltip
+##############################################
+style "osso-task-navigator-tooltip"
+{
+    engine "sapwood"
+    {
+        image
+        {
+            function = FLAT_BOX
+            state = NORMAL
+            file = "../images/qgn_plat_tool_tip.png"
+	    border = { 20, 20, 20, 20 }
+        }
+    }
+}
+
+widget "hildon-task-navigator-tooltip" style "osso-task-navigator-tooltip"
+
+#####################################
+#Temporar theming to the navigator
+#(Just to make it look nice)
+#####################################
+style "osso-navigator-button-one"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_button_01_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_button_01_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+			state = NORMAL
+		}
+		image {
+			function = BOX
+			state = PRELIGHT
+		}
+		image {
+			function = BOX
+			state = INSENSITIVE
+		}
+		image {
+			function = BOX
+			state = ACTIVE
+		}
+		image {
+			function = BOX
+			state = SELECTED
+		}
+		image {
+		        function = FOCUS
+                }
+	}
+}
+widget "*.hildon-navigator-button-one" style "osso-navigator-button-one"
+
+style "osso-navigator-button-two"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_button_02_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_button_02_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+			state = NORMAL
+		}
+		image {
+			function = BOX
+			state = PRELIGHT
+		}
+		image {
+			function = BOX
+			state = INSENSITIVE
+		}
+		image {
+			function = BOX
+			state = ACTIVE
+		}
+		image {
+			function = BOX
+			state = SELECTED
+		}
+		image {
+		        function = FOCUS
+                }
+	}
+}
+widget "*.hildon-navigator-button-two" style "osso-navigator-button-two"
+
+style "osso-navigator-button-three"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_button_03_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_button_03_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+			state = NORMAL
+		}
+		image {
+			function = BOX
+			state = PRELIGHT
+		}
+		image {
+			function = BOX
+			state = INSENSITIVE
+		}
+		image {
+			function = BOX
+			state = ACTIVE
+		}
+		image {
+			function = BOX
+			state = SELECTED
+		}
+		image {
+		        function = FOCUS
+                }
+	}
+}
+widget "*.hildon-navigator-button-three" style "osso-navigator-button-three"
+
+style "osso-navigator-small-button1"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_application_switcher_01_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_application_switcher_01_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+		}
+		image {
+			function = FOCUS
+		}
+	}
+}
+
+widget "*.hildon-navigator-small-button1" style "osso-navigator-small-button1"
+
+style "osso-navigator-small-button2"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_application_switcher_02_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_application_switcher_02_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+		}
+		image {
+			function = FOCUS
+		}
+	}
+}
+
+widget "*.hildon-navigator-small-button2" style "osso-navigator-small-button2"
+
+style "osso-navigator-small-button3"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_application_switcher_03_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_application_switcher_03_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+		}
+		image {
+			function = FOCUS
+		}
+	}
+}
+
+widget "*.hildon-navigator-small-button3" style "osso-navigator-small-button3"
+
+style "osso-navigator-small-button4"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_application_switcher_04_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_application_switcher_04_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+		}
+		image {
+			function = FOCUS
+		}
+	}
+}
+
+widget "*.hildon-navigator-small-button4" style "osso-navigator-small-button4"
+
+style "osso-navigator-small-button4-highlight"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[NORMAL] = "../images/qgn_plat_task_navigation_application_switcher_04_highlighted.png"
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_application_switcher_04_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_application_switcher_04_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+			state = NORMAL
+		}
+		image {
+			function = BOX
+			state = ACTIVE
+		}
+		image {
+			function = FOCUS
+		}
+	}
+}
+
+widget "*.hildon-navigator-small-button4-highlight" style "osso-navigator-small-button4-highlight"
+
+style "osso-navigator-small-button1-pressed"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_application_switcher_01_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_application_switcher_01_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+		}
+		image {
+			function = FOCUS
+                        state = ACTIVE
+		}
+	}
+}
+
+widget "*.hildon-navigator-small-button1-pressed" style "osso-navigator-small-button1-pressed"
+
+style "osso-navigator-small-button2-pressed"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_application_switcher_02_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_application_switcher_02_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+		}
+		image {
+			function = FOCUS
+                        state = ACTIVE
+		}
+	}
+}
+
+widget "*.hildon-navigator-small-button2-pressed" style "osso-navigator-small-button2-pressed"
+
+style "osso-navigator-small-button3-pressed"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_application_switcher_03_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_application_switcher_03_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+		}
+		image {
+			function = FOCUS
+                        state = ACTIVE
+		}
+	}
+}
+
+widget "*.hildon-navigator-small-button3-pressed" style "osso-navigator-small-button3-pressed"
+
+style "osso-navigator-small-button4-pressed"
+{
+   GtkButton::child_displacement_x = 0
+   GtkButton::child_displacement_y = 0
+   bg_pixmap[ACTIVE] = "../images/qgn_plat_task_navigation_application_switcher_04_pressed.png"
+   bg_pixmap[PRELIGHT] = "../images/qgn_plat_task_navigation_application_switcher_04_focused.png"
+
+	engine "sapwood" {
+		image {
+			function = BOX
+		}
+		image {
+			function = FOCUS
+                        state = ACTIVE
+		}
+
+	}
+}
+
+widget "*.hildon-navigator-small-button4-pressed" style "osso-navigator-small-button4-pressed"
+
+style "hildon-navigator"
+{
+  bg_pixmap[NORMAL] = "../images/qgn_plat_task_navigation_background.png"
+}
+
+class "HDPanelWindow" style "hildon-navigator"
+
+style "hildon-switcher-menu-app-window" {
+   GtkMenu::horizontal_padding = 18
+   GtkMenu::vertical_padding = 18
+
+   engine "sapwood" {
+      image {
+	 function = FLAT_BOX
+	 state = NORMAL
+	 file = "../images/qgn_plat_task_switcher_notification_menu_bg.png"
+	 file = "../images/qgn_plat_task_switcher_menu_bg.png"
+	 border = { 20, 20, 20, 20 }
+         shaped = TRUE
+      }
+   }
+}
+
+style "hildon-switcher-menu-app-menu" = "osso-color-themeing"
+{
+  bg[NORMAL] = @TaskSwitcherBgColor
+}
+
+style "hildon-switcher-menu-app-item"
+{
+  ythickness = 0
+  xthickness = 1
+
+  GtkMenuItem::wide-separators = 1
+  GtkMenuItem::separator_height = 1
+
+  engine "sapwood"
+  {
+    image
+    {
+      function = BOX
+      state = PRELIGHT
+      file = "../images/qgn_plat_task_switcher_focus_active.png"
+      border = { 6, 6, 6, 6 }
+    }
+    image
+    {
+      function = BOX
+      state = SELECTED
+      file = "../images/qgn_plat_task_switcher_focus_active.png"
+      border = { 6, 6, 6, 6 }
+    }
+     image
+    {
+      function = BOX
+      detail = "hseparator"
+      file = "../images/qgn_plat_task_switcher_menu_separator.png"
+      border = { 12, 12, 0, 0 }
+    }
+  }
+}
+
+style "hildon-switcher-menu-app-arrow"
+{
+  GtkArrow::maemo-min-size = 72
+
+  engine "sapwood"
+  {
+    image
+    {
+      function        = ARROW
+      state           = INSENSITIVE
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_task_switcher_menu_up_arrow_disabled.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = SELECTED 
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_task_switcher_menu_up_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = ACTIVE 
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_task_switcher_menu_up_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_task_switcher_menu_up_arrow_normal.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = INSENSITIVE
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_task_switcher_menu_down_arrow_disabled.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = SELECTED 
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_task_switcher_menu_down_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = ACTIVE 
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_task_switcher_menu_down_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_task_switcher_menu_down_arrow_normal.png"
+      overlay_stretch = FALSE
+    }
+  }
+}
+
+style "hildon-switcher-menu-app-label" = "osso-color-themeing"
+{
+  fg[NORMAL] = @TaskSwitcherFontColor
+  fg[SELECTED] = @TaskSwitcherFontColor
+  fg[PRELIGHT] = @TaskSwitcherFontColor
+}
+
+style "hildon-switcher-menu-app-button"
+{
+  engine "sapwood"
+  {
+    image
+    {
+      function = BOX 
+    }
+  }
+}
+
+widget "hildon-switcher-menu-app-window" style "hildon-switcher-menu-app-window"
+widget "*.hildon-switcher-menu-app-menu" style "hildon-switcher-menu-app-menu"
+widget "*.hildon-switcher-menu-app-menu.GtkViewport"  style "hildon-switcher-menu-app-menu"
+widget "*.hildon-switcher-menu-app-item" style "hildon-switcher-menu-app-item"
+widget "*.hildon-switcher-menu-app-item.*.GtkLabel"  style "hildon-switcher-menu-app-label"
+widget "*.hildon-switcher-menu-app-button"  style "hildon-switcher-menu-app-button"
+widget "*.hildon-switcher-menu-app-menu.*.GtkArrow"  style "hildon-switcher-menu-app-arrow"
+
+style "hildon-switcher-menu-not-window" {
+   GtkMenu::horizontal_padding = 18
+   GtkMenu::vertical_padding = 18
+
+   engine "sapwood" {
+      image {
+	 function = FLAT_BOX
+	 state = NORMAL
+	 file = "../images/qgn_plat_task_switcher_notification_menu_bg.png"
+	 border = { 20, 20, 20, 20 }
+         shaped = TRUE
+      }
+   }
+}
+
+style "hildon-switcher-menu-not-menu" = "osso-color-themeing"
+{
+bg[NORMAL] = @TaskSwitcherNotificationBgColor
+}
+
+style "hildon-switcher-menu-not-item"
+{
+  ythickness = 0
+  xthickness = 1
+
+  GtkMenuItem::wide-separators = 1
+  GtkMenuItem::separator_height = 1
+ 
+  engine "sapwood"
+  {
+    image
+    {
+      function = BOX
+      state = PRELIGHT
+      file = "../images/qgn_plat_task_notification_focus_active.png"
+      border = { 6, 6, 6, 6 }
+    }
+    image
+    {
+      function = BOX
+      state = SELECTED
+      file = "../images/qgn_plat_task_notification_focus_active.png"
+      border = { 6, 6, 6, 6 }
+    }
+    image
+    {
+      function = BOX
+      detail = "hseparator"
+      file = "../images/qgn_plat_task_notification_menu_separator.png"
+      border = { 12, 12, 0, 0 }
+    }
+  }
+}
+
+style "hildon-switcher-menu-not-arrow"
+{
+  GtkArrow::maemo-min-size = 72
+
+  engine "sapwood"
+  {
+    image
+    {
+      function        = ARROW
+      state           = INSENSITIVE
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_task_switcher_notification_menu_up_arrow_disabled.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = SELECTED 
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_task_switcher_notification_menu_up_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = ACTIVE 
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_task_switcher_notification_menu_up_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_task_switcher_notification_menu_up_arrow_normal.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = INSENSITIVE
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_task_switcher_notification_menu_down_arrow_disabled.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = SELECTED 
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_task_switcher_notification_menu_down_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = ACTIVE 
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_task_switcher_notification_menu_down_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_task_switcher_notification_menu_down_arrow_normal.png"
+      overlay_stretch = FALSE
+    }
+  }
+}
+
+style "hildon-switcher-menu-not-label" = "osso-color-themeing"
+{
+  fg[NORMAL] = @TaskSwitcherNotificationMenuFontColor
+  fg[SELECTED] = @TaskSwitcherNotificationMenuFontColor
+  fg[PRELIGHT] = @TaskSwitcherNotificationMenuFontColor
+}
+
+style "hildon-switcher-menu-not-button"
+{
+  engine "sapwood"
+  {
+    image
+    {
+      function = BOX 
+    }
+  }
+}
+
+widget "hildon-switcher-menu-not-window" style "hildon-switcher-menu-not-window"
+widget "*.hildon-switcher-menu-not-menu" style "hildon-switcher-menu-not-menu"
+widget "*.hildon-switcher-menu-not-menu.GtkViewport"  style "hildon-switcher-menu-not-menu"
+widget "*.hildon-switcher-menu-not-item" style "hildon-switcher-menu-not-item"
+widget "*.hildon-switcher-menu-not-item.*.GtkLabel"  style "hildon-switcher-menu-not-label"
+widget "*.hildon-switcher-menu-not-button"  style "hildon-switcher-menu-not-button"
+widget "*.hildon-switcher-menu-not-menu.*.GtkArrow"  style "hildon-switcher-menu-not-arrow"
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+# Hildon Navigator Popup List
+
+class "GtkWidget" style "osso-logical-colors"
+
+style "osso-popuplist" = "osso-logical-colors"
+{
+
+  GtkTreeView::odd_row_color = "DefaultBackgrdColor"
+  GtkTreeView::even_row_color = "DefaultBackgrdColor"
+  GtkTreeView::expander-size = 0
+  GtkTreeView::expander-indent = 16
+  GtkTreeView::horizontal-separator = 0
+  GtkTreeView::vertical-separator = 0	  
+  GtkTreeView::passive_focus = 0
+
+  engine "sapwood"
+  {
+    image
+      {
+        function        = CHECK
+        shadow          = OUT
+        state           = NORMAL
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        shadow          = OUT
+        state           = ACTIVE
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        shadow          = OUT
+        state           = SELECTED
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_selected_normal.png"
+        overlay_stretch = FALSE
+      }
+    image
+      {
+        function        = CHECK
+        shadow          = OUT
+        state           = INSENSITIVE
+        detail          = "cellcheck"
+        overlay_file    = "../images/qgn_plat_check_box_empty_normal.png"
+        overlay_stretch = FALSE
+      }
+  }
+}
+
+widget_class "HildonNavigatorPopupList.*.GtkTreeView" style "osso-popuplist"
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+#################################################### 
+# HILDON status bar
+#################################################### 
+
+style "osso-status-bar-background" {
+	bg_pixmap[NORMAL] = "../images/qgn_plat_status_bar_background.png"
+}
+widget "HildonStatusBar" style "osso-status-bar-background"
+
+style "osso-status-bar-extension-background" {
+    
+    xthickness = 0
+    ythickness = 0
+
+    engine "sapwood" {
+        image {
+            function = SHADOW
+            file     = "../images/qgn_plat_status_bar_second_level_background.png"
+            border   = { 0, 0, 39, 9 }
+        }
+    }
+}
+
+widget "*.HildonStatusBarExtension" style "osso-status-bar-extension-background"
+
+style "osso-status-bar-button" {
+  GtkButton::default_border = { 0, 0, 0, 0 }
+  GtkButton::default_outside_border = { 0, 0, 0, 0 }
+  GtkButton::child_spacing = 0
+  xthickness = 0
+  ythickness = 0
+  engine "sapwood" {
+    image {
+      function = BOX
+      state = ACTIVE
+      file = "../images/qgn_plat_status_bar_pressed.png"
+    }
+    image {
+      function = BOX
+    }
+  }
+}
+widget "*.HildonStatusBarItem" style "osso-status-bar-button"
+
+#
+# Statusbar popup menus
+#
+
+style "osso-status-bar-popup" 
+{
+
+   GtkMenu::horizontal_padding = 18
+   GtkMenu::vertical_padding = 18
+
+    engine "sapwood" 
+    {
+        image 
+        {
+            function = FLAT_BOX
+            state = NORMAL
+            file = "../images/qgn_plat_application_menu_lower_level_frame.png"
+	        border = { 20, 20, 20, 20 }
+            shaped = TRUE
+        }
+    }
+}
+
+widget "hildon-status-bar-popup" style "osso-status-bar-popup"
+
+#################################################### 
+# HILDON statusbar
+#################################################### 
+
+style "osso-frame-statusbar" {
+
+   engine "sapwood" {
+      image {
+    	 function = SHADOW
+         state = NORMAL
+	     file = "../images/qgn_plat_status_bar_background.png"	
+      }
+   }
+}
+widget "*.hildonframe-statusbar" style "osso-frame-statusbar"
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license 
+
+style "hildon-apps-menu" {
+   GtkMenu::horizontal_padding = 18
+   GtkMenu::vertical_padding = 18
+
+   engine "sapwood" {
+      image {
+     function = FLAT_BOX
+     state = NORMAL
+     file = "../images/qgn_plat_panemenu_bg.png"
+     border = { 20, 20, 20, 20 }
+         shaped = TRUE
+      }
+   }
+}
+
+style "hildon-apps-menu-pane1" = "osso-color-themeing"
+{
+  bg[NORMAL] = @PaneMenuColor1
+} 
+
+style "hildon-apps-menu-pane1-item"
+{
+  ythickness = 0
+  xthickness = 1
+
+  GtkMenuItem::wide-separators = 1
+  GtkMenuItem::separator_height = 1
+
+  engine "sapwood"
+  {
+    image
+    {
+      function = BOX
+      state = PRELIGHT
+      file = "../images/qgn_plat_pane1_focus_active.png"
+      border = { 6, 6, 6, 6 }
+    }
+    image
+    {
+      function = BOX
+      state = SELECTED
+      file = "../images/qgn_plat_pane1_focus_passive.png"
+      border = { 6, 6, 6, 6 }
+    }
+    image
+    {
+      function = BOX
+      detail = "hseparator"
+      file = "../images/qgn_plat_task_pane_menu1_separator.png"
+      border = { 12, 12, 0, 0 }
+    }
+  }
+}
+
+style "hildon-apps-menu-pane1-arrow"
+{
+  GtkArrow::maemo-min-size = 72
+
+  engine "sapwood"
+  {
+    image
+    {
+      function        = ARROW
+      state           = INSENSITIVE
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_pane_menu1_up_arrow_disabled.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = PRELIGHT 
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_pane_menu1_up_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = SELECTED 
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_pane_menu1_up_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = ACTIVE 
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_pane_menu1_up_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_pane_menu1_up_arrow_normal.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = INSENSITIVE
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_pane_menu1_down_arrow_disabled.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = PRELIGHT 
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_pane_menu1_down_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = SELECTED 
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_pane_menu1_down_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = ACTIVE 
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_pane_menu1_down_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_pane_menu1_down_arrow_normal.png"
+      overlay_stretch = FALSE
+    }
+  }
+}
+
+style "hildon-apps-menu-pane2" = "osso-color-themeing"
+{
+  bg[NORMAL] = @PaneMenuColor2
+}
+
+style "hildon-apps-menu-pane2-item"
+{
+  ythickness = 0
+  xthickness = 1
+
+  GtkMenuItem::wide-separators = 1
+  GtkMenuItem::separator_height = 1
+
+  engine "sapwood"
+  {
+    image
+    {
+      function = BOX
+      state = PRELIGHT
+      file = "../images/qgn_plat_pane2_focus_active.png"
+      border = { 6, 6, 6, 6 }
+    }
+    image
+    {
+      function = BOX
+      state = SELECTED
+      file = "../images/qgn_plat_pane2_focus_active.png"
+      border = { 6, 6, 6, 6 }
+    }
+    image
+    {
+      function = BOX
+      detail = "hseparator"
+      file = "../images/qgn_plat_task_pane_menu2_separator.png"
+      border = { 12, 12, 0, 0 }
+    }
+  }
+}
+
+style "hildon-apps-menu-pane2-arrow"
+{
+  GtkArrow::maemo-min-size = 72
+
+  engine "sapwood"
+  {
+    image
+    {
+      function        = ARROW
+      state           = INSENSITIVE
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_pane_menu2_up_arrow_disabled.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = PRELIGHT 
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_pane_menu2_up_arrow_normal.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = SELECTED 
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_pane_menu2_up_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = ACTIVE 
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_pane_menu2_up_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      arrow_direction = UP 
+      overlay_file    = "../images/qgn_plat_pane_menu2_up_arrow_normal.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = INSENSITIVE
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_pane_menu2_down_arrow_disabled.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = PRELIGHT 
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_pane_menu2_down_arrow_normal.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = SELECTED 
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_pane_menu2_down_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      state           = ACTIVE 
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_pane_menu2_down_arrow_pressed.png"
+      overlay_stretch = FALSE
+    }
+    image
+    {
+      function        = ARROW
+      arrow_direction = DOWN 
+      overlay_file    = "../images/qgn_plat_pane_menu2_down_arrow_normal.png"
+      overlay_stretch = FALSE
+    }
+  }
+}
+
+style "hildon-apps-menu-pane1-label" = "osso-color-themeing"
+{
+  fg[NORMAL] = @PaneMenu1TextColor
+}
+
+style "hildon-apps-menu-pane2-label" = "osso-color-themeing"
+{
+  fg[NORMAL] = @PaneMenu2TextColor
+}
+
+style "hildon-apps-menu-pane-button"
+{
+  engine "sapwood"
+  {
+    image
+    {
+      function = BOX 
+    }
+  }
+}
+
+widget "hildon-apps-menu" style "hildon-apps-menu"
+widget "*.hildon-apps-menu-pane1" style "hildon-apps-menu-pane1"
+widget "*.hildon-apps-menu-pane1.GtkViewport"  style "hildon-apps-menu-pane1"
+widget "*.hildon-apps-menu-pane2" style "hildon-apps-menu-pane2"
+widget "*.hildon-apps-menu-pane2.GtkViewport"  style "hildon-apps-menu-pane2"
+widget "*.hildon-apps-menu-pane1-item" style "hildon-apps-menu-pane1-item"
+widget "*.hildon-apps-menu-pane2-item" style "hildon-apps-menu-pane2-item"
+widget "*.hildon-apps-menu-pane1-item.*.GtkLabel"  style "hildon-apps-menu-pane1-label"
+widget "*.hildon-apps-menu-pane2-item.*.GtkLabel"  style "hildon-apps-menu-pane2-label"
+widget "*.hildon-apps-menu-pane1-button"  style "hildon-apps-menu-pane-button"
+widget "*.hildon-apps-menu-pane2-button"  style "hildon-apps-menu-pane-button"
+widget "*.hildon-apps-menu-pane1.*.GtkArrow"  style "hildon-apps-menu-pane1-arrow"
+widget "*.hildon-apps-menu-pane2.*.GtkArrow"  style "hildon-apps-menu-pane2-arrow"
+
+# Home applets
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-clock"
+{
+  xthickness = 0
+  ythickness = 0
+  HildonDesktopHomeItem::background-borders = { 0, 0, 0, 0 }
+  bg_pixmap[NORMAL] = "../images/qgn_plat_clock_applet_bg_alpha.png"
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = SHADOW
+          file     = "../images/qgn_plat_clock_applet_bg.png"
+        }
+    }
+}
+widget "*.osso-clock" style "osso-clock"
+
+
+style "osso-clock-analog-am" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_analog_am.png"
+}
+widget "osso-clock-widget-clockbg-am" style "osso-clock-analog-am"
+
+style "osso-clock-analog-plain" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_analog_plain.png"
+}
+widget "osso-clock-widget-clockbg" style "osso-clock-analog-plain"
+
+style "osso-clock-analog-pm" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_analog_pm.png"
+}
+widget "osso-clock-widget-clockbg-pm" style "osso-clock-analog-pm"
+
+style "osso-clock-digital-display-number-0" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_number_0.png"
+}
+widget "osso-clock-widget-digit-0" style "osso-clock-digital-display-number-0"
+
+style "osso-clock-digital-display-number-1" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_number_1.png"
+}
+widget "osso-clock-widget-digit-1" style "osso-clock-digital-display-number-1"
+
+style "osso-clock-digital-display-number-2" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_number_2.png"
+}
+widget "osso-clock-widget-digit-2" style "osso-clock-digital-display-number-2"
+
+style "osso-clock-digital-display-number-3" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_number_3.png"
+}
+widget "osso-clock-widget-digit-3" style "osso-clock-digital-display-number-3"
+
+style "osso-clock-digital-display-number-4" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_number_4.png"
+}
+widget "osso-clock-widget-digit-4" style "osso-clock-digital-display-number-4"
+
+style "osso-clock-digital-display-number-5" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_number_5.png"
+}
+widget "osso-clock-widget-digit-5" style "osso-clock-digital-display-number-5"
+
+style "osso-clock-digital-display-number-6" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_number_6.png"
+}
+widget "osso-clock-widget-digit-6" style "osso-clock-digital-display-number-6"
+
+style "osso-clock-digital-display-number-7" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_number_7.png"
+}
+widget "osso-clock-widget-digit-7" style "osso-clock-digital-display-number-7"
+
+style "osso-clock-digital-display-number-8" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_number_8.png"
+}
+widget "osso-clock-widget-digit-8" style "osso-clock-digital-display-number-8"
+
+style "osso-clock-digital-display-number-9" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_number_9.png"
+}
+widget "osso-clock-widget-digit-9" style "osso-clock-digital-display-number-9"
+
+style "osso-clock-digital-background" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_background.png"
+}
+widget "osso-clock-widget-clockbg-digital" style "osso-clock-digital-background"
+
+style "osso-clock-digital-display-separator" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_display_separator.png"
+}
+widget "osso-clock-widget-digit-separator" style "osso-clock-digital-display-separator"
+
+style "osso-clock-digital-label-am" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_label_am.png"
+}
+widget "osso-clock-widget-digit-am" style "osso-clock-digital-label-am"
+
+style "osso-clock-digital-label-pm" {
+    bg_pixmap[NORMAL] = "../images/qgn_plat_clock_digital_label_pm.png"
+}
+widget "osso-clock-widget-digit-pm" style "osso-clock-digital-label-pm"
+
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-iradio-applet"
+{
+  xthickness = 0
+  ythickness = 0
+  HildonDesktopHomeItem::background-borders = { 0, 0, 0, 0 }
+  bg_pixmap[PRELIGHT] = "../images/qgn_plat_radio_applet_bg_alpha.png"
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_radio_applet_bg.png"
+          shaped = TRUE
+        }
+      image
+        {
+          function = SHADOW
+          file     = "../images/qgn_plat_radio_applet_bg.png"
+          shaped = TRUE
+        }
+    }
+}
+widget "*.osso-iradio-applet" style "osso-iradio-applet"
+
+style "osso-iradio-applet-volumebar"
+{
+  xthickness = 0
+  ythickness = 0
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_radio_applet_volume_bg.png"
+          border   = { 10, 10, 10, 10 }
+          shaped = TRUE
+        }
+    }
+}
+widget "*.osso-iradio-applet.*HildonVolumebar" style "osso-iradio-applet-volumebar"
+
+
+
+style "osso-iradio-volumebar"
+{
+  xthickness = 0
+  ythickness = 0
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = FLAT_BOX
+          file     = "../images/qgn_plat_radio_applet_volume_bg.png"
+          border   = { 10, 10, 10, 10 }
+          shaped = TRUE
+        }
+    }
+}
+widget "osso-iradio-volumebar-window" style "osso-iradio-volumebar"
+
+
+style "osso-iradio-button"
+{
+  GtkButton::default_border = { 0, 0, 0, 0 }
+  GtkButton::default_outside_border = { 0, 0, 0, 0 }
+  GtkButton::child_spacing = 0
+  xthickness = 0
+  ythickness = 0
+
+
+  engine "sapwood" {
+    image {
+      function = BOX
+      state = ACTIVE
+    }
+    image {
+      function = FOCUS
+    }
+    image {
+      function = BOX
+    }
+  }
+
+}
+widget "*.osso-iradio-button" style "osso-iradio-button"
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-rss-feed-reader-button"
+{
+  GtkButton::default_border = { 0, 0, 0, 0 }
+  GtkButton::default_outside_border = { 0, 0, 0, 0 }
+  GtkButton::child_spacing = 0
+  xthickness = 0
+  ythickness = 0
+
+
+  engine "sapwood" {
+    image {
+      function = BOX
+      state = ACTIVE
+    }
+    image {
+      function = FOCUS
+    }
+    image {
+      function = BOX
+    }
+  }
+
+}
+
+widget "*.osso-rss-feed-reader-button" style "osso-rss-feed-reader-button"
+
+
+
+style "osso-rss-feed-reader-scrollbar"
+{
+  GtkScrollbar::has-forward-stepper = 0
+  GtkScrollbar::has-backward-stepper = 0
+
+  engine "sapwood"
+    {
+      image
+        {
+          function        = BOX
+          orientation     = VERTICAL
+          file            = "../images/qgn_plat_scroll_rss_shaft_normal.png"
+          border          = { 0, 0, 6, 6 }
+        }
+
+      image
+        {
+          function        = SLIDER
+          orientation     = VERTICAL
+          file            = "../images/qgn_plat_scroll_rss_thumb_normal.png"
+          border          = { 0, 0, 6, 6 }
+        }
+    }
+}
+widget "*.osso-rss-feed-reader-scrollbar" style "osso-rss-feed-reader-scrollbar"
+
+
+style "osso-rss-feed-reader"
+{
+  xthickness = 0
+  ythickness = 0
+  HildonDesktopHomeItem::background-borders = { 262,36,12,72 }
+  bg_pixmap[PRELIGHT] = "../images/qgn_plat_news_applet_bg_alpha.png"
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_news_applet_bg.png"
+          border   = { 262, 36, 12, 72 }
+          shaped = TRUE
+        }
+      image
+        {
+          function = SHADOW
+          file     = "../images/qgn_plat_news_applet_bg.png"
+          border   = { 262,36,12,72 }
+          shaped = TRUE
+        }
+    }
+}
+widget "*.osso-rss-feed-reader" style "osso-rss-feed-reader"
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-speeddial"
+{
+  HildonDesktopHomeItem::background-borders = { 36, 36, 36, 36 }
+  bg_pixmap[PRELIGHT] = "../images/qgn_plat_speedcontact_applet_bg_alpha.png"
+  xthickness = 0
+  ythickness = 0
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = SHADOW
+          file     = "../images/qgn_plat_speedcontact_applet_bg.png"
+          border   = { 36, 36, 36, 36 }
+          shaped   = TRUE
+        }
+    }
+}
+widget "*.osso-speeddial" style "osso-speeddial"
+
+style "osso-speeddial-applet" = "osso-listview" {
+  color["SecondaryTextColor"] = @SpeedContactSecondaryTextColor
+
+  fg[NORMAL] = @SpeedContactDefaultTextColor
+  bg[NORMAL] = @SpeedContactAppletBgColor
+
+  fg[PRELIGHT] = @SpeedContactDefaultTextColor
+  bg[PRELIGHT] = @SpeedContactAppletBgColor
+
+  fg[ACTIVE] = @SpeedContactDefaultTextColor
+  bg[ACTIVE] = @PaintedBackgrdColor
+
+  fg[SELECTED] = @SpeedContactDefaultTextColor
+  bg[SELECTED] = @PaintedBackgrdColor
+
+  fg[INSENSITIVE] = @DisabledTextColor
+  bg[INSENSITIVE] = @SpeedContactAppletBgColor
+
+  text[NORMAL] = @SpeedContactDefaultTextColor
+  base[NORMAL] = @SpeedContactAppletBgColor
+
+  text[PRELIGHT] = @SpeedContactDefaultTextColor
+  base[PRELIGHT] = @SpeedContactAppletBgColor
+
+  text[INSENSITIVE] = @DisabledTextColor
+  base[INSENSITIVE] = @SpeedContactAppletBgColor
+}
+widget "*osso-speeddial-treeview*" style "osso-speeddial-applet"
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-internetsearch-applet"
+{
+  HildonDesktopHomeItem::background-borders = { 12, 92, 0, 0 }
+  bg_pixmap[PRELIGHT] = "../images/qgn_plat_home_search_bg_alpha.png"
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_home_search_bg.png"
+          border   = { 12, 92, 0, 0 }
+        }
+    }
+}
+class "IsPlugin" style "osso-internetsearch-applet"
+
+style "osso-internetsearch-applet-go-button"
+{
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          state    = ACTIVE
+          file     = "../images/qgn_plat_search_applet_button_pressed.png"
+        }
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_search_applet_button_normal.png"
+        }
+      image
+        {
+          function = FOCUS
+        }
+    }
+}
+widget "*.isearch-go-button" style "osso-internetsearch-applet-go-button"
+
+style "osso-internetsearch-applet-button"
+{
+  xthickness = 0
+  ythickness = 0
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+        }
+      image
+        {
+          function = FOCUS
+        }
+    }
+}
+
+widget_class "*.IsPlugin.GtkAlignment.GtkHBox.GtkToggleButton" style "osso-internetsearch-applet-button"
+
+style "osso-internetsearch-applet-arrow"
+{
+  GtkArrow::maemo-aspect-ratio = 1.0
+  GtkArrow::maemo-min-size = 26
+  engine "sapwood"
+    {
+      image
+        {
+          function = ARROW
+          state = ACTIVE
+          overlay_file = "../images/qgn_plat_combobox_button_pressed.png"
+          overlay_stretch = FALSE
+        }
+      image
+        {
+          function = ARROW
+          overlay_file = "../images/qgn_plat_combobox_button_normal.png"
+          overlay_stretch = FALSE
+        }
+    }
+}
+widget_class "*.IsPlugin.GtkAlignment.GtkHBox.GtkToggleButton.GtkArrow" style "osso-internetsearch-applet-arrow"
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "hildon-webshortcut"
+{
+  HildonDesktopHomeItem::background-borders = { 0, 0, 0, 0 }
+  bg_pixmap[PRELIGHT] = "../images/qgn_plat_webshortcut_applet_bg_alpha.png"
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = BOX
+          file     = "../images/qgn_plat_webshortcut_applet_bg.png"
+        }
+    }
+}
+class "Hhws" style "hildon-webshortcut"
+# Copyright Nokia Corporation 2007
+# Licensed under Creative Commons Attribution-ShareAlike 2.5 license
+
+style "osso-promoapplet"
+{
+  HildonDesktopHomeItem::background-borders = { 25, 25, 25, 25 }
+  bg_pixmap[PRELIGHT] = "../images/qgn_plat_gene_applet_bg_alpha.png"
+  xthickness = 0
+  ythickness = 0
+
+  engine "sapwood"
+    {
+      image
+        {
+          function = SHADOW
+          file     = "../images/qgn_plat_gene_applet_bg.png"
+          border   = { 25, 25, 25, 25 }
+          shaped   = TRUE
+        }
+    }
+}
+widget "*.promo-applet" style "osso-promoapplet"
+
+# Generated from hildon-theme-layout-4 version 0.14.9

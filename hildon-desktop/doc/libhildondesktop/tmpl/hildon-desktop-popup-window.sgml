@@ -1,0 +1,154 @@
+<!-- ##### SECTION Title ##### -->
+HildonDesktopPopupWindow
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### STRUCT HildonDesktopPopupWindowPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### USER_FUNCTION HDPopupWindowPositionFunc ##### -->
+<para>
+
+</para>
+
+@window: 
+@x: 
+@y: 
+@user_data: 
+
+
+<!-- ##### ENUM HildonDesktopPopupWindowDirection ##### -->
+<para>
+
+</para>
+
+@HD_POPUP_WINDOW_DIRECTION_LEFT_TOP: 
+@HD_POPUP_WINDOW_DIRECTION_RIGHT_BOTTOM: 
+
+<!-- ##### STRUCT HildonDesktopPopupWindow ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL HildonDesktopPopupWindow::popdown-window ##### -->
+<para>
+
+</para>
+
+@hildondesktoppopupwindow: the object which received the signal.
+
+<!-- ##### SIGNAL HildonDesktopPopupWindow::popup-window ##### -->
+<para>
+
+</para>
+
+@hildondesktoppopupwindow: the object which received the signal.
+
+<!-- ##### ARG HildonDesktopPopupWindow:direction ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopPopupWindow:n-panes ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG HildonDesktopPopupWindow:orientation ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION hildon_desktop_popup_window_new ##### -->
+<para>
+
+</para>
+
+@n_panes: 
+@orientation: 
+@direction: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_window_get_pane ##### -->
+<para>
+
+</para>
+
+@popup: 
+@pane: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_window_get_grabbed_pane ##### -->
+<para>
+
+</para>
+
+@popup: 
+@Returns: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_window_jump_to_pane ##### -->
+<para>
+
+</para>
+
+@popup: 
+@pane: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_window_attach_widget ##### -->
+<para>
+
+</para>
+
+@popup: 
+@widget: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_window_popup ##### -->
+<para>
+
+</para>
+
+@popup: 
+@func: 
+@func_data: 
+@activate_time: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_window_popdown ##### -->
+<para>
+
+</para>
+
+@popup: 
+
+
+<!-- ##### FUNCTION hildon_desktop_popup_recalculate_position ##### -->
+<para>
+
+</para>
+
+@popup: 
+
+

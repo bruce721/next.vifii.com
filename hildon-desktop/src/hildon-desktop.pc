@@ -1,0 +1,12 @@
+prefix=/opt/hildon
+exec_prefix=${prefix}
+includedir=${prefix}/include/hildon-desktop
+localedir=${prefix}/share/locale
+hildonpluginloaderlibdir=${exec_prefix}/lib/hildon-desktop/loaders
+hildondesktoplibdir=${exec_prefix}/lib/hildon-desktop
+
+Name: hildon-desktop
+Description: Hildon Desktop Headers
+Requires: libhildonwm libhildondesktop
+Version: 2.0.19
+Cflags: -I${includedir}

@@ -1,0 +1,444 @@
+hildon-theme-layout-4 (0.14.9-1) unstable; urgency=low
+
+  * Bumping the release.	
+  * COPYING: Licensing update. 
+    Creative Commons Attribution-ShareAlike 2.5 -> 3.0
+
+-- Tuomas Kuosmanen <tuomas.kuosmanen@nokia.com>  Tue, 5 Aug 2008 15:20:33 +0300
+
+hildon-theme-layout-4 (0.14.8-1) unstable; urgency=low
+
+  * Bumping the release.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 27 Nov 2007 13:02:20 +0200
+
+hildon-theme-layout-4 (0.14.7-1) unstable; urgency=low
+
+  * Reverting the fixes for the long-press.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 23 Nov 2007 15:03:34 +0200
+
+hildon-theme-layout-4 (0.14.6-1) unstable; urgency=low
+
+  * Was supposed to fix: NB#74557 Contacts plugin and browser plugin behave wrong when pressed
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 13 Nov 2007 14:53:49 +0200
+
+hildon-theme-layout-4 (0.14.5-1) unstable; urgency=low
+
+  * Fixes: NB#72581 Special character toolbar is not using correct backgroung image
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 02 Nov 2007 14:48:39 +0200
+
+hildon-theme-layout-4 (0.14.4-1) unstable; urgency=low
+
+  * Fixes: NB#72427 Columnlist header text color is invisible
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 10 Oct 2007 10:34:36 +0300
+
+hildon-theme-layout-4 (0.14.3-1) unstable; urgency=low
+
+  * Fixing colors used in the bookmarsk plugin
+  * More fixes for windows popups
+  * Correcting arrow size in thumb menu
+
+  * Fixes: NB#71275 Browser and Bookmarks in Web Plugin menu have got...
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 03 Oct 2007 11:12:11 +0300
+
+hildon-theme-layout-4 (0.14.2-1) unstable; urgency=low
+ 
+  * Fixes for GtkEntry theming borkeness
+  * Proper colors for window popups
+ 
+  * Fixes: NB#71262 Video clip name not readable in now playing view
+  * Fixes: NB#71593 When highlighted, the switcher menu button does...
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 02 Oct 2007 14:05:48 +0300
+
+hildon-theme-layout-4 (0.14.1-1) unstable; urgency=low
+  
+  * Adding theming for GtkIconView
+  * Fixes to the GtkEntry drawing
+  * ComboBox fixes 
+
+  * Fixes: NB#71011 Drop target indication graphic broken
+  * Fixes: NB#70769 Am/PM not visible in Set Alarm when theme is set as...
+  * Fixes: NB#70554 Theme focus in Control panel inconsistent with other apps
+  * Fixes: NB#68074 The Combo box Choice list arrow is not dimmed
+  * Fixes: NB#70831 Chat room settings - chat_fi_chat_room_settings_room_description...
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 28 Sep 2007 16:41:13 +0300
+
+hildon-theme-layout-4 (0.14.0-1) unstable; urgency=low
+
+  * Added PluginMenuBgColor.
+  * Fixing some border values
+  * Fixes for flicker-free menus from navigator
+
+  * Fixes: NB#65860 Buttons in flat mode should not get visible focus
+  * Fixes: NB#65748 Flicker with TN menu theming
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 25 Sep 2007 17:29:24 +0300
+
+hildon-theme-layout-4 (0.13.0-1) unstable; urgency=low
+
+  * Seekbar fixes
+  * House keeping 
+
+  * Fixes: NB#67151 Global Search; first line of search results are shown white and unreadable
+  * Fixes: NB#69501 wrong border values in separator that is used in applications menu
+  * Fixes: NB#68853 Support for black menus
+  * Fixes: NB#61733 Seekbar looks broken
+  * Fixes: NB#66333 Target folder icon disappears when dragging over it
+  * Fixes: NB#66964 alternate colors on Treeview
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 19 Sep 2007 17:25:32 +0300
+
+hildon-theme-layout-4 (0.12.2-1) unstable; urgency=low
+ 
+  * Support for black menus
+  * Theming for the "Go" button
+  * Fixing the extension bar theming
+  * Styling for address book live search
+  * Proper theming for the switcher
+  * Focus fixes for the apps menu
+
+  * Fixes: NB#66694 live search popup in addressbook is not themed
+  * Fixes: NB#68610 caption multiple focus possible in Authentication dialog §weba_fi_auhentication_realm§
+  * Fixes: NB#65211 Extension bar in status bar is not themed properly
+  * Fixes: NB#69016 speed contacts ignores logical colors
+  * Fixes: NB#68291 some bitmap files are not available
+  * Fixes: NB#68993 Focus colour wrong in Task navigator Applications menu
+  * Fixes: NB#69037 EFF fonts are used in VKB instead of Nokia
+  * Fixes: NB#69157 Border/stretch mismatches
+ 
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 12 Sep 2007 17:55:27 +0300
+
+hildon-theme-layout-4 (0.12.1-1) unstable; urgency=low
+
+  * Fixed navigator switched state for pressed
+  * Fixed treeview theming
+  * Scaling factor to arrows applied
+  * Correct FKB tab theming
+  * VKB fixes 
+
+  * Fixes: NB#66771 Logical color not used in VKB
+  * Fixes: NB#66951 Labels in Tabs in thumb keyboard are using wrong logical colors
+ 
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 05 Sep 2007 16:35:39 +0300
+
+hildon-theme-layout-4 (0.12.0-1) unstable; urgency=low
+
+  * Fixes for VKB button theming
+  * Input methods border values updates
+  * Treeview focus updates
+  * Updated mediaplayer layout
+
+  * Fixes: NB#66906 Arrows in the i-search applet are not themed properly
+  * Fixes: NB#66912 Theme update required due last media player layout modifications
+  * Fixes: NB#54874 Multiple selected rows appear in GTK_SELECTION_SINGLE mode of GtkTreeView
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 30 Aug 2007 14:07:07 +0300
+
+hildon-theme-layout-4 (0.11.1-1) unstable; urgency=low
+  
+  * Fixing RSS applet focused buttons theming
+  * Fixed border values of some input method elements
+  * Move statusbar one pixel right
+  * Removing remaining redundant stretch and border settings
+  * Highlighted state theming for switcher
+  * GtkArrow fixes for sapwood stretching
+  * Separator fixes for normal separators and new app menu separators
+  * Fixing the search applet alpha
+  * Fixed new chavo theming        
+
+  * Fixes: NB#66019 rss applet buttons stay highlighted even when not focused
+  * Fixes: NB#66057 Wrong border values used in word completition buttons.
+  * Fixes: NB#66004 Theme errors on bootup and when applications are used
+  * Fixes: NB#63183 Switcher button background is white after switcher menu is closed without tapping on the incoming event
+  * Fixes: NB#46625 Redundant border and stretch settings should be removed
+  * Fixes: NB#57933 Combobox choice arrow should not be dimmed if saved username available
+  * Fixes: NB#65930 Thumb size keyboard is using wrong images for special buttons
+  * Fixes: NB#66731 Wrong separators are used all over device
+  * Fixes: NB#66801 Custom theming for the Internet call app needed
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 28 Aug 2007 11:08:33 +0300
+
+hildon-theme-layout-4 (0.11.0-2) unstable; urgency=low
+
+  * Adding real color mappings for app/switcher/not menu
+  * Modified minimize animation
+  * Use big font size for finger keyboard
+  * Proper theming for statusbar extension
+  * Fixed arrow theming in the switcher
+  * Removed all separator colors from the layout, added separator graphics
+  * Removing all, unused images that were causing warnings during theme load
+  * Swapped webradio and now playing images
+
+  * Fixes: NB#65089 Now Playing Current clip mode is weird.
+  * Fixes: NB#63886 Arrows in scroll buttons in application menu are shown dimmed
+  * Fixes: NB#65244 Minimise animation is shown towards switcher area
+  * Fixes: NB#65515 FKB menu item needs a bigger font size
+  * Fixes: NB#65211 Extension bar in status bar is not themed properly
+  * Fixes: NB#65691 Background of scroll arrows in application switcher menu in selected state is not themed properly
+  * Fixes: NB#65690 Seperators are missing in Contacts, Web and Connectivity sb menu when plankton theme is applied again
+  * Fixes: NB#65206 Separators in switcher menu are white, hence are not seen
+  * Fixes: NB#65468 Tiny scrollbar on RSS applet
+  * Fixes: NB#62184 Mediaplayer music file and webradio images are interchanged
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 06 Aug 2007 09:59:48 +0300
+
+hildon-theme-layout-4 (0.10.2-1) unstable; urgency=low
+
+  * FKB menuitems style
+  * Theming for new switcher menu
+  * Bugfixes
+
+  * Fixes: NB#64458 Widgets deriving from GtkComboBox themed wrongly
+  * Fixes: NB#64446 Application menu gets distorted on applying plankton theme again 
+  * Fixes: NB#63183 Switcher button background is white after switcher menu is closed without tapping on the incoming event
+  * Fixes: NB#63406 Key navigation in notebook broken 
+  * Fixes: MB#1724 GtkTreeView must not respond to <Control>F by popping up a GtkEntry
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 06 Aug 2007 09:59:48 +0300
+
+hildon-theme-layout-4 (0.10.1-1) unstable; urgency=low
+
+  * New application menu theming
+  * Fixing seekbar theming
+  * Rc support for mediaplayer background
+  * State/shadow types for separators
+  * Correct border values for finger scrollbar
+
+  * Fixes: NB#61802 Wrong border values used in thumb size scrollbar
+  * Fixes: NB#52265 inconsistent change of highlight mode when toggling screen
+  * Fixes: NB#62182 Request to add a style to gtkrc
+  * Fixes: NB#61733 Seekbar looks broken 
+  * Fixes: NB#61775 Wrong separator seen in toolbars
+  * Fixes: NB#52265 Inconsistent change of highlight mode when toggling screen
+  * Fixes: NB#61802 Wrong border values used in thumb size scrollbar
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 25 Jul 2007 10:22:44 +0300
+
+hildon-theme-layout-4 (0.10.0-1) unstable; urgency=low
+
+  * Removing button displacement
+  * Fixed border values for RSS reader 
+  * Handle focus for edit widgets
+  * Adding theme for thumbable special-character input in IM
+
+  * Fixes: NB#61717 Icons/text in buttons move when pressed
+  * Fixes: NB#61622 Wrong border values used in breadcrumbtrail widget
+  * Fixes: NB#61636 Wrong border values used in RSS home applet background
+  * Fixes: NB#61632 Border values in web search home applet are wrong  
+  * Fixes: NB#60153 Unable to preview input characters in secret editor
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 29 Jun 2007 16:58:34 +0300
+
+hildon-theme-layout-4 (0.9.0-1) unstable; urgency=low
+
+  * Fine-tuned animations for plankton theme
+  * Disabling the gtk animations
+  * Fixes for seekbar theming
+  * Fix for mediaplayer tabs
+  * Fixed theming of the titlebar 
+  * New colors for dialog buttons (layout change)
+  * Breadcrumb fixes 
+
+  * Fixes: NB#59734 Theming support for Media player fake tabs
+  * Fixes: NB#60153 Unable to preview input characters in secret editor
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 19 Jun 2007 11:41:05 +0300
+
+hildon-theme-layout-4 (0.8.2-1) unstable; urgency=low
+
+  * Adding full Creative-Commons license text.
+
+  * Fixes: NB#54525 HildonVVolumebar: Unmute in call handling view for an ongoing call is not removing the slash on mute button
+  * Fixes: NB#23066 Horizontal separator is alignes wrong
+  * Fixes: NB#57971 Task navigator area is shown white
+  * Fixes: NB#46967 Cursor in the Internet seach applet became 'bold' on re-loading and re-sizing the applet
+  * Fixes: NB#58892 RSS rader applet theming
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 01 Jun 2007 16:34:36 +0300
+
+hildon-theme-layout-4 (0.8.1-1) unstable; urgency=low
+
+  * Fixing the license to CC Attribution-ShareAlike 2.5
+  * Removed arrows from RSS reader
+  * Fixed borders for media player
+
+  * Mostly fixed in the past, but mentioning here:
+  * Fixes: NB#54155 GtkTreeview: Select, left/right keys does not work properly
+  * Fixes: NB#53229 Long tap on increment/decrement icon in the number editor does not perform a key repeat
+  * Fixes: NB#55104 Shadowed radio button in focus
+  * Fixes: NB#54094 Play button out-of-focus
+  * Fixes: NB#55620 The lines are missing in the border around stop and previous buttons.
+  * Fixes: NB#57366 New theming for rss-feed-reader-applet
+  * Fixes: NB#47412 GtkNotebook tab label bg image does not scale
+  * Fixes: NB#54152 Time picker: Arrows in time picker are not visible 
+  * Fixes: NB#54280 A checkbox appears in Select dialog (ACC-WIZ002)
+  * Fixes: NB#54159 GtkRadiobutton: Selected state of radio button is not visible
+  * Fixes: NB#54158 GtkCheckbox: Checked state of check box is not visible.
+  * Fixes: NB#48317 Tabs on the left side of Notebook widget are without theme.
+  * Fixes: NB#54916 For some Device language 'Cancel' button is not visible
+  * Fixes: NB#55099 Shadowed label at the right side of check box in focus
+  * Fixes: NB#54145 Hildon Calendar popup: The month label is truncated in the lower part.
+  * Fixes: NB#54146 Hilon Calendar popup:The changes in active month/year are not shown
+  * Fixes: NB#54164 Hildon calender popup: Sliding stylus to another does not move focus to it 
+  * Fixes: NB#54923 menu key inactive on open application menu
+  * Fixes: NB#55294 In Date and time dialog 'Select home city' button get invisible after changing Time
+  * Fixes: NB#58046 Scrolling using scrollbars is very slow
+  * Implemented: NR#148224
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 25 May 2007 11:14:02 +0300
+
+hildon-theme-layout-4 (0.8.0-1) unstable; urgency=low
+
+  * Adding a bunch of new logical colours
+  * Updated input method theming   
+  * Added binding for Esc key on GtkMenu
+  * Transparent applets stuff
+  * Matchbox frame animation rules
+  * Fixed color chooser theming
+  * Reorganized elements here and there
+  * Theming support for media player now playing buttons
+  * Fixes: NB#54750 Theming support for Media player Now Playing view mode buttons
+  * Fixes: NB#50637 Unexpected outcome with menu-key
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 15 May 2007 14:51:08 +0300
+
+hildon-theme-layout-4 (0.7.0-1) unstable; urgency=low
+
+  * Fixes: NB#54069 Missing tick of check box in focus
+  * Fixes: NB#55340 The thumb in finger scrollbar does not show its clicked state
+  * Fixes: NB#54151 Time picker: Pressing Up/Down navigation keys does not increment or decrement the value correctly
+  * Fixes: NB#55140 Separators and arrowheads are missing from the column list headers
+
+  * Normal vertical and horizontal scrollbars are now highlighted when being dragged
+  * Adding the proper gtk-timeout-repeat setting
+  * Fixing the inverted vertical volumebar fill
+  * Grand reorganizing of color swatches
+  * Made the notebook pixmap not repeat if the notebook is taller than normal
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 03 May 2007 17:15:57 +0300
+
+hildon-theme-layout-4 (0.6.2-1) unstable; urgency=low
+
+  * Fixes: NB#54157 GtkCombobox: Left/right keys does not work properly
+  * Fixes: NB#52986 Down arrow key not focussing on last button in a dialog
+  * Fixes: NB#53751 Double dropdown arrows are displayed for all the dropdown menus in all the applications.
+
+  * Fixing the problem with home applets.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 25 Apr 2007 10:49:14 +0300
+
+hildon-theme-layout-4 (0.6.1-1) unstable; urgency=low
+
+  * Add special case for position theming when there's only one breadcrumb.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 16 Apr 2007 14:45:34 +0300
+
+hildon-theme-layout-4 (0.6.0-1) unstable; urgency=low
+  
+  * Removing the alternative font defs for the time being
+  * Set maemo-position-theming style property
+  * HildonBreadCrumbTrail rc file
+  * Moved voip buttons more tightly together and evened their spacing for easier editing
+  * Moved thumb scrollbars a bit
+  * Combobox updates
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Mon, 16 Apr 2007 11:37:43 +0300
+
+hildon-theme-layout-4 (0.5.0-1) unstable; urgency=low
+
+  * Added qgn_plat_menu_next_level_arrow_focused.png
+  * Moving the gtkcalendar styles to hildoncalendar
+  * Sorted the graphics alphabetically
+  * Made submenu arrows graphics
+  * Added pressed states for scrollbar thumbs for better visibility and to be consistent with thumb scrollbar
+  * Task navigator full height background
+  * Search popup toolbar graphic
+  * Task nav / switcher button changes
+  * New combobox artwork
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 03 Apr 2007 11:27:20 +0300
+
+hildon-theme-layout-4 (0.4.0-1) unstable; urgency=low
+
+  * Removed unused viewbutton images
+  * Moved listbox icons a bit and and tooltip graphic
+  * Added breadcrumb images
+  * Added thumb-sized scrollbar images
+  * RC style for the thumb-sized 'fingerable' scrollbar
+  * Adding the DejaVu Sans Condensed as the second font option
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 27 Mar 2007 12:56:48 +0300
+
+hildon-theme-layout-4 (0.3.1-1) unstable; urgency=low
+
+  * Fixing the coords for minimize and close buttons (normal state)
+  * Fixing the logical colors definitions
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Tue, 20 Mar 2007 09:52:13 +0200
+
+hildon-theme-layout-4 (0.3.0-1) unstable; urgency=low
+
+  * Adding the bradcrumb, thumbsize scroolbar and customized toolbar for mediaplayer to layout
+  * Fixing the scrolled window shadow
+  * Remove {odd,even}-row-color properties, they are not used by the theme engine
+  * Fixing the volumebar ranges and time picker arrows
+  * Use the @ format for logical color references
+  * Fixing a coordinate of the _frame_right thing. moving one pixel right
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 16 Mar 2007 16:52:28 +0200
+
+hildon-theme-layout-4 (0.2.1-1) unstable; urgency=low
+
+  * Update GtkFrame painting rules for gtk+ 2.10
+  * Remove non-existent "GtkFrame::hildonlike" property
+  * use function=SHADOW instead of BOX
+  * Removed the setters for default values
+  * Shrink progressbar spacing by 2 pixels
+  * Fixing the menu prelight and other prelights
+  * Enable widget navigation with cursor only.
+  * Add new FOCUS rules to match code changes in sapwood
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Thu, 22 Feb 2007 11:33:06 +0200
+
+hildon-theme-layout-4 (0.2.0-1) unstable; urgency=low
+
+  * GtkEntry style fixes
+  * Horizontal offset for Menu
+  * GtkComboBox fixes 
+  * GtkDialog thickness fixes
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 16 Feb 2006 15:00:00 +0300
+
+hildon-theme-layout-4 (0.1.2-1) unstable; urgency=low
+ 
+  * Enable touchscreen mode
+  * FALSE --> 0
+  * Removed osso_button detail 
+  * Removed shadow from GtkViewPort
+  * Removed scroll arrow background painting
+  * Changed GtkEntry drawing to SHADOW 
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 09 Feb 2006 17:00:00 +0300
+
+hildon-theme-layout-4 (0.1.1-1) unstable; urgency=low
+
+  * Adding the proper GtkSettings and some HIG definitions.
+  * Fixing the CheckButton drawing.
+  * Active/passive focus. Fixes: MB#992 
+  * Dialog button fixes. Fixes: MB#973 
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Fri, 02 Feb 2006 10:00:00 +0300
+
+hildon-theme-layout-4 (0.1.0-1) unstable; urgency=low
+
+  * Copied from hildon-theme-layout-3.
+
+ -- Michael Dominic Kostrzewa <michael.kostrzewa@nokia.com>  Wed, 31 Jan 2006 10:00:00 +0300
+
